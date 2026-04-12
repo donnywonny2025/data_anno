@@ -5,42 +5,57 @@
 
 ---
 
-## 1. The Core Mission
-We are operating a hybrid AI-Human workflow on the **Data Annotation** platform. The goal is to secure high-paying ($20 - $40/hr) AI evaluation and coding tasks by leveraging AI for heavy lifting (research, rationale drafting, fact-checking) while the human (Jeff) performs all physical data entry to bypass advanced bot detection.
+## 1. The Core Mission & The Intelligent System Architecture
+We are operating a hybrid AI-Human workflow on the **Data Annotation** platform. The goal is to secure high-paying ($20 - $40/hr) AI evaluation tasks.
+
+**This is an Intelligent System.** It is not just a passive screen logger. While the mechanics are simple (capturing screenshots and adjusting data), the layered architecture makes it extremely powerful:
+1. **High-Speed Inference:** The system reads, digests, and categorizes visual data from the right execution screen in 3-5 seconds, displaying it instantly on the left monitor's HUD.
+2. **Context & Browser Awareness:** The system explicitly tracks what documents and tabs are open, ensuring zero collisions with the user's manual work.
+3. **Advanced Research Backend:** Equipped with Firecrawl for external fact retrieval without breaking flow.
+
+> **[REQUIRED MODEL COMPATIBILITY]**
+> This architecture is model-agnostic. All ingestion dictionaries, prompts, and visual feed ingestion logic MUST be fully compatible with and functional for both **Claude Opus 4.6** and **Gemini Pro 3.1**. Do not write tools or use logic exclusive to a single model.
+ 
+The AI handles the heavy lifting (data analysis, fact-checking, rationale drafting, rule extraction), while the human (Jeff) acts as the director and typist to confidently bypass advanced bot detection. In short: **The system just works.**
 
 ## 2. The "Strategic Teammate" Protocol (CRITICAL)
 - **Zero Bot Interaction:** You (the AI) will NEVER attempt to directly automate, click, or scrape `dataannotation.tech`. 
-- **Vision & Text Input:** Jeff will provide screenshots or copy/paste texts of the tasks on his screen.
-- **Your Job:** You analyze the task, perform any necessary external web research (using `Firecrawl`), evaluate the models against the specific project rules, and draft a high-quality human-like rationale.
-- **Jeff's Job:** Jeff will physically type your drafted rationale into the platform interface.
+- **The "Raw Truth" Handoff:** You provide fact-checked analysis and a draft rationale. Jeff manually types it into the portal.
+- **Tools:** Use `Firecrawl` for external web research and the Browser Subagent for visual UI tasks on external sites (X, etc.).
 
-## 3. Rationale Drafting Rules
-When you write task rationales for Jeff to type, you must adhere strictly to these constraints:
-- **Human Voice:** Write like a real, intelligent person. No robotic stiffness, no bullet points (unless the task specifically requires them), no AI "thinking out loud" markers.
-- **Specifics Matter:** Your rationale must reference exact details, quotes, or flaws in the models' responses. Never write generic reviews.
-- **Links & Sources:** If fact-checking, you MUST include URLs to the authoritative sources used to verify claims.
-- **Opinions Allowed:** Let subjective reasoning shine through ("I found Model A far easier to read because...").
+## 3. Physical Layout & Tab Management Rules (Cockpit Architecture)
+We operate across two distinct physical monitors executing a strict split-view:
+- **Left Display (The LG TV / The Telemetry HUD):** X.com is on the left half, and the **Stealth Mirror Dashboard** is anchored on the right. This functions as an air-gapped HUD.
+- **Right Display (The Work Engine):** Data Annotation runs on the left half, and VS Code (with the AI Chat) is anchored perfectly on the right. 
+
+**ABSOLUTE FOCUS RULE:** The AI will NEVER trigger an AppleScript `activate`, `open`, or force-focus command on the browser during working sessions. The user operates with dictation (Wispr Flow) on the Right Display. Stealing window focus instantly destroys their cursor momentum and dictation string. Re-renders happen exclusively via silent background JS polling (`location.reload(true)`).
+
+## 4. Answer & Rationale Formatting Rules
+When writing rationales, follow the established pattern from `war_room/TASK_LOG/achilles_task_log.md`:
+- **Length & Structure:** Usually 2-4 sentences, completely self-contained.
+- **Tone:** Human, conversational, and direct. NO robot-speak, NO bullet points, NO "thinking out loud" markers. 
+- **Specificity:** Always reference specific flaws, quotes, or details. Never be generic. Use opinions ("I preferred A because...").
+- **Citations:** Include URLs and sources if you verified claims (e.g., *Sources: Wikipedia, IMDB — confirmed dates.*)
 
 ## 4. Where Everything Is Located
-- **Master Record:** `DATA_ANNOTATION_MASTER_RECORD.md` (The source of truth for all passed qualifications, emails, and account history).
-- **Global Rules:** `data_annotation_ops.md` (The baseline operational boundaries).
-- **Project Rubrics:** `war_room/RESEARCH/` (Contains the specific grading rules for projects like Achilles and Factuality).
-- **Task Logging:** `war_room/TASK_LOG/` (Every task we complete is logged here with our chosen answer and rationale *before* Jeff hits submit on the portal).
-- **Automation Engine:** `ghost_fox/` (The stealth Camoufox/Playwright engine we built to automate non-DA tasks. Currently decoupled from DA work to ensure maximum safety).
+- **Account History:** `DATA_ANNOTATION_MASTER_RECORD.md`
+- **Past Work/Answers Log:** `war_room/TASK_LOG/achilles_task_log.md` (See exactly how we format answers).
+- **Momo Project Resources:** `war_room/RESEARCH/` (Contains rules, chat logs, and UI dumps).
+- **Long Context Files:** Root folder (e.g., `MOMO_READY.txt`, `left_flank_context_ready.txt`).
+- **Stealth Automation Sandbox:** `ghost_fox/` (Decoupled engine to keep the DA portal entirely pristine/air-gapped).
 
 ## 5. Current Project State (As of April 12, 2026)
-- **Starter & Core Quizzes:** ✅ Passed
-- **Identity Verification:** ✅ Completed
-- **Factuality Research Qualification:** ✅ Passed (Confirmed via email)
-- **Achilles FAQ Training:** ❓ Submitted (6/6 tasks completed, awaiting feedback/results)
+- **Starter & Core Tests:** ✅ Passed.
+- **Achilles Factuality / Onboarding:** ✅ Passed & Completed. 
+- **ACTIVE PROJECT:** **Momo (Long Context Reasoning Project)** 
 
-## 6. Immediate Next Steps & Engineering Focus
-Upon starting this session, we have two primary tracks:
-1. **The Core Task:** Complete the **"Achilles Factuality Onboarding Review"** (1 task, $20/hr) on the dashboard to unlock Factuality projects.
-2. **The New Engineering Focus (The "Stealth Mirror" Layer):** Because these DA prompts are extremely complex, we need a better way for the AI to "see" the exact instructions and context without risking bot detection.
-   - **Goal:** Build an information-gathering layer (an evolution of `ghost_fox`) that acts as a "mirror image" of Jeff's live view.
-   - **Constraint:** Zero risk. It cannot directly scrape or trip any tracking scripts on `dataannotation.tech`. It must be an invisible air-gapped process (e.g., automated screenshots, local DOM dumps sent through a secure ghost process).
+## 6. Active Focus: The "Momo" Project
+We are actively generating challenging 1-6 turn prompts to induce **Major Reasoning Failures** in LLMs across 8,000 to 100,000 token private documents. 
+- **The Context:** We are using large chat logs (`MOMO_READY.txt`) pasted directly into the prompt above our question, separated by the exact `<|TASK|>` tag.
+- **The Goal:** Force the model into grounding errors, synthesis failures, or logical contradictions over multiple turns based purely on the document. (No contrived instruction-following tricks).
+- **The Rubric:** We generate a customized rubric to grade the failure round. Every single criterion MUST start with exactly *"The response should..."* (Beware of the quotation trap—no quotes). 
 
 ---
+
 **AI Acknowledgment:**
-If you have read and understood this, reply to Jeff confirming you have localized to the project, you understand the Human-AI firewall protocol, and you are ready to begin work on establishing the "Stealth Mirror" data-gathering layer.
+If you are an AI reading this at the beginning of a chat, reply to Jeff confirming you have localized to the Momo project, understand the Human-AI firewall protocol, and know exactly how to mimic the conversational rationale style established in the task logs.

@@ -76,6 +76,10 @@ Achilles is a model comparison evaluation project where you rate Response A vs R
 6. **The "Raw Truth" Handoff**: AI provides fact-checked analysis and draft rationale. User manually types it.
 7. **Zero Bot Detection**: AI never clicks, types, or interacts with the DA portal. User does all manual interaction.
 
+### Physical Architecture & Focus Restrictions
+- **The Decoupled Cockpit:** The user utilizes two massive displays. The **Left Monitor (LG TV)** serves tracking/telemetry (running the Stealth Mirror). The **Right Monitor** serves execution (running Data Annotation & VS Code/AI).
+- **The "No-Touch" Focus Mandate:** Because the user drives manual data entry via Wispr Flow dictation on the Right Monitor, the AI is STRICTLY FORBIDDEN from using AppleScript, `open`, or `activate` commands to steal browser focus. All dashboard updates must happen passively through silent Javascript polling to protect cursor integrity.
+
 ---
 
 ## Tactical Assets

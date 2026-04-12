@@ -1,6 +1,17 @@
 # Data Annotation Ops Manual
 
-## Active Project: Achilles Evaluation
+## The Two-State Ingestion Dictionary (CRITICAL)
+To prevent the AI from wasting compute scanning for rules during active tasking, we operate in two distinct modes triggered by specific phrases in chat:
+
+### 1. Acquisition Mode (The Rule Drop)
+**Trigger Phrases:** *"Digest the drop", "Prep Andromeda", "Look at these instructions"*
+**AI Behavior:** I assume you are giving me raw project guidelines. I ignore task-solving logic. I hyper-focus on extracting project rules, constraints, formatting rubrics, and forbidden actions. I write this data to the Intelligence Panel (Right monitor) and lock it in.
+
+### 2. Execution Mode (Live Tasking)
+**Trigger Phrases:** *"Task 1", "Look at this task", "Execute"*
+**AI Behavior:** I assume the Intelligence Panel is locked and loaded. I completely stop looking for overarching project rules. I split the screen exactly as the DA UI dictates: I read the **Left Pane** (the prompt/models) and the **Right Pane** (the form fields/questions). I evaluate the exact task at hand quickly, provide your rationale, and drop a "Task Complete" note in the Timeline. 
+
+---## Active Project: Achilles Evaluation
 
 ### Rating Axes
 1. **Instruction Following** — Did the model do what was asked? (Ignoring instructions = IF issue. Trying but doing badly = Quality issue.)

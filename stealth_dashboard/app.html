@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stealth Mirror Telemetry</title>
+    <!-- Preconnect to Google Fonts for Industrial typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=2">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js" defer></script>
+    <script src="app.js?v=2" defer></script>
+</head>
+<body>
+    <header class="telemetry-header">
+        <div class="title-group">
+            <h1>STEALTH MIRROR</h1>
+            <div class="status-badge">
+                <span class="pulse"></span>
+                <span>SYSTEM ACTIVE</span>
+            </div>
+        </div>
+        <div class="header-controls">
+            <span id="sync-status">SYNC: OK</span>
+            <button id="clearBtn" class="action-btn">PURGE LOG</button>
+        </div>
+    </header>
+
+    <main class="split-view">
+        <div id="timeline-column">
+            <div id="feed-container">
+                <!-- Empty state -->
+                <div id="empty-state" class="empty-state">
+                    <h3>// AWAITING INGESTION DATA</h3>
+                </div>
+            </div>
+        </div>
+        
+        <div id="intelligence-column">
+            <div class="panel-header">
+                <span id="active-project-label" class="project-tag">NO PROJECT ASSIGNED</span>
+                <span class="pulse"></span>
+            </div>
+            <div id="intelligence-panel" class="markdown-body">
+                <div class="empty-state">
+                    <h3>// AWAITING INSTRUCTIONS</h3>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,285 @@
+:root {
+    --bg-base: #111112;
+    --bg-surface: #18191B;
+    --border-color: #2D2E32;
+    --text-primary: #EDEDEF;
+    --text-secondary: #909296;
+    --accent-color: #F0A500;
+    
+    /* Using geometric mono for precision and system fonts for performance */
+    --font-mono: 'JetBrains Mono', 'SF Mono', Consolas, monospace;
+    --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    background-color: var(--bg-base);
+    color: var(--text-primary);
+    font-family: var(--font-sans);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Industrial Header */
+.telemetry-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2vw;
+    border-bottom: 1px solid var(--border-color);
+    background: var(--bg-base);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.title-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.title-group h1 {
+    font-family: var(--font-mono);
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+}
+
+.status-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--accent-color);
+    margin-top: 0.25rem;
+}
+
+.pulse {
+    width: 6px;
+    height: 6px;
+    background: var(--accent-color);
+    border-radius: 0; /* Square pulse for industrial feel */
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink { 50% { opacity: 0; } }
+
+.header-controls {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+#sync-status {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+}
+
+.action-btn {
+    appearance: none;
+    background: transparent;
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    padding: 0.5rem 1rem;
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.action-btn:hover {
+    background: var(--text-primary);
+    color: var(--bg-base);
+}
+
+/* Main Grid Layout */
+main.split-view {
+    padding: 2rem 2vw;
+    max-width: 1800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 6fr 4fr; /* Using fr units prevents gap overflow */
+    gap: 3rem;
+    align-items: start;
+}
+
+#feed-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0; /* Removing gap to use strict structural borders below */
+}
+
+/* Empty State */
+.empty-state {
+    padding: 4rem 1rem;
+    border: 1px dashed var(--border-color);
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.empty-state h3 {
+    font-family: var(--font-mono);
+    font-size: 1rem;
+    color: var(--text-secondary);
+    font-weight: normal;
+}
+
+/* Timeline Feed Items */
+.feed-item {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    border-bottom: 1px solid var(--border-color);
+    opacity: 0;
+    transform: translateY(10px);
+    animation: slideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes slideUp {
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.feed-meta {
+    padding: 2rem 1rem 2rem 0;
+    border-right: 1px solid var(--border-color);
+}
+
+.timestamp {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    display: block;
+}
+
+.feed-content {
+    padding: 1rem 0 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* Restrained media handling - Visual crop to hide right screen */
+.feed-image {
+    width: 160px;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+}
+
+.feed-image img {
+    width: 200%; /* Forces image to double width, hiding the right 50% */
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    filter: grayscale(20%);
+    opacity: 0.8;
+}
+
+.markdown-body {
+    font-size: 0.85rem;
+    line-height: 1.4;
+    color: var(--text-primary);
+    max-width: 800px;
+}
+
+/* Markdown Typography overrides */
+.markdown-body h1, .markdown-body h2, .markdown-body h3 {
+    font-family: var(--font-mono);
+    font-weight: 500;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    color: #fff;
+    letter-spacing: -0.02em;
+}
+
+.markdown-body h1:first-child, .markdown-body h2:first-child, .markdown-body h3:first-child {
+    margin-top: 0;
+}
+
+.markdown-body p { margin-bottom: 1.25rem; color: #D1D1D5; }
+.markdown-body strong { color: #fff; font-weight: 600; }
+
+.markdown-body ul, .markdown-body ol {
+    margin-left: 1.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.markdown-body li {
+    margin-bottom: 0.5rem;
+    color: #D1D1D5;
+}
+
+.markdown-body code {
+    font-family: var(--font-mono);
+    font-size: 0.85em;
+    background: var(--bg-surface);
+    padding: 0.2rem 0.4rem;
+    border: 1px solid var(--border-color);
+    color: var(--accent-color);
+}
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .feed-content { grid-template-columns: 1fr; gap: 2rem; }
+    .feed-image img { max-width: 600px; }
+}
+
+@media (max-width: 800px) {
+    .feed-item { grid-template-columns: 1fr; }
+    .feed-meta { border-right: none; border-bottom: 1px solid var(--border-color); padding: 1rem 0; }
+    .feed-content { padding: 1.5rem 0; }
+}
+
+/* Intelligence Panel */
+#intelligence-column {
+    position: sticky;
+    top: 6rem;
+    height: calc(100vh - 8rem);
+    background: var(--bg-surface);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.panel-header {
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+    background: #151618;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-tag {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--accent-color);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+}
+
+#intelligence-panel {
+    padding: 0 1.5rem 1.5rem 1.5rem;
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
+#intelligence-panel h1 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 600px) {
+    main.split-view { grid-template-columns: 1fr; }
+    #intelligence-column { position: relative; top: 0; height: auto; min-height: 500px; }
+}
