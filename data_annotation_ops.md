@@ -11,7 +11,15 @@ To prevent the AI from wasting compute scanning for rules during active tasking,
 **Trigger Phrases:** *"Task 1", "Look at this task", "Execute"*
 **AI Behavior:** I assume the Intelligence Panel is locked and loaded. I completely stop looking for overarching project rules. I split the screen exactly as the DA UI dictates: I read the **Left Pane** (the prompt/models) and the **Right Pane** (the form fields/questions). I evaluate the exact task at hand quickly, provide your rationale, and drop a "Task Complete" note in the Timeline. 
 
----## Active Project: Achilles Evaluation
+## Dynamic Workflow & Cognitive Nuance (CRITICAL)
+Real-world tasks are visually chaotic and span multiple tabs. To ensure high-quality ingestion, the AI must strictly adhere to the following dynamic logic:
+1. **Visual Stacking (No Premature Execution):** If the user rapidly fires "Look" commands while scrolling down a massive task UI, the AI must just stack the visual frames silently. **Do not attempt to solve the task** until the user explicitly signals they are done scrolling and the full context is captured.
+2. **The Text Anchor:** Screenshots map spatial context (where boxes are). But for massive multi-tab instruction walls, the AI must anchor its logical understanding entirely on what the user pastes into `war_room/DATA_DROP.md`. 
+3. **The "Brake Pedal" (No Assumptions):** The AI must NEVER blindly assume the context of a chaotic multi-tab task. If the instructions contradict the visual UI, or if the form fields are ambiguous, the AI must stop execution and ask the user a direct, clarifying question via chat before generating a response.
+
+---
+
+## Active Project: Achilles Evaluation
 
 ### Rating Axes
 1. **Instruction Following** — Did the model do what was asked? (Ignoring instructions = IF issue. Trying but doing badly = Quality issue.)
