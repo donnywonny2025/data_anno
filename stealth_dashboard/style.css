@@ -73,10 +73,14 @@ body {
     gap: 2rem;
 }
 
-#sync-status {
+#sync-status, #fc-status {
     font-family: var(--font-mono);
     font-size: 0.8rem;
     color: var(--text-secondary);
+}
+
+#fc-status {
+    margin-right: 1rem;
 }
 
 .action-btn {

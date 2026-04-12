@@ -152,3 +152,25 @@ async function pollDashboardVersion() {
     setTimeout(pollDashboardVersion, 3000);
 }
 pollDashboardVersion();
+
+const fcStatus = document.getElementById('fc-status');
+async function pollMCPStatus() {
+    try {
+        const res = await fetch('/war_room/TASK_LOG/mcp_status.json?' + new Date().getTime());
+        if (res.ok) {
+            const statusData = await res.json();
+            if (statusData.firecrawl === "ONLINE") {
+                fcStatus.textContent = 'FC_MCP: ONLINE';
+                fcStatus.style.color = '#00FF00'; // Green for operational
+            } else {
+                fcStatus.textContent = 'FC_MCP: OFFLINE';
+                fcStatus.style.color = '#ff4444'; // Red for offline
+            }
+        }
+    } catch(e) {
+        fcStatus.textContent = 'FC_MCP: ERR';
+        fcStatus.style.color = '#ff4444';
+    }
+    setTimeout(pollMCPStatus, 3000);
+}
+pollMCPStatus();

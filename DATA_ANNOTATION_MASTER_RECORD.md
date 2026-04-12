@@ -78,7 +78,16 @@ Achilles is a model comparison evaluation project where you rate Response A vs R
 
 ### Physical Architecture & Focus Restrictions
 - **The Decoupled Cockpit:** The user utilizes two massive displays. The **Left Monitor (LG TV)** serves tracking/telemetry (running the Stealth Mirror). The **Right Monitor** serves execution (running Data Annotation & VS Code/AI).
-- **The "No-Touch" Focus Mandate:** Because the user drives manual data entry via Wispr Flow dictation on the Right Monitor, the AI is STRICTLY FORBIDDEN from using AppleScript, `open`, or `activate` commands to steal browser focus. All dashboard updates must happen passively through silent Javascript polling to protect cursor integrity.
+- **The "No-Touch" Focus Mandate:** Because the user drives manual data entry via Wispr Flow dictation on the Right Monitor, the AI is STRICTLY FORBIDDEN from using AppleScript, `open`, or `activate` commands to steal browser focus.
+
+### Browser/UI Update Architecture (SPA Constraint)
+- **Zero Reloads:** Due to Chromium's background throttling on secondary monitors, `window.location.reload()` fails silently when the LG TV window is unfocused. Reloads are strictly forbidden.
+- **Dynamic SPA Updates:** The Stealth Mirror dashboard acts entirely as a Single Page Application (SPA). All UI components (like the `FC_MCP` Firecrawl indicator) and data streams updates must be pushed dynamically via the native Javascript JSON polling loop (`live_session.json`, `active_project.json`, `mcp_status.json`). 
+
+### Multimodal Intelligence Synthesis (The Two Jobs)
+The AI operates across dual modalities to solve structurally complex workspaces:
+1. **Rule Synthesis (Right Pane - Intelligence Panel):** When the user invokes Acquisition Mode via `DATA_DROP.md`, the AI combines screen topology (from `look.sh` screenshots) with deep text instructions to formulate a cohesive, robust rulebook.
+2. **Guided Execution (Left Pane - Timeline log):** During active task Execution Mode, the AI uses visual ingestion strictly to map interactive form fields geographically (e.g., "Check the third radio box for Truthfulness"). It directs the user exactly where to click and what to paste natively.
 
 ---
 
