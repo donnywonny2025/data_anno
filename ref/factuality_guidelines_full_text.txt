@@ -1,0 +1,1221 @@
+
+--- PAGE 1 ---
+CONFIDENTIAL
+Last updated: Aug 19, 2025, 8:24 PM
+Factuality Side-by-Side Evaluation Instructions
+Version: Jan 10, 2025
+Overall, given the multiple questions and required research, a given task may require quite some time.
+ Take the time necessary to do a thorough search.  This can be up to in general 30-45 minutes, or even
+over an hour for particularly difficult cases.  REMEMBER - You are fact checking every single fact until
+and unless you find a fully Inaccurate result!
+Note - this set of instructions is for versions of this task both with and without search snippets.
+Factuality Side-by-Side Evaluation Instructions
+AI Response Factuality Side-by-Side Overview
+What is Factuality?
+Ratings
+Overall Questions
+Response Questions
+Overall Comparison (Only for Understandable prompts)
+Examples of identifying Factual Claims
+How to Research
+Reputable Sources
+FAQ
+What should my comments look like?
+Are these models up to date?
+Do I still rate the Responses even if they are a bad match to the Prompt?
+Do I still rate the Responses even if the Prompt is nonsense or not in English?
+(New Example Added) What do I do with time-dependent searches or time-specific answers?
+Do I need to fact-check links?
+What do I do with searches for rapidly changing time-dependent searches (weather, prices, etc?)
+How do I interpret the “Search results” when they are present?
+If the model is asked to summarize, am I fact-checking the information in the summary?
+Are links claims?
+When should I mark a task as “Task Cannot be Rated” (rather than Skip)?
+Can you expand what you mean by “cannot assess the prompt/response pair”?
+What should I do when the tables in the response are overlapping?
+I don’t have a “Which response is better?” button, what should I do?
+If all claims are Accurate, what should I write in the “Briefly explain your rating for Response A/B”
+box?
+Can I see some more examples of “hedging”?
+What do hints look like? What do I do if the hint is wrong?
+Examples
+Examples of Accuracy ratings
+Examples of hedging
+Examples of Good and Bad comments
+4/4/26, 11:01 AM
+app.dataannotation.tech/publish/g/Y3ZGCUd_eWlcZhpCCSBADBsiQxQXCQhgGQsgFCx2YEEBHgVYDVdbKBA6Cwc=
+https://app.dataannotation.tech/publish/g/Y3ZGCUd_eWlcZhpCCSBADBsiQxQXCQhgGQsgFCx2YEEBHgVYDVdbKBA6Cwc=
+1/20
+
+--- PAGE 2 ---
+AI Response Factuality Side-by-Side Overview
+In this task, you will be provided with a User Prompt and two AI Responses.  You may see some
+Time and Location context about when the Response was generated.  In addition, you may be
+given a Hint about what the correct response is or should look like.  You may have access to
+search results the model had available to help create its responses (beyond its normal training
+data)
+You will first determine if the Task is ratable, and if so, answer two initial questions about each
+Response.  If a Response contains Factual information, you will need to perform research to
+assess whether that information is correct. You will note if any incorrect information is
+specifically bad on certain axes.  At the end, if the Prompt is understandable, you will directly
+compare the two Responses and explain why you made your decision.
+What is Factuality?
+Something that is a “Factual Claim”  is any piece of a response that has to be grounded in real
+world information.   Factual Claims are the information in the Response that users would expect to
+be correct and could either attempt to verify with additional research OR would expect to be true
+within the context of the conversation.
+Among Claims, some may be more subjective than others. Objective Claims can be verified or
+refuted with specific information, while subjective Claims (e.g., opinions, recommendations) should
+be considered accurate unless they are unreasonable or there is reliable evidence that suggests
+many or most would disagree with the claim.
+Objective Claims include but are not limited to:
+●
+Numbers: dates, sports game results, rankings, distances, sizes, prizes, transportation and
+venue schedules, etc.
+●
+Historical information, news, or any information about real-world events in the past, present
+and future.
+●
+Information about people, locations, pieces of art, music, and other real-world tangible and
+4/4/26, 11:01 AM
+app.dataannotation.tech/publish/g/Y3ZGCUd_eWlcZhpCCSBADBsiQxQXCQhgGQsgFCx2YEEBHgVYDVdbKBA6Cwc=
+https://app.dataannotation.tech/publish/g/Y3ZGCUd_eWlcZhpCCSBADBsiQxQXCQhgGQsgFCx2YEEBHgVYDVdbKBA6Cwc=
+2/20
+
+--- PAGE 3 ---
+intangible entities.
+●
+Commercial products’ information and specs.
+●
+Information about the conversation itself - for instance, the model saying “this is a summary
+of…”, “I have reduced this by 200 words….”, “I have extracted all words starting with A…”,
+etc.
+Ratings
+Overall Questions
+1. Can the task be successfully rated? (Optional Selection)
+a.
+Task cannot be rated
+You will mark this if there is a situation with the prompt or response where you cannot
+rate the task. In general, we want to use “Prompt Cannot be Rated” (aka “won’t do”) for tasks
+where you don’t have the necessary information to assess or tasks that violate certain
+safety guidelines.
+If you select this, you will have to mark the reason that makes it not ratable. Please see
+the FAQ Question for the “When should I mark a task as “Prompt Cannot be Rated””
+reasons
+2. Is the Prompt understandable?
+a. Mark YES if you can understand the prompt (even if you do not know how to answer
+it). If the Prompt is not in English (even if you do understand the language) or is
+incoherent, you will mark NO.  We are mostly interested in the Responses in this
+project, so you will still rate the Responses even if you do not understand the Prompt.
+You will not have to rate which one is better, however.
+Response Questions
+1. Is the response a canned response?
+A canned response is a predefined response that attempts to avoid the question, not
+answer it.   Mark YES if the response you are evaluating falls under this category.  If you
+mark YES , you will not need to mark anything else for this Response.  If the model
+follows up with separate, factual information, however, please pick NO
+●
+YES: "I'm a language model and don't have the capacity to help with that."
+●
+YES: "I'm sorry, I don't understand what you're asking me to do. Can you please
+rephrase your question?"
+●
+YES: "That feature is not available right now."
+4/4/26, 11:01 AM
+app.dataannotation.tech/publish/g/Y3ZGCUd_eWlcZhpCCSBADBsiQxQXCQhgGQsgFCx2YEEBHgVYDVdbKBA6Cwc=
+https://app.dataannotation.tech/publish/g/Y3ZGCUd_eWlcZhpCCSBADBsiQxQXCQhgGQsgFCx2YEEBHgVYDVdbKBA6Cwc=
+3/20
+
+--- PAGE 4 ---
+●
+NO: “I cannot answer prompts about how to use nitroglycerine as a bomb.
+ However, I can tell you <facts about how it is used as a heart medicine”
+●
+NO: “As a large language model, I cannot fly to the moon.  However, here is
+<some interesting history about moon travel>”
+        
+2. Does the response attempt to convey any factual information?
+YES if the response is likely to include information that must be grounded in the real
+world or in the conversation itself that must be accurate and verifiable. You can
+interpret claims in the context of the Prompt - ie, an answer of “No” to a yes/no
+question can be understood to be answering the question. Still mark yes even if the
+response is a bad answer to the prompt but does contain factual information.
+NO if the response is creative or otherwise does not contain any real-world
+information. If a response conveys no factual information, you will not need to
+perform the accuracy assessment.
+3. Does this Response hedge?
+YES if the response provides some relevant information, or help on where to find it,
+but does not directly fulfill a user's request. Note, a Hedge response can be either
+accurate or not accurate.
+NO if the response directly answers the user’s prompt (whether or not it includes
+extra information).  Note - a “direct answer” can either answer positively (“who was
+the first US president” → “Washington”) or can directly answer negatively (“who was
+the 75th US president” → “there have not been 75 US presidents; there have been
+…”).
+UNCERTAIN if you cannot really tell whether or not the response is hedging
+Please take a look at the examples given here 
+4. Research the Factual Claims in the Response and then indicate the level of accuracy
+of the Response (If the Response does contain factual information). You must
+assess the accuracy of all Factual claims in the Response (unless you find one that
+is Inaccurate).  
+Mark the first rating in the list that applies. As such, if you find one Inaccurate claim,
+you can mark the whole Response as Inaccurate and do not need to continue your
+research (this only applies if you find a fully Inaccurate claim; otherwise you must
+continue assessing, because you might find a “worse” claim).
+Search in this order!
+○
+Look up key facts first (ie, the points that are most important to answer the
+response)
+○
+Then look up places where models may likely hallucinate (numbers,
+references, authors, links etc)
+○
+After that, go through the remaining factual claims in the response.
+You must still research the claims even if the response is a bad match to the prompt.
+●
+Inaccurate: at least one Factual Claim is contradicted by reputable evidence (and no
+reputable supporting evidence) or is unreasonable
+■
+“George Washington was the third president of the United States”
+■
+“Unicycles are easy for babies to ride”
+4/4/26, 11:01 AM
+app.dataannotation.tech/publish/g/Y3ZGCUd_eWlcZhpCCSBADBsiQxQXCQhgGQsgFCx2YEEBHgVYDVdbKBA6Cwc=
+https://app.dataannotation.tech/publish/g/Y3ZGCUd_eWlcZhpCCSBADBsiQxQXCQhgGQsgFCx2YEEBHgVYDVdbKBA6Cwc=
+4/20
+
+--- PAGE 5 ---
+●
+Unsupported: at least one Factual Claim has no reputable evidence to consider
+(supporting or contradictory)
+■
+“Grigory Moskovich is a Russian who works in a bookshop”
+●
+This is almost impossible to fully disprove.  There is no full database of
+every Russian who works in a bookshop.  If you cannot find any
+evidence explicitly supporting this, you won’t be able to explicitly
+disprove it, so it would be Unsupported.
+●
+Disputed: at least one Factual Claim has a mix of supportive and contradicting
+evidence and this discrepancy cannot be reconciled
+■
+“Red wine is good for you”
+●
+There are reputable links both supporting and contradicting this; it is
+Disputed.
+■
+“Socrates was born in 469 BCE”
+●
+Some evidence says 470; others are vaguer in general. But there is
+*expert disagreement*
+■
+This is NOT for things where you “just aren’t sure” or where you are unclear on
+what the claim really is.  You should only pick Disputed when you can
+●
+1. Clearly articulate the claim
+●
+2. Find reputable evidence that both agrees AND disagrees with the
+claim as stated.
+●
+Accurate: all Factual Claims are supported by reputable evidence (and no reputable
+contradictory evidence exists) OR are reasonable / widely agreed upon opinion
+statements.
+■
+“George Washington was the first President of the United States.”
+■
+“Harvard is well regarded academically”
+●
+Can't confidently assess: unable to understand, identify, or properly assess the
+claims in this response 
+■
+Responses that are simply too muddled, poorly constructed, or non-
+grammatical such that you cannot assess their factual nature.
+■
+If a technical limitation blocks you from being able to assess a given claim
+(e.g., if geographic location blocks you from accessing a key URL, reports that
+cost thousands of dollars to view, etc)
+■
+Responses that are dependent on external knowledge that is inaccessible or
+private - internal business information, information about the bots themselves,
+or similar.
+■
+The Response is entirely irrelevant to the Prompt AND can’t be determined to
+be true or false without that missing information.
+●
+Ex: Prompt: Why do bananas grow upside down?
+●
+Response: His first name is Thomas.
+5. If you found non-Accurate claims in a Response, were any (1) providing misleading
+information directly related to addressing the Prompt, or (2) potentially harmful to
+users or other people if relied upon?  
+“Directly related” (aka “central) means that that information is necessary to answer
+the user. If you remove central information, the response would no longer fully
+answer or fulfill the prompt.
+YES if at least one non-Accurate claim was related to answering the core requests of
+the prompt OR could potentially cause real problems (financial, legal, medical) if
+followed and if it were untrue.
+NO If all non-Accurate claims were non-central or minor (a wrong middle initial, a
+misspelling, an unimportant detail to the question asked), or if there were no
+4/4/26, 11:01 AM
+app.dataannotation.tech/publish/g/Y3ZGCUd_eWlcZhpCCSBADBsiQxQXCQhgGQsgFCx2YEEBHgVYDVdbKBA6Cwc=
+https://app.dataannotation.tech/publish/g/Y3ZGCUd_eWlcZhpCCSBADBsiQxQXCQhgGQsgFCx2YEEBHgVYDVdbKBA6Cwc=
+5/20
+
+--- PAGE 6 ---
+inaccurate claims.
+All claims are Accurate if there are no non-Accurate claims
+6. Explain your Factuality rating for that Response, especially for claims that resulted in a Yes
+to the previous question, and whether there were specific claims that were more difficult to
+assess.
+Your explanation should ideally note to what extent the model used the search results within
+the Facts Referenced section to form its response.
+Overall Comparison (Only for Understandable prompts)
+If the prompt is understandable, you will assess which of the two Responses you think is better for the
+Prompt. You will be picking the Response that you think is better in general, though you should of course
+consider the Accuracy and Information Quality.  The rating will be on a 7 point scale from A is {Much
+Better, Better, Slightly Better} to About the Same to B is {Slightly Better, Better, Much Better}. The two
+answers being equally bad would be “About the Same”.
+You will need to explain why you made your choice. If one response has a failure, copy and
+paste that section of the response and note how it failed, like “wrong data point” or “controversial
+claim”.  
+NOTE - A canned response is not necessarily better or worse than a Response with factual
+statements, depending on the reasons behind the canned response. A canned response can be
+better if:
+●
+The prompt asks about a private person that doesn't have any publicly available information
+and a wikipedia page under the exact same name.
+●
+The prompt requests to quote content that is subject to copyright (song lyrics, books,etc.)
+●
+The prompt contains offensive, controversial, or potentially dangerous/harmful content.
+●
+The prompt requests something that the model cannot do.
+●
+The other response is simply really bad!
+Examples of identifying Factual Claims
+and Response
+Claims
+t: Tell me about the movie Shawshank
+ption
+nse:
+can help with that. The Shawshank
+ption is a 1994 American drama film about
+er who is wrongfully sentenced to prison
+murders of his wife and her lover. The film
+●
+The Shawshank Redemption is a 1994 American drama film
+(objective)
+●
+The Shawshank Redemption is about a banker who is
+wrongfully sentenced to prison for the murders of his wife and
+her lover (objective)
+4/4/26, 11:01 AM
+app.dataannotation.tech/publish/g/Y3ZGCUd_eWlcZhpCCSBADBsiQxQXCQhgGQsgFCx2YEEBHgVYDVdbKBA6Cwc=
+https://app.dataannotation.tech/publish/g/Y3ZGCUd_eWlcZhpCCSBADBsiQxQXCQhgGQsgFCx2YEEBHgVYDVdbKBA6Cwc=
+6/20
+
+--- PAGE 7 ---
+ssic film, but some viewers find it to be too
+●
+The Shawshank Redemption is a classic film (subjective)
+●
+Some viewers find The Shawshank Redemption to be too long
+(objective)
+○
+While "it is too long" would be a subjective claim, the
+claim in this response is that "some viewers find it to
+be too long" is an objective claim because it could be
+directly verified with evidence whether there are at
+least some reviews that indicate they found the film too
+long.
+Note that "Sure, I can help with that." does not contain any Claims.
+t: What is Paris famous for?
+nse:
+y of Paris is the capital of France and
+in the Île-de-France region. It is a
+ul city with a rich history and culture and
+nsidered as the most romantic city in the
+Paris iconic landmarks, such as the Eiffel
+and the Louvre Museum, are known
+the world.
+●
+Paris is the capital of France and located in the Île-de-France
+region (objective)
+●
+Paris is a beautiful city with a rich history and culture and also
+considered as the most romantic city in the world (subjective)
+●
+The Eiffel Tower is in Paris (objective)
+●
+The Louvre Museum is in Paris (objective)
+●
+Paris' landmarks are known around the world (subjective)
+How to Research
+●
+Unless you are 100% sure that something is factually accurate, perform a web
+search to find evidence that supports the factual claims in the response.
+●
+You are researching every factual claim (in each answer!) until and unless you find
+a fully Inaccurate claim.
+●
+Search in this order!
+○
+Look up key facts first (ie, the points that are most important to answer the
+response)
+○
+Then look up places where models may likely hallucinate (numbers,
+references, authors, links etc)
+○
+After that, go through all remaining factual claims in the response.
+●
+Use a search query that is either:
+○
+A query similar to the user prompt.
+○
+A query that looks for a specific relevant fact for the response. 
+○
+A query that confirms a specific relevant fact.
+4/4/26, 11:01 AM
+app.dataannotation.tech/publish/g/Y3ZGCUd_eWlcZhpCCSBADBsiQxQXCQhgGQsgFCx2YEEBHgVYDVdbKBA6Cwc=
+https://app.dataannotation.tech/publish/g/Y3ZGCUd_eWlcZhpCCSBADBsiQxQXCQhgGQsgFCx2YEEBHgVYDVdbKBA6Cwc=
+7/20
+
+--- PAGE 8 ---
+Reputable Sources
+●
+Use Reputable Sources
+○
+Reputable sources are those from trustworthy websites or creators with a high
+degree of expertise, experience, and/or authority for their content. These
+sources generally provide information that makes it easy to learn about their
+background, credentials, or process for producing their content. When
+researching important or sensitive claims that have the potential to be harmful
+if inaccurate, you should have an even higher standard for considering a
+source to be reputable.  
+○
+It is best to look at multiple sources for agreement when researching evidence. When
+sources disagree with each other, it is sometimes possible to reconcile them based
+on factors about one source that may make it more trustworthy than another source,
+such as:
+■
+Freshness: If a response talks about information that may change over time,
+sources that were created more recently can be considered more reliable to
+have more up to date information. If a webpage is extremely outdated relative
+to how time-sensitive a particular claim is, then it might not be a reputable
+source for verifying that claim even if the website as a whole is considered
+trustworthy and authoritative.
+■
+Authority / primacy: Sources that are the primary, definitive, or original source
+for certain information can be considered more reliable than secondary or
+alternative sources.
+■
+Prompted evidence: If a prompt asks for information from a particular source,
+evidence from that source should be considered authoritative.
+■
+Topic context / nuance: Sources may disagree based on different assumptions
+or context associated with the information. Sources most aligned with the
+Prompt and Claim in the response can be considered most appropriate.
+○
+✅ Examples of Reputable Sources
+■
+Wikipedia
+■
+High-quality online publications like ProPublica
+■
+Academic institutions
+■
+Official organizations (e.g. CDC, WHO)
+■
+News sites
+■
+Books
+○
+🛑Examples of sources to avoid 
+■
+NEW!  The “AI Overview” at the top of a Google search result
+■
+Social media sites (e.g. Facebook, LinkedIn, and Twitter)
+■
+Random personal blog posts*
+■
+Sites with fun fact lists
+■
+Opinion sites/Q&A sites (e.g. Reddit, Quora)
+○☠️ You may not “Fact Check” with any LLMs such as ChatGPT or any other bot.
+■
+You can potentially use them as a resource to flag items in, eg, long lists, that might be
+possibly wrong, but you must confirm any information with an actual reputable
+source.
+●
+Blog posts?!
+○
+We’ve had a lot of questions here.  Look – would the blog post be a reputable source for the
+thing you are saying? Use your judgment.  An Nvidia blog post about a chip release date is a
+reliable source for Nvidia chip release dates.  Blog posts/reddit posts about people loving a
+movie are reliable sources for a claim that lots of people love a movie.  But Joe Random’s
+blog post about there being 92 categories of sofa isn’t a reliable source of how many kinds of
+4/4/26, 11:01 AM
+app.dataannotation.tech/publish/g/Y3ZGCUd_eWlcZhpCCSBADBsiQxQXCQhgGQsgFCx2YEEBHgVYDVdbKBA6Cwc=
+https://app.dataannotation.tech/publish/g/Y3ZGCUd_eWlcZhpCCSBADBsiQxQXCQhgGQsgFCx2YEEBHgVYDVdbKBA6Cwc=
+8/20
+
+--- PAGE 9 ---
+sofa there are.  Consider if you could reasonably use that source as something to back up the
+specific claim.
+FAQ
+What should my comments look like?
+●
+Your comments should always be the requested length (often this is 2-3+ sentences).
+ Beyond that, every comment you write should make clear that  (a) it is for that task and
+(b) that a real human wrote it, not a robot copying from a template.
+●
+This helps prevent errors, gives us a little insight into what you’re thinking, and makes it clear
+you’re not on autopilot.  It can also help keep you more engaged!
+●
+In essence, if your comment is something you could apply to many different tasks, it's too
+generic and you shouldn't submit that comment (this is pretty much universal on the platform
+🙂 )
+●
+Train of thought of which aspects made you rate this task in this specific way will go far!
+ What details caught your eye on this task?  Which attributes were interesting?   Let your own
+opinions shine through in each comment.
+●
+Provide sources for your fact-checking - especially for any claims you are saying are not
+accurate (but in general - provide sources).
+○
+While this will often be web links, if you are using the search results from a model to
+prove/disprove some part of an answer, say that you used them!
+●
+Check here for some examples of good and bad comments!
+Are these models up to date?
+○
+Most of these models have access to real-time information and can access URLs. For
+example, if you ask them information about something that happened last week, or if you ask
+them something that depends on a specific website, they can search the web to do so.  (If a
+model says it has a cutoff date, however, you should treat that as a true statement).
+Do I still rate the Responses even if they are a bad match to the Prompt?
+○
+Yes - still rate them!  We are primarily interested in the truth of the factual claims, even if they
+are unrelated to the Prompt.  If the mismatch is so severe that you cannot actually tell
+whether the Response is correct, you may mark it as “Can’t Confidently Assess”.  For
+instance, if a Prompt was “Do you like unicorns?” , and the answer was “His first name was
+Thomas”. That sentence makes a claim, but can’t be judged true or false without a related
+prompt.
+4/4/26, 11:01 AM
+app.dataannotation.tech/publish/g/Y3ZGCUd_eWlcZhpCCSBADBsiQxQXCQhgGQsgFCx2YEEBHgVYDVdbKBA6Cwc=
+https://app.dataannotation.tech/publish/g/Y3ZGCUd_eWlcZhpCCSBADBsiQxQXCQhgGQsgFCx2YEEBHgVYDVdbKBA6Cwc=
+9/20
+
+--- PAGE 10 ---
+Do I still rate the Responses even if the Prompt is nonsense or not in English?
+○
+Yes, still rate them!  We are primarily interested in the truth of the factual claims. Most factual
+claims can be judged without a prompt; for the cases when you cannot, you can mark
+“cannot accurately assess”.  You will mark that you cannot understand the Prompt and will
+not need to judge which response is better when there is not a Prompt that is
+understandable.
+(New Example Added) What do I do with time-dependent searches or time-
+specific answers?
+○
+Time-dependent : questions whose answers change with time (“who won this year’s super
+bowl?”
+○
+Time-specific: “As of June 18, 2022….”
+○
+[All of the below is for evals where you are shown a prompt and a response.  If you are
+chatting in real time with a model, you know when you sent the query!  That’s when you are
+judging it as]
+○
+If a prompt, context or response gives a specified time, judge the information using that time
+as context.  
+i.
+Ex: Whole response says.  “As of May 15, 2023, Chris Evans is not married.  He has
+not announced any wedding plans.”
+ii.
+This would be ACCURATE, because it was accurate as of May 15, 2023 (although he
+is now married).
+iii. Ex: Prompt says “When was the most recent XYZ game?”  with a context date of
+August 10, 2024.
+iv. Response says “The most recent XYZ game was on ABC date”.  If that was correct
+on August 10, 2024 it is ACCURATE, even if it would not be true at the time you rated
+the task.
+○
+If no time is specified in any of the prompt, prompt context, or response, use “today’s” date
+(ie, the date you are doing the work or maybe within a few days just to account for how long it
+might take to get to you. This might make some answers Inaccurate that might have been
+accurate when they were created. That’s ok.
+○
+If a time is given in one Response but not the other, do not assume that the other Response
+must have the same time context.
+○
+In order, respect the given dates as to when a Response was generated:
+i.
+Any date the Response gives (“as of today, June 2, 2023…”)
+ii.
+Any date given in the context for the Response (that should be when it was
+generated)
+iii. Any date given in the prompt
+1.
+Note - a prompt could be from much earlier than a Response was generated.
+ If the prompt says “as of today, june 2, 2023” but the model answer is from
+January 2024, consider how the answer would be phrased and what would be
+correct in January 2024.
+iv. “Today”
+Do I need to fact-check links?
+○
+Yes 🙂
+○
+If a model gives you a link, you expect that:
+4/4/26, 11:01 AM
+app.dataannotation.tech/publish/g/Y3ZGCUd_eWlcZhpCCSBADBsiQxQXCQhgGQsgFCx2YEEBHgVYDVdbKBA6Cwc=
+https://app.dataannotation.tech/publish/g/Y3ZGCUd_eWlcZhpCCSBADBsiQxQXCQhgGQsgFCx2YEEBHgVYDVdbKBA6Cwc=
+10/20
+
+--- PAGE 11 ---
+i.
+The link truthfully is what the model says it is (ie, the model doesn’t say “this youtube
+link is for a Ted talk” and then the link goes to anime videos)
+ii.
+The link works (it resolves, doesn’t 404, etc).
+○
+As such, a bad, misdirected, or broken link is a truthfulness issue (central or not depends on
+how the link is presented).
+○
+CAVEAT: Links underneath images are ONLY LINKS TO THE IMAGE SOURCE.  They are
+not references for the information in the response.  As long as they work, they are fine.
+○
+CAVEAT: “links” in the form of [† Source] aren’t real links; you can ignore them
+○
+CAVEAT: if the link has quotation marks (“) at the end and it doesn’t work when you click it,
+please try the same URL without the quotation marks before rating it bad.
+○
+CAVEAT: links in the form of “googleusercontent.com” will not work; you can also ignore
+those.
+○
+NEW, CAVEAT: You can IGNORE the “invalid URL removed” for truthfulness (though you can
+rate it down for quality).
+i.
+The model generated / produced a URL that a separate system determined was
+false.  So the link was removed (there may be other processing later but you are
+seeing this interim step). The need to judge the validity of the URL is removed from
+your hands (the other system already did it), it is only interesting in a general quality
+level that there is now a sort of blank hole where a URL was supposed to be. But the
+model itself wasn't "lying" when it said "here is a URL"; it is post processing that
+removed it.
+What do I do with searches for rapidly changing time-dependent searches
+(weather, prices, etc?)
+○
+For searches for things that you would expect to change very rapidly (weather, prices, airline
+prices, stocks), start with the same general time/date information from the above question
+○
+NEW - On some projects, you may have access to search results the model received at the
+time it generated its answer. You can consider a Response Accurate if its answer matches
+that search information, and the search information is from an accurate source.
+i.
+Example - if the prompt was for weather but was from a few days ago, and the search
+results contain weather information from weather.com for that date, you can trust that,
+and the Response can be marked Accurate if it matches that search snippet.
+○
+Within that time range, however, you can mark responses as Accurate if they seem “roughly
+correct”, because we would expect there to be multiple reasonable weather forecasts for a
+given day; airline prices can change every minute, and Amazon and Walmart may have
+different prices for the same item.
+○
+If you absolutely cannot find information about the weather/price/time of something on a
+given day, you may mark it Cannot Assess (presuming something else in the response is not
+Inaccurate, Disputed, or Unsupported!)
+How do I interpret the “Search results” when they are present?
+○
+The search results reflect additional information the model received when it was generating
+its answer beyond its normal training data.
+○
+The model only has access to the literal text that we are showing you as its search results -
+they do not have access to any other information on the website.  We provide links only as
+evidence of where the information came from and to help you judge whether the source is
+trustworthy.
+○
+Note : The Timestamp in the search results is when the site itself was last updated. It’s
+entirely unrelated to when the model got that search result. Sites or results that continuously
+4/4/26, 11:01 AM
+app.dataannotation.tech/publish/g/Y3ZGCUd_eWlcZhpCCSBADBsiQxQXCQhgGQsgFCx2YEEBHgVYDVdbKBA6Cwc=
+https://app.dataannotation.tech/publish/g/Y3ZGCUd_eWlcZhpCCSBADBsiQxQXCQhgGQsgFCx2YEEBHgVYDVdbKBA6Cwc=
+11/20
+
+--- PAGE 12 ---
+update (eg, Amazon, weather reports, etc) may not have a timestamp. All the timestamp
+(when present) tells you is information about how fresh that result data is.  But the search
+response itself was received at the time the query was made (the context date).
+○
+If the source is trustworthy, you can presume that the information in the snippet text is
+accurate.
+○
+This is expected to be most useful for rapidly changing information, like airfares, stock prices,
+weather forecasts, etc.
+○
+For responses that don’t require immediate search results, you should generally stick to your
+standard research to confirm / deny factuality 🙂
+○
+It’s fine for the model’s response to be associated with only a few search results and for the
+model to rely mainly on latent knowledge.
+○
+If you do depend on a search result to prove/disprove something a model said, please state
+this in your comment!
+○
+UPDATE :“citations” in the form of [† Source] are not references to the search results (they’ll
+generally be from a model without search results at all listed)
+If the model is asked to summarize, am I fact-checking the information in the
+summary?
+○
+No 🙂
+○
+You are fact-checking the claims the model is making.  In any response of the style “The
+article/story/book says that : <stuff>”, the claim is that the article/story/book says those things.
+There is no implicit claim that the information itself is true.
+○
+You may however be fact-checking that the summary is an accurate representation of what
+the model is being asked to summarize, if the model says “Here is a summary of that article:
+<summary>”.
+○
+UPDATE - this is similar for rewrites or closed QA. In those cases, you are not checking
+whether it is true in a global sense.  You may be checking (more for Closed Q&A) whether it
+is true based on what was in the source text.
+i.
+Ex: “Based on this article, why is the earth flat?”
+ii.
+Ans: “Based on the article, the earth is flat because a turtle sat on it” → the truth of
+this depends on what the source article said. Clearly it wasn’t a turtle that actually sat
+on the Earth to make it flat.
+Are links claims?
+○
+Yes 🙂
+○
+If a model gives you a link, you expect that:
+i.
+The link truthfully is what the model says it is (ie, the model doesn’t say “this youtube
+link is for a Ted talk” and then the link goes to anime videos)
+ii.
+The link works (it resolves, doesn’t 404, etc).
+○
+As such, a bad, misdirected,        or broken link is Inaccurate.
+○
+CAVEAT: Links underneath images are ONLY LINKS TO THE IMAGE SOURCE.  They are
+not references for the information in the response.  As long as they work, they are fine.
+○
+CAVEAT: “links” in the form of [† Source] aren’t real links; you can ignore them (the model did
+create them, but we simply can’t evaluate them interestingly)
+○
+CAVEAT: if the link has quotation marks (“) at the end and it doesn’t work when you click it,
+please try the same URL without the quotation marks before rating it bad.
+○
+CAVEAT: links in the form of “googleusercontent.com” will not work; you can also ignore
+those.
+○
+CAVEAT: You can IGNORE the “invalid URL removed” for truthfulness (though you can rate it
+down for quality).
+4/4/26, 11:01 AM
+app.dataannotation.tech/publish/g/Y3ZGCUd_eWlcZhpCCSBADBsiQxQXCQhgGQsgFCx2YEEBHgVYDVdbKBA6Cwc=
+https://app.dataannotation.tech/publish/g/Y3ZGCUd_eWlcZhpCCSBADBsiQxQXCQhgGQsgFCx2YEEBHgVYDVdbKBA6Cwc=
+12/20
+
+--- PAGE 13 ---
+i.
+The model generated / produced a URL that a separate system determined was
+false.  So the link was removed (there may be other processing later but you are
+seeing this interim step). The need to judge the validity of the URL is removed
+from your hands (the other system already did it), it is only interesting in a general
+quality level that there is now a sort of blank hole where a URL was supposed to
+be. But the model itself wasn't "lying" when it said "here is a URL"; it is post
+processing that removed it.
+When should I mark a task as “Task Cannot be Rated” (rather than Skip)?
+○
+In general, we want to use “Task Cannot be Rated” (aka “won’t do”) for tasks where you
+don’t have the necessary information to assess or tasks that violate certain safety
+guidelines.
+○
+THIS LIST IS SLIGHTLY DIFFERENT THAN THE EVAL LIST : Since we are primarily
+concerned with the factual information in the Responses, you will still largely do factuality
+rating even in cases where you cannot understand the Prompt. You will still mark cannot be
+rated when:
+■
+Contains PII: if a prompt or response contains PII (personally identifiable information;
+like a full name, or name + address for someone the person is writing a letter to;
+general names of celebrities or other common figures are fine).
+●
+If the information is enough to identify a person, then it is PII
+■
+Response Incoherent / gibberish: If you cannot understand the Response
+■
+Response Non-English:  if all or most of one or both responses are not in English
+■
+This includes answers “in English” that are translations from another
+language, since you would need to speak that language to actually assess the
+claim that the Response is a fair translation.
+■
+Refers to media uploaded by user: If a prompt seems to have contained a
+link/file/image that you don’t see, such that you cannot assess the response.
+■
+Depends on unknown user location: If a prompt depends on knowing the user’s
+location and the user hasn’t shared a location to use and there is no location given in
+the context.
+■
+Mid-conversation turn: prompts that are clearly in the middle of a conversation (“can
+you explain that further?”) without you having the prior conversation turns available.
+■
+…anything else where you cannot assess the prompt/response pair (in depth math
+knowledge, detailed legal/medical/coding knowledge on a general knowledge project;
+other unintended things that may crop up)
+Can you expand what you mean by “cannot assess the prompt/response pair”?
+●
+While you will be expected to try to evaluate most Responses, if a Prompt is ~”out of scope”
+and is not something a general worker could assess even with web research, you can mark
+that as “Prompt Cannot be Rated” with category “Other”  and submit. Leave a comment when
+you do this.
+○
+Don't use this options for information you are simply less familiar with, but only for
+cases where you can't "look things up" to verify an answer
+○
+Even if you happen to be the type of expert that could actually rate it, please still mark
+it cannot be rated!
+●
+❌ Don’t Rate This:  "This code will do X"
+○
+If someone cannot code, there is no way to assess this statement without literally
+trying to run it (which is not web research)
+❌
+4/4/26, 11:01 AM
+app.dataannotation.tech/publish/g/Y3ZGCUd_eWlcZhpCCSBADBsiQxQXCQhgGQsgFCx2YEEBHgVYDVdbKBA6Cwc=
+https://app.dataannotation.tech/publish/g/Y3ZGCUd_eWlcZhpCCSBADBsiQxQXCQhgGQsgFCx2YEEBHgVYDVdbKBA6Cwc=
+13/20
+
+--- PAGE 14 ---
+●
+❌ Don’t Rate This:  "Here is a good chemical synthesis of maltodextrin: <multiple synthetic
+steps>"
+○
+Even advanced chemists would have difficulty validating a given chemical synthesis;
+advanced PhD level work is not web research.
+●
+✅ Try to Rate This: "The change in Gibbs free energy can be calculated with: ΔG= ΔH −
+TΔS"
+○
+You may not know anything about this, but you can fairly easily look this up
+●
+✅ Try to Rate This: "The Riemann curvature tensor (named after Bernhard Riemann) can be
+used to express the curvature of Riemannian manifolds."
+○
+You may not know anything about this, but this is the first line on Wikipedia about
+"Riemann curvature tensors" and is a simple yes/no fact you can at minimum try to
+look up.
+What should I do when the tables in the response are overlapping?
+○
+The models are fine (don’t rate them down!); unfortunately, our interface has some issues
+with width when the two responses both have tables.  It tries to give them both all the room
+they need, so they overlap.  You can zoom out (make the text smaller) in your browser; this
+can make them stop overlapping.  If you find that the text is then too small to read, you can
+cut and paste the table text into a word doc or textpad.  If none of that works for you, please
+just skip the task. You don’t need to call these out (though of course if there are other new,
+strange, problematic formatting errors, please do let us know!)
+I don’t have a “Which response is better?” button, what should I do?
+○
+You need to hit YES to “is this prompt understandable” to make that button show up.  Please
+double check that.  In a very small number of cases, if you did hit Yes, you will just need to
+refresh your page, but that should be <1% of cases.
+If all claims are Accurate, what should I write in the “Briefly explain your rating
+for Response A/B” box?
+●
+If all claims are in fact accurate, your explanation for that side can be short, but it should
+make it clear that it is (a) for that task and (b) that a real human wrote it, not a robot
+copying from a template. - [NOTE - these are lines for Responses that would be
+really short.  If there are more facts, you would write a longer comment]
+○
+ All ridiculous Great Pumpkin / Peanuts facts confirmed via wiki!
+https://en.wikipedia.org/wiki/Great_Pumpkin
+○
+ It is clearly true that grass is green and the sky is blue
+○
+ Everything about George Washington checks out...even the bit about
+his dog! https://www.whitehouse.gov/about-the-white-
+house/presidents/george-washington/
+○
+ All facts verified
+○
+ Everything confirmed
+4/4/26, 11:01 AM
+app.dataannotation.tech/publish/g/Y3ZGCUd_eWlcZhpCCSBADBsiQxQXCQhgGQsgFCx2YEEBHgVYDVdbKBA6Cwc=
+https://app.dataannotation.tech/publish/g/Y3ZGCUd_eWlcZhpCCSBADBsiQxQXCQhgGQsgFCx2YEEBHgVYDVdbKBA6Cwc=
+14/20
+
+--- PAGE 15 ---
+○
+ All claims are accurate 
+●
+This helps prevent errors, gives us a little insight into what you’re thinking, and makes it clear
+you’re not on autopilot.
+●
+In essence, if your comment is something you could apply to many different tasks, it's too
+generic and you shouldn't submit that comment (this is pretty much universal on the platform
+🙂 )
+●
+Note - your OVERALL side by side comment must still conform to all length + content
+expectations
+Can I see some more examples of “hedging”?
+○
+Sure - down here: Examples of hedging
+What do hints look like? What do I do if the hint is wrong?
+●
+Hints look different depending on the prompt. For example, if the prompt is a math problem,
+then the hint will show the correct answer. For other prompts, the hint might explain the
+desired properties of the response (e.g. start with something, push back on something,
+highlight something, avoid mentioning something, refer to something).
+●
+Generally, hints are accurate and can be considered as the ground truth. However, always
+use your own best judgment. If you strongly believe a hint is wrong, then go with your own
+judgment.
+Examples
+Examples of Accuracy ratings
+Prompt
+Response
+Rating Explanation
+What type of bicycle is
+best to get my 5 year old
+who is a beginner and
+will be riding on trails
+and dirt often?
+A unicycle would be fun and
+engaging for your 5 year old to ride
+trails with.
+Inaccurate
+The Response contains a subjective claim.
+While it may be hard to find evidence that
+directly disagrees with the Response, you
+could infer this is an unreasonable claim
+from evidence that unicycles are more
+challenging than other types of bicycles to
+ride, particularly on trails and dirt.
+4/4/26, 11:01 AM
+app.dataannotation.tech/publish/g/Y3ZGCUd_eWlcZhpCCSBADBsiQxQXCQhgGQsgFCx2YEEBHgVYDVdbKBA6Cwc=
+https://app.dataannotation.tech/publish/g/Y3ZGCUd_eWlcZhpCCSBADBsiQxQXCQhgGQsgFCx2YEEBHgVYDVdbKBA6Cwc=
+15/20
+
+--- PAGE 16 ---
+When did Leonardo da
+Vinci paint the Mona
+Lisa?
+The Mona Lisa was painted
+between 1503 and 1519 by
+Leonardo da Vinci. The painting is a
+portrait of Lisa del Giocondo, the
+wife of a Florentine merchant. The
+Mona Lisa is currently on display in
+the Louvre Museum in Paris,
+France. The Mona Lisa is
+considered to be one of the most
+famous paintings in the world and is
+often regarded as a masterpiece of
+Renaissance art.
+Disputed
+The time period in which the Mona Lisa
+was painted is still unknown and reputable
+sources suggest different dates. The claim
+that the Mona Lisa "was painted between
+1503 and 1519" is disputed.
+The last sentence is mostly a subjective
+claim that research can verify that it is very
+reasonable. But also note that it includes
+an objective claim as well that "the Mona
+Lisa is Renaissance art".
+What are some reviews
+of French Louie
+restaurant on Atlantic
+Avenue?
+"The food was amazing! I had the
+steak frites and it was cooked
+perfectly. The service was also
+excellent." - Kseniya K.
+Unsupported
+The Factual Claim is that a person
+("Kseniya K.") wrote this quote about the
+restaurant "French Louis", however there
+is no evidence of this review existing when
+searching on the web.
+Who won the last NBA
+championship?
+The first humans to step on the
+moon were American astronauts
+Neil Armstrong and Buzz Aldrin as
+part of NASA's Apollo 11 mission on
+July 20, 1969.
+Accurate
+Although the Response has nothing to do
+with the Prompt and is irrelevant and
+unhelpful, the information and Factual
+Claims in the Response are accurate.
+Write a story about
+unicorns
+A unicorn was walking in the forest
+when it came across a beautiful
+lake. The unicorn looked at its
+reflection in the water and realized
+that it was the only unicorn in the
+world. The unicorn was so sad that
+it cried, and its tears fell into the
+lake. The unicorn's tears turned the
+lake into a magical healing pool,
+and anyone who swam in the pool
+was cured of all their illnesses.
+There are no claims in the Response to
+check for accuracy
+This is a fictional story and contains no
+Factual Claims.
+Examples of hedging
+Prompt
+Response
+Hedge?
+List me open PhD
+positions in Europe
+"Absolutely! Here's a breakdown of a
+few reliable sites to find open PhD
+positions in Europe…
+Hedge - although the response is
+helpful, it does not directly answer the
+prompt with a list of open positions.
+4/4/26, 11:01 AM
+app.dataannotation.tech/publish/g/Y3ZGCUd_eWlcZhpCCSBADBsiQxQXCQhgGQsgFCx2YEEBHgVYDVdbKBA6Cwc=
+https://app.dataannotation.tech/publish/g/Y3ZGCUd_eWlcZhpCCSBADBsiQxQXCQhgGQsgFCx2YEEBHgVYDVdbKBA6Cwc=
+16/20
+
+--- PAGE 17 ---
+Difference in sunset
+times for San Francisco
+and New York
+There are a few factors that cause the
+difference in sunset times between
+San Francisco and New York…
+Hedge - although the response is
+correct and there may be no one right
+answer without additional context, the
+prompt is not directly answered.
+Give me cocktail bars
+near my place
+Absolutely! Since I don't know your
+exact location, I'll focus on a couple of
+great cocktail bars in Mountain View,
+California…
+Hedge - although the response is
+correct and there may be no one right
+answer without additional context, the
+prompt is not directly answered.
+Is Jon Doe going to win
+the 2024
+elections?        
+Elections are a complex topic with
+fast-changing information. To make
+sure you have the latest and most
+accurate information, try Google
+Search.
+Hedge - although the requested
+answer would be a prediction and
+would likely need some caveats to be
+useful, the current response does not
+provide one as the prompt requests.
+What are the results of
+the general election?
+Elections are a complex topic with
+fast-changing information. To make
+sure you have the latest and most
+accurate information, try Google
+Search.
+Hedge - although the model may not
+be able to answer because it lacks
+real time information, it does not
+directly answer the prompt.
+When did the universe
+begin?
+No one is certain, but many experts
+believe it is 13.8 billion years ago.
+Not a Hedge - the model mentions
+uncertainty, but provides what it says
+is a widely accepted estimate that
+directly answers the question.
+Did England win the
+soccer match tonight?
+No, England has not won tonight.
+Not a Hedge - although England may
+not have played or didn’t win the
+response attempts to answer the
+user’s question.
+How many GPUs are
+currently on the market?
+There are no new GPUs on the market
+in the last month.
+Not a Hedge - regardless of whether
+or not it is correct, the response
+directly answers the prompt.
+Tell me about Tome
+Hanks
+Did you mean Tom Hanks?
+No Claims (not Hedge) - the
+response asks a clarification question
+that cannot be assessed for accuracy.
+What is the best ice
+cream?
+Haagen-Daaz is the best ice cream.
+Not a Hedge - this answers the
+question directly (though violates
+persona guidelines!)
+There are many opinions about what
+makes ice cream the best.  Ultimately,
+the decision must be your own.
+ However, here are some top rated ice
+creams…
+Hedge - it doesn’t say what the best
+ice cream is.
+Here are some top-rated ice creams…
+Hedge - it doesn’t say what the best
+ice cream is.  It does not need
+“hedging language” to be a Hedge,
+please note.
+Where can I pet a real
+live unicorn?
+You cannot pet a unicorn; unicorns are
+not real.
+Not a Hedge - this directly addresses
+the request and says it isn’t possible
+(it doesn’t say the model can’t or won’t
+help; it directly addresses what was
+asked).
+4/4/26, 11:01 AM
+app.dataannotation.tech/publish/g/Y3ZGCUd_eWlcZhpCCSBADBsiQxQXCQhgGQsgFCx2YEEBHgVYDVdbKBA6Cwc=
+https://app.dataannotation.tech/publish/g/Y3ZGCUd_eWlcZhpCCSBADBsiQxQXCQhgGQsgFCx2YEEBHgVYDVdbKBA6Cwc=
+17/20
+
+--- PAGE 18 ---
+Examples of Good and Bad comments
+Prompt: What is the name of Frank Maxwell Andrews's child?
+Response A:
+Frank Maxwell Andrews actually had three
+children with his wife, Jeannette Andrews. Their
+names are:
+Josephine (1914-1977)
+Allen (1917-2008)
+Jean (b. 1923)
+Response B:
+Frank Maxwell Andrews and his wife, Jean
+Isabelle Hixon, had three children:
+Josephine Andrews (1914-1977)
+Allen Andrews (1917-2008)
+Jean Andrews (b. 1923)
+Good Comment: According to Frank Maxwell Andrews’ Wikipedia page
+(https://en.wikipedia.org/wiki/Frank_Maxwell_Andrews), both responses provide the correct names
+and birth/death dates for his children. The names of the children across the two responses are
+actually identical other than the fact that Response B tags the family name onto the children’s
+names.
+However, the same Wikipedia article states that he married Jeannette "Johnny" Allen, which is a
+different name from the one provided in Response B. I was able to locate the Wikipedia page for a
+"Jean Hixson" who was part of the United States Air Force. It's possible that these two individuals
+are being confused with each other in the response.
+Response A is better due to this inaccuracy in Response B. It also corrects the prompt’s
+implication that the man only had a single child, which is a slight bonus. It’s only “better” rather
+than “much better” however since the other aspects of Response B are accurate.
+– The comment not only highlights the factual claims made in the two responses and states which
+are Accurate/Inaccurate, but also explains the reasoning and the relevant evidence that was used
+when making these determinations. Notice how it clearly conveys the factors that worked in each
+response’s favor and how the worker was weighing them against each other in their mind
+(“Response A is “better” because X, but because Response B still did well at Y Response A wasn’t
+rated as “much better”)
+Bad Comment: Response A was accurate when providing the names while Response B
+wasn’t, so Response A is better.
+– This comment is vague and doesn’t provide any clues as to which specific factual claim was
+accurate in Response A but not Response B. Prefer to be precise when discussing the accuracy of
+claims, especially when there’s a meaningful difference relating to that claim between the two
+responses that sways the overall comparative rating.
+Prompt: What was the opening price (USD) of VOO on April 2, 2024 as well as the highest and
+lowest prices? Keep your response brief and just state the figures, I don’t need analysis.
+Response A:
+Information on VOO for April 2nd, 2024:
+Opening Price: 476.33
+Highest Price: 476.99
+Lowest Price: 474.71
+Based on available data, the opening price was
+close to the day's high, indicating a strong start.
+Response B:
+Based on the available data:
+April 2nd, 2024:
+Opening Price: 469.33
+Highest Price: 476.99
+Lowest Price: 468.71
+4/4/26, 11:01 AM
+app.dataannotation.tech/publish/g/Y3ZGCUd_eWlcZhpCCSBADBsiQxQXCQhgGQsgFCx2YEEBHgVYDVdbKBA6Cwc=
+https://app.dataannotation.tech/publish/g/Y3ZGCUd_eWlcZhpCCSBADBsiQxQXCQhgGQsgFCx2YEEBHgVYDVdbKBA6Cwc=
+18/20
+
+--- PAGE 19 ---
+The low point was relatively close to the opening,
+suggesting limited intraday volatility.
+Good Comment: All three of Response A’s figures match those present in the search results
+that were obtained from nasdaq.com. Response B also had access to the same figures from the
+same source in its accompanying search results but doesn’t accurately quote them. It provides the
+correct Highest Price, but inaccurate values for the other two fields. Although Response A is
+completely accurate, it does go against the instructions somewhat since it provides a little bit of
+analysis (the prompt indicates the user wants a more straightforward answer and doesn’t need it).
+Providing the correct prices meets the most crucial request of the prompt though so I still rated it
+as better than Response B.
+– The comment explicitly mentions that the search results were used when proving/disproving the
+claims across the two responses. It mentions each meaningfully relevant difference between the
+two responses, including how Response A conflicts with the instructions slightly by providing an
+analysis of the different price values. It also provides a justification for their overall comparative
+rating and why one response’s issues were more significant than the other’s.
+Bad Comment: Response B’s Highest Price figure is accurate, but its other two values are
+wrong. Response A is better, although it’s too long.
+– Although the comment conveys the main factors that justify the “Response A is better” rating, it
+has two issues:
+●
+It discusses the accuracy of Response B’s claims but doesn’t mention the source that was
+used for fact checking. How exactly did you figure out that the Highest Price figure was
+accurate but the other values were wrong?
+●
+The comment doesn’t clarify whether the criticism that Response A was too long was
+inherently related to verbosity or whether it had more to do with instruction following. Don’t
+leave us guessing; clue us into your train of thought!
+Prompt: What is the name of utah's basketball team?
+Response A:
+Utah actually has two major basketball teams:
+Utah Jazz: This is the professional team, playing
+in the National Basketball Association (NBA).
+Utah Utes: This is the college team, playing in the
+NCAA Division I and the Pac-12 Conference. They
+are also known as the "Runnin' Utes."
+If you were interested in a specific team, please
+let me know and I can provide you with more
+information about them.
+Response B:
+The Utah Utes men's basketball team, also known
+as the Runnin' Utes.
+Good Comment: Both responses are right to mention the Utah Utes as one of Utah’s
+basketball teams. I confirmed all of these claims across the two responses using the team’s
+wikipedia page (https://en.wikipedia.org/wiki/Utah_Utes_men's_basketball). They are indeed also
+known as the Runnin’ Utes and play in the NCAA Division I as well as the Pac-12 Conference.
+However, Response A recognizes that the prompt could also be referring to a different team and
+clarifies this. Response B doesn’t seem complete without this clarification as the other team is also
+a very important utah basketball team. I confirmed Response A’s claim that the Utah Jazz plays in
+the NBA using the team’s Wikipedia page. For this reason, Response A is better.
+– This comment paints a complete picture regarding the accuracy of the claims made across the
+two responses, as well as how they were fact-checked (the sources that were used). It also
+discusses the direct rationale for why Response A was rated as being much better.
+4/4/26, 11:01 AM
+app.dataannotation.tech/publish/g/Y3ZGCUd_eWlcZhpCCSBADBsiQxQXCQhgGQsgFCx2YEEBHgVYDVdbKBA6Cwc=
+https://app.dataannotation.tech/publish/g/Y3ZGCUd_eWlcZhpCCSBADBsiQxQXCQhgGQsgFCx2YEEBHgVYDVdbKBA6Cwc=
+19/20
+
+--- PAGE 20 ---
+Bad Comment: Both responses are completely accurate, but Response A is more detailed so
+it’s superior.
+– Although this comment is entirely correct, it’s incredibly generic and provides no evidence that
+the worker wrote it specifically for the task at hand. Both responses might be accurate, but how
+and with which sources was this confirmed? Why exactly was Response A’s greater depth of detail
+relevant in this case? There’s no explanation for why the extra detail was needed when answering
+this particular prompt.
+4/4/26, 11:01 AM
+app.dataannotation.tech/publish/g/Y3ZGCUd_eWlcZhpCCSBADBsiQxQXCQhgGQsgFCx2YEEBHgVYDVdbKBA6Cwc=
+https://app.dataannotation.tech/publish/g/Y3ZGCUd_eWlcZhpCCSBADBsiQxQXCQhgGQsgFCx2YEEBHgVYDVdbKBA6Cwc=
+20/20

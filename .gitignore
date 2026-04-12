@@ -1,0 +1,8 @@
+.DS_Store
+.camoufox_env/
+brain/
+.agents/
+__pycache__/
+*.pyc
+.env
+.ipynb_checkpoints/
