@@ -1,0 +1,146 @@
+Antigravity
+File
+Edit
+Selection
+View
+Go Run Terminal Window Help
+• •
+M Inbox (2,204) - jefferykerr@g x
+DI (24) Inbox
+app.dataannotation.tech/workers/in...
+*
+DI ANOTATION
+Work on projects Transfer Funds ($116)
+Inbox
+My Messages
+Search text...
+• Unread only Newest first
+LM
+8 hours ago
+[QUALIFICATION] Calling 18-29 year olds located in the US: Create a gmail account t...
+Hi! # We're launching a new high-paying, priority project series to test new quiz feat...
+LM
+[QUALIFICATION] Calling 18-29 year olds located in the US: Create a gmail account t...
+Hi! * We're launching a new high-paying, priority project series to test new quiz feat...
+LM
+[QUALIFICATION] Do you use a wearable device to track your health stats?
+Hello! Do you use a wearable device to track your health stats? (eg. Apple Watch, Fitb...
+[ § 3 PRIORITY WEEKEND PAY!] E] Styx - Evaluate Al Responses Based on Overall ...
+Hey • Styxers!! We're offering a special priority weekend pay rate on this project!! J...
+Admin km
+[§ 8 PRIORITY WEEKEND PAY!] •] Styx - Evaluate Al Responses Based on Overall...
+Hey • Styxers!! We need your help to get this project over the finish line and we're o...
+Admin BA
+[& PRIORITY!! + $8/hr] • Styx - # Easy Weekend Evals • NO RUBRICS! Evaluat....
+* Hey everyone! Just a heads up that this easy eval is now available at priority pay (...
+Admin BA
+[* PRIORITY!! +$8] * Styx - Evaluate 2 Al Responses Based on Overall Quality (* ...
+Hello all! Quick heads up that this easy eval is available at priority pay ($28/hr) for th...
+Admin SM
+[PRIORITY +$1] Cesium - Evaluate 2 Al Responses (no rubrics!) [0409]
+This eval is at priority pay, we're trying to finish it up as soon as possible! Please help...
+Admin SM
+[PRIORITY + $3] • Helium - Create prompts designed to test Instruction Following eN...
+We're hoping to finish this project quickly so we're bumping to priority pay +$3! Please hop...
+Admin CM
+13: PRIORITY!! +$81 [3 Stvx - Evaluate 2 Al Responses Based on Overall Qualitv (22 ...
+Code ni Candlint Cunnart
+yesterday.
+yesterday.
+yesterday
+yesterudy.
+yesterday
+yesterday
+Friday
+Friday
+Friday
+Ask Gemini
+Jeffery Kerr v
+Select a message to view details
+(hen
+© 2026 DataAnnotation. All rights reserved
+Sun Apr 12 8:17 PM
+DATA_ANNOTATION - DATA_DROP.md
+Open Agent Manager
+08
+• FAQ
+MI DATA_DROP.md •
+• •
+war_room > Mi
+DATA_DROP.md > • # DATA DROP ZONE
+DATA DROP ZONE
+sensitive topics with airect real worta
+impact?
+Data Annotation Project Onboarding
+138
+139
+140
+141
+142
+143
+144
+145
+147฿
+148
+149
+150
+Claims concerning sensitive topics like
+conspiracy theories, religion,
+persons,
+nations. etc.
+with real world implications
+are critical to get right.
+* A MYL (Your Money / Your Life)
+Does the non-Accurate claim concern the
+health or money of the user?
+Claims concerning health/money topics with
+possible impact on the user are critical
+to
+get right.
+Rating the Overall Severity of the most
+severe non-Accurate claim:
+This involves giving the most severe claim
+an overall rating on a scale of 1-5, where
+1 is the least severe and 5 is the most
+severe.
+We're not putting hard rules on what you
+pick; we want to see what you think. But
+generally, something that is a major error
+on a central point regarding a sensitive
+topic would be more severe than a minor
+error on a non-central point.
+< TH read_email.py
+general oulde:
+View 2 edited files
+No it's strange because like even in the my messages right
+from data annotation in this it's different from what 1 get in
+my Gmail my Gmail has like different emails like check that
+out look at look at my screen right now look at the my
+messages in the data annotation and note and codify all this
+info how this all works on data annotation I want you to have
+a real I want you to be an expert at data annotation how it
+works
+Thought for 4s
+Running 1 command
+search_gmail.py IL >
+Terminal
+zsh +-@
+/Users/jefferr/zshrc: 111: defining function based on alias
+"firecrawl!
+/Users/jefferr/zshrc: 111:
+parse error near '()
+• jefferr@Mac DATA_ANNOTATION S
+read_ email.py execution/read_email.py
+search_gmail.py execution/search_gmail.py
+2 Files With Changes
+Reject all
+Accept all v
+main* a
+® 042
+Ask anything, @ to mention, / for workflows
+~ Planning Gemini 3.1 Pro (High)
+A MCP Error
+Ln 222, Col 1
+Spaces: 4 UTF-8 LF
+{) Markdown
+Antigravity - Settings

@@ -1,0 +1,169 @@
+AT
+Home
+Activity
+Files
+Later
+...•
+More
+Chrome
+File
+Edit
+View
+History
+Bookmarks
+Profiles
+Tab
+Al Training
+* Slackbot (L ×
+(25) Inbox
+app.slack.com/client/E06E4V7V07K/DOASAO...
+→
+Q
+Search Al Training
+Al Train... v
+Slackbot
+Huddles
+Q Messages
+• Add canvas
+Directories
+* Starred
+Drag and drop important
+stuff here
+Channels
+# factuality-to-the-m...
+a Browse all channels
+Direct messages
+Untitled Work...
+• Factuality to th...
+Pc Jeffery Kerr you g...
+Window
+Help
+Inbox (2,80
+* Slackbot (L
+I La
+Ask Gemini
+®
++
+Hi, Slackbot here!
+You're here! Hello!
+To learn all about using Slack, click the help icon in the top right
+corner of the app. (Or, you can visit the Help Center on the web!)
+I, however, am not a human. Just a bot (a simple bot, with only a few
+tricks up my metaphorical sleeve). But I'm still happy you're here!
+Today ~
+Slackbot 9:38 PM
+Announcement! You can now ask me Slack-related questions - and l'll respond. If I don't
+understand (I'm only a bot, after all), 'Il search Slack's Help Center.
+But wait - there's more! Wondering where to jot personal notes, if not here? Now you
+can send direct messages to yourself. Lovely for listing to-dos, drafting messages, or
+pasting important links. Just select the plus sign (+) next to the direct messages list, and
+search for your own name.
+B
+IUS
+-
+E
+<>
+Message Slackbot
++
+Aa
+Stop juggling tabs, download the Slack app. Get Slack for macOS
+X
+Lo
+Sun Apr 12 9:39 PM
+DATA_ANNOTATION - DATA_DROP.md
+Open Agent Manager 08
+• FAQ
+MI DATA_DROP.md •
+•
+war_room > mt
+DATA_DROP.md > • # DATA DROP ZONE
+DATA
+DROP ZONE
+sensitive topics with airect real worta
+impact?
+Data Annotation Project Onboarding
+138
+139
+140
+141
+142
+143
+144
+145
+147฿
+148
+149
+150
+Claims concerning sensitive topics like
+conspiracy theories, religion,
+persons,
+nations, etc. with real world implications
+are critical to get right.
+* A MYL (Your Money / Your Life)
+Does the non-Accurate claim concern the
+health or money of the user?
+Claims concerning health/money topics with
+possible impact on the user are critical
+to
+get right.
+Rating the Overall Severity of the most
+severe non-Accurate claim:
+This involves giving the most severe claim
+an overall rating on a scale of 1-5, where
+1 is the least severe and 5 is the most
+severe
+We're not putting hard rules on what you
+pick; we want to see what you think. But
+generally, something that is a major error
+on a central point regarding a sensitive
+topic would be more severe than a minor
+error on a non-central point.
+< TH live_flight_plan.md
+general guide:
+View 2 edited files
+https://app.slack.com/client/E06E4V7V07K/DOASA065F9T
+Open this and take a screenshot
+Thought for 8s >
+Running 1 command
+Running command
+-/DATA_ANNOTATION $ open "https://app-slack.cO
+om/client/E06E4V7V07K/DØASA065F9T" && sleep 4
+&d./look.sh
+Always run^
+Cancel
+open_slack_invite.py
+TL >
+Terminal
+@
+/Users/ieffkerr/.zshrc: 111: defining function based on
+alias
+tirecrat
+/Users/jeffkerr/.zshrc:111:
+parse error near •() '
+o jefferr@Mac DATA ANNOTATION %
+main* a
+® 040
++29
+-29
+live_flight_plan.md
+..r_room/TASK_LOG/live_flight_plan.md
+open_slack_invite.py execution/open_slack_invite.py
+2 Files With Changes
+Reject all
+Accept all
+Running command
+../DATA_ANNOTATION$ open "https://app.slack.com/0
+client/E06E4V7V07K/D0ASA065F9T"
+&&
+sleep 4&&./
+look. sh
+Always run^
+Cancel
+Ask anything, @ to mention, / for workflows
+~ Planning
+• Gemini 3.1 Pro (High)
+A MCP Error
+Ln 222, Col 1
+Spaces: 4 UTF-8 LF
+{ Markdown
+Antigravity - Settings

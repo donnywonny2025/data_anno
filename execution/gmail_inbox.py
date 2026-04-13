@@ -28,7 +28,7 @@ def get_gmail_service():
 def main():
     try:
         service = get_gmail_service()
-        results = service.users().messages().list(userId='me', labelIds=['INBOX', 'UNREAD'], maxResults=5).execute()
+        results = service.users().messages().list(userId='me', labelIds=['INBOX', 'UNREAD'], maxResults=50).execute()
         messages = results.get('messages', [])
         
         output = []

@@ -80,3 +80,21 @@ Induce a Major Reasoning Failure in a long-context (70k+ token) scenario.
 ### Reference
 - Momo rules: `war_room/RESEARCH/momo_project_rules.md`
 - Momo chat logs: `war_room/RESEARCH/momo_chat_logs.md`
+
+---
+
+## Demographic & Eligibility Constraints (CRITICAL)
+- **Age Restrictions:** The user is NOT between 18-35 years old. The user is NOT a student. Any task or qualification targeting the "18-29" or "18-35" demographic (e.g., student quizzes, demographic screeners) is strictly forbidden and must automatically be filtered out of all intelligence boards and recommendations.
+
+## Notification Systems Discrepancy (The Inbox Rule)
+There is a critical bifurcation in how Data Annotation routes its communications. Relying on just one inbox will result in missing highly lucrative task drops.
+
+### 1. The Internal Dashboard ('My Messages')
+* **Purpose:** Manual broadcasts from human Admins (e.g., Admin KM, Admin BA, Admin SM).
+* **Content:** Primarily used for **Priority Pay Bumps** (e.g., `[PRIORITY WEEKEND PAY!] Styx` or `[PRIORITY +$3] Helium`) and manual mass-qualification blasts.
+* **Vulnerability:** It completely drops system-automated unlocks and third-party invites. **Do not rely on the internal dashboard to find new projects.**
+
+### 2. External Gmail Inbox (The API Feed)
+* **Purpose:** Automated system notifications and third-party routing.
+* **Content:** The **ONLY** place you will receive automated deployment drops for brand new, high-tier projects (like the $29/hr Koji Pro API drop) or third-party infrastructure invitations (like the AI Training Slack workspace invite).
+* **Protocol:** We must persistently monitor the external Gmail API because the highest-paying dynamic task batches bypass the internal DA inbox entirely.

@@ -1,3 +1,6 @@
 {
-    "active_project": "ACHILLES"
+    "status": "active",
+    "active_project": "LIVE_WARFARE_MAP",
+    "last_updated": "2026-04-12T21:30:00",
+    "hud_sync": true
 }
