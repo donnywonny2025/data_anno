@@ -1,0 +1,207 @@
+Antigravity
+File
+Edit
+Selection
+View
+Go
+Run
+Terminal
+Window
+Help
+Inbox (2,204) - jefferykerr@g
+Hi. Dashboard - My First Project
+console.cloud.google.com/home/dashb...
+*
+Ca
+Google Cloud
+Cloud Hub
+Hi!
+Cloud overview
+Solutions
+Recently visited
+Favorite products
+Google Cloud Setup
+Products
+Billing
+8
+IAM & Admin
+Marketplace
+APT
+APIs & Services
+Vertex Al
+Compute Engine
+Kubernetes Engine
+Cloud Storage
+Security
+BigQuery
+Monitoring
+Cloud Run
+H
+VPC Network
+*
+*
+*
+*
+*
+*
+*
+View all products
+Google Cloud
+• My First Project
+Search
+Dashboard
+Activity
+Recommendations
+Go to Cloud Hub for better visibility
+This dashboard is no longer updated and will shut down in 2027. Cloud Hub offers a
+more comprehensive view across health, security, cost, optimization, and other data
+about your projects and applications.
+Go to Cloud Hub
+Learn more C
+Project info
+Project name
+My First Project
+Project number
+1077370383033
+Project ID
+thinking-park-441406-s9
+O- App Engine
+Summary (count/sec)
+1.0
+0.8
+A No data is available for the
+0.6
+selected time frame.
+0.4
+Add people to this project
+→
+Go to project settings
+6 PM
+6:30
+Resources
+→
+BigQuery
+Data warehouse/analytics
+SOL
+Managed MySQL, PostgreSQL,
+SQL Server
+0
+Compute Engine
+VMs, GPUs, TPUs, Disks
+B
+Storage
+Multi-class multi-region object
+storage
+1) Claud Dein frinatione
+Go to the App Engine
+dashboard
+API APIs
+Requests (requests/sec)
+0.010/s
+- 0000/s
+Ask Gemini
+=J
+D
+Customize
+X
+Gor
+stat
+All sI
+→
+Go to
+M Mol
+Crea
+Set L
+Crea
+View
+→
+Go tr
+APT
+Erro
+No s
+set el
+(had
+Sun Apr 12 6:39 PM
+DATA_ANNOTATION - DATA_DROP.md
+Open Agent Manager
+0:
+MI DATA_DROP.md M •
+auth_gmail.py
+war_room
+M+ DATA_DROP.md > • # DATA DROP ZONE
+DATA DROP ZONE
+Impactr
+Data Annotation Project Onboarding
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+Claims concerning sensitive topics like
+conspiracy theories, religion, persons,
+nations, etc. with real world implications
+are critical to get right.
+I YMYL (Your Money / Your Life)
+Does the non-Accurate claim concern the
+health or money of the user?
+Claims concerning health/money topics with
+possible impact on the user are critical to
+get right.
+Rating the Overall Severity of the most
+severe non-Accurate claim:
+This involves giving the most severe claim
+an overall rating on a scale of 1-5, where
+1 is the least severe and 5 is the most
+severe.
+We're not putting hard rules on what you
+pick; we want to see what you think. But
+generally, something that is a major error
+on a central point regarding a sensitive
+topic would be more severe than a minor
+error on a non-central point.
+Contart ic kau in thaca naiacte but ac
+gen
+View 1 edited file
+manage_gmail.md XL >
+153
+Problems
+IT zsh
+M-@
+Okay, take a look at the screen again. Just tell me where I
+need to log in, dude this is really, really simple.
+Thinking for 1s
+Prioritizing Specific Tools
+I'm focusing intently on using specialized tools. I'm steering
+clear of generic terminal commands where alternatives exist,
+especially for file manipulation. Right now, I'm specifically
+avoiding cat within bash commands and I'm leaning heavily
+towards grep_search to keep things efficient. I'm really
+making sure I don't overlook specific tools, and the reasons for
+choosing them.
+/Users/jeffkerr/.zshrc:111: defining function based on alias
+firecrawl!
+/Users/jeffkerr/.zshrc:111:
+parse error near ()'
+o jefferr@Mac DATA_ANNOTATION SO
+main* a
+manage_gmail.md directives/manage_gmail.md
+1 File With Changes
+Reject all
+Accept all
+Running steps
+Ask anything, @ to mention, / for workflows
+~ Planning
+• Gemini 3.1 Pro (High)
+Ln 222, Col 1
+Spaces: 4 UTF-8 LF { Markdown
+Antigravity - Settings

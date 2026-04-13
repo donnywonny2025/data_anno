@@ -1,0 +1,117 @@
+Antigravity
+File
+Edit
+Selection
+View
+Go
+Run
+Terminal
+Window Help
+Auth Overview - Google Aut X
+console.cloud.google.com/auth/overvie...
+*
+Google Cloud
+• WEBSITE 2025
+Search (/) for resources, docs, products, an.
+9 Google Auth Platform / Overview
+Overview
+Auth Overview
+Branding
+Audience
+Metrics
+Clients
+Traffic
+Verification Center
+Number of Auth requests per day
+* Settings
+I Ca
+Search
+=
+A No data is available for this project.
+Errors
+Number of errors for Auth requests per day
+A No data is available for this project.
+Users
+Number of active Auth users per day
+Ask Gemini
+=J
+E3
+Chan
+:
+Sun Apr 12 6:41 PM
+DATA_ANNOTATION - DATA_DROP.md
+Open Agent Manager
+0:
+MI DATA_DROP.md M •
+auth_gmail.py
+war_room
+M+ DATA_DROP.md > • # DATA DROP ZONE
+DROP ZONE
+Data Annotation Project Onboarding
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+Claims concerning sensitive topics like
+conspiracy theories, religion, persons,
+nations, etc. with real world implications
+are critical to get right.
+I YMYL (Your Money / Your Life)
+Does the non-Accurate claim concern the
+health or money of the user?
+Claims concerning health/money topics with
+possible impact on the user are critical to
+get right.
+Rating the Overall Severity of the most
+severe non-Accurate claim:
+This involves giving the most severe claim
+an overall rating on a scale of 1-5, where
+1 is the least severe and 5 is the most
+severe.
+We're not putting hard rules on what you
+pick; we want to see what you think. But
+generally, something that is a major error
+on a central point regarding a sensitive
+topic would be more severe than a minor
+error on a non-central point.
+Contart ic kau in thaca naiacte but ac
+gen
+View 1 edited file
+manage_gmail.md XL >
+Problems
+Terminal
++ -
+@
+Okay take a look now you have full control and by the way
+you have full control anyway. You have browser use. Take
+over!
+Thought for 3s
+Running 1 command
+/Users/jeffkerr/.zshrc:111: defining function based on alias
+firecrawl!
+/Users/jeffkerr/.zshrc:111:
+parse error near ()'
+o jefferr@Mac DATA_ANNOTATION SO
+main* a
+manage_gmail.md directives/manage_gmail.md
+1 File With Changes
+Reject all
+Accept all
+Running steps
+Ask anything, @ to mention, / for workflows
+~ Planning
+• Gemini 3.1 Pro (High)
+Ln 222, Col 1
+Spaces: 4 UTF-8 LF { Markdown
+Antigravity - Settings

@@ -6,3 +6,5 @@ __pycache__/
 *.pyc
 .env
 .ipynb_checkpoints/
+credentials.json
+token.json

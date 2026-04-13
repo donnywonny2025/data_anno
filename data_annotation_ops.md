@@ -3,13 +3,19 @@
 ## The Two-State Ingestion Dictionary (CRITICAL)
 To prevent the AI from wasting compute scanning for rules during active tasking, we operate in two distinct modes triggered by specific phrases in chat:
 
-### 1. Acquisition Mode (The Rule Drop)
-**Trigger Phrases:** *"Digest the drop", "Prep Andromeda", "Look at these instructions"*
-**AI Behavior:** I assume you are giving me raw project guidelines. I ignore task-solving logic. I hyper-focus on extracting project rules, constraints, formatting rubrics, and forbidden actions. I write this data to the Intelligence Panel (Right monitor) and lock it in.
+### 1. Acquisition Mode (The Rule Drop & Proactive Visual Bootstrapping)
+**Trigger Phrases:** *"Digest the drop", "Prep Andromeda", "Look at these instructions", "Take a look at this"*
+**AI Behavior:** I assume you are loading a project. I hyper-focus on extracting project rules, constraints, formatting rubrics, and forbidden actions. 
+* **Proactive Visual Synthesis:** I DO NOT wait passively for `DATA_DROP.md`. The instant I see a task screen, I aggressively rip the visible steps (e.g., Step 1 through 5), the visible warnings, and the physical form layout to build a *skeleton rulebook* on the Right Monitor (Intelligence Panel). 
+* **Identifying Gaps:** I instantly identify what is collapsed or missing visually (like "Project Updates 1/5") and instruct you precisely what to un-collapse or drop into `DATA_DROP.md` to finalize the framework. This saves critical time on the task clock.
 
-### 2. Execution Mode (Live Tasking)
-**Trigger Phrases:** *"Task 1", "Look at this task", "Execute"*
-**AI Behavior:** I assume the Intelligence Panel is locked and loaded. I completely stop looking for overarching project rules. I split the screen exactly as the DA UI dictates: I read the **Left Pane** (the prompt/models) and the **Right Pane** (the form fields/questions). I evaluate the exact task at hand quickly, provide your rationale, and drop a "Task Complete" note in the Timeline. 
+### 2. Execution Mode (The Live Scaffold & Flight Plan)
+**Trigger Phrases:** *"Task 1", "Execute", "Solve this"*
+**AI Behavior:** I assume the Intelligence Panel is completed and locked. I completely stop looking for overarching project rules.
+* **The Task Scaffold:** As I digest task data and screenshots, I will write a live text-based wireframe of the task into `war_room/TASK_LOG/live_flight_plan.md`. The Stealth Mirror actively polls this, so you can see my "brain" filling in the blanks (e.g., *[X] Domain Selected*, *[ ] System Instructions (Ready to Paste)*).
+* **The Flight Plan Dialogue:** Once the scaffold is fully mapped and answers are finalized, I will explicitly output the sequence in chat for you to execute physically.
+* **HUD Reliability Fix:** Upon shifting into Execution Mode, I must instantly and programmatically update `war_room/TASK_LOG/active_project.json` to ensure the Stealth Mirror LG TV stays perfectly synced. I will not assume the HUD updates itself.
+* **Execution:** Once the Flight Plan is verified, I explicitly direct you where to click and exactly what to paste. I drop a "Task Complete" note in the Timeline.
 
 ## Dynamic Workflow & Cognitive Nuance (CRITICAL)
 Real-world tasks are visually chaotic and span multiple tabs. To ensure high-quality ingestion, the AI must strictly adhere to the following dynamic logic:
@@ -36,6 +42,7 @@ Real-world tasks are visually chaotic and span multiple tabs. To ensure high-qua
 
 ### Research Tools
 - **Firecrawl**: Primary tool for fact-checking, web search, link verification, scraping content.
+  - **Fallback Protocol:** If Firecrawl ever fails (API down, rate limit, timeout), the AI must NOT halt. It must immediately fallback to native `search_web` or a traditional browser search to verify the claims. The evaluation timeline takes precedence over the toolchain.
 - **Browser Subagent**: For visual tasks, X/Twitter, JS-rendered pages. One tab only.
 - **Local PDF Library**: `ref/` folder contains saved reference documents.
 

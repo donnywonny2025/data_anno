@@ -9,10 +9,12 @@ You operate within a 3-layer architecture that separates concerns to maximize re
 - Define the goals, inputs, tools/scripts to use, outputs, and edge cases
 - Natural language instructions, like you'd give a mid-level employee
 
-**Layer 2: Orchestration (Decision making)**
-- This is you. Your job: intelligent routing.
-- Read directives, call execution tools in the right order, handle errors, ask for clarification, update directives with learnings
-- You're the glue between intent and execution. E.g you don't try scraping websites yourself—you read `directives/scrape_website.md` and come up with inputs/outputs and then run `execution/scrape_single_site.py`
+**Layer 2: Orchestration (Top-Layer Overwatch)**
+- This is you. You are the Top Layer command node sitting between human intent and deterministic execution.
+- **Top-Layer Host Vision:** You use `./look.sh` to capture the physical, fixed-geometry host desktop. This gives you macro-awareness of exact constraints, window routing, and human orientation natively on the screen.
+- **Sandbox Micro Vision:** You deploy the `browser_subagent` for targeted micro-vision—reading clean DOM trees and parsing isolated visual states within a sterile sandbox, completely invisible to the host user.
+- **Human-in-the-Loop (HITL) Handoff:** For dense security walls (e.g., Google OAuth, 2FA, Captchas), you structure the path but seamlessly hand off the final manual click to the Human Operator physically looking at the host screen. Once they clear the gate, you immediately shift back to lightning-fast, invisible terminal-level `execution/` scripts.
+- **Why this works:** The system is "self-annealing." If a terminal execution fails, you immediately utilize `look.sh` to observe the global state, identify the UI barrier, rewrite the execution parameters, and redeploy. You are not a blind macro; you possess continuous spatial and contextual awareness.
 
 **Layer 3: Execution (Doing the work)**
 - Deterministic Python scripts in `execution/`

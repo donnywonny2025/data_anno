@@ -1,0 +1,164 @@
+Antigravity
+File
+Edit
+Selection
+View Go Run Terminal Window Help
+• • • DI (24) DataAnnotation
+app.dataannotation.tech/workers/pr. *
+159.
+DI ANOTATION
+Work on projects Transfer Funds ($116) inbox
+[QUALIFICATION] Calling 18-29 year
+olds located in the US: Create a gmail
+account to work on a project series
+testing Quiz features
+A High Priority
+9) 1 task required
+Qualifications
+Please complete these to access more projects.
+Name
+Pay
+[QUALIFICATION] Andromeda - Pass this qualification to access a new galaxy of projects starting at
+$22.50 p/hour! 1
+Most work available
+[QUALIFICATION] Calling all US raters: Will you share your Learning-related ChatGPT history, then
+compare conversations with ChatGPT and Gemini? - Opens up Priority Pay Projects for Eligible
+Workers g
+[QUALIFICATION] Calling 18-29 year olds located in the US: Create a gmail account to work on a project
+series testing Quiz features
+[QUALIFICATION] Are you a student (18-35 yo)? Sign up here to put your experience to work on
+academic projects! 11 : [Coding & Non-coding]
+[QUALIFICATION] A / Pegasus: Help Test New Personalization Features in Gmail & Other Google
+Products to Unlock Multiple Projects Paying $28+§! (OPEN GLOBALLY O
+[QUALIFICATION] Do you have access to Microsoft Excel?
+QUALIFICATION Calling US raters: Are you willing to create an Al Studio API Key and sign up tor a tree
+trial of Gemini Pro for large currently running priority-pay projects?
+[QUALIFICATION] Identifying and Evaluating Personalized Responses - Opens $24/hr+ Projects!
+[QUALIFICATION] Unlock $40+/hr biology-related projects! (7.16)
+[QUALIFICATION] Unlock $40+/hr physics-related projects! (7.16)
+I La
+Ask Gemini
+Jeffery Kerr v
+Complete Qualification →
+Q Search...
+Tasks
+Created
+Aug 20
+Apr 2
+Mar 2
+Mar 10
+Feb 21
+Jan 26
+Feb 25
+Oct 15
+Jul 16
+Jul 16
+Hide
+hile
+Sun Apr 12 6:14 PM
+DATA_ANNOTATION - DATA_DROP.md
+Open Agent Manager
+08
+MI DATA_DROP.md M •
+extract_text.sı
+war_room > M+ DATA_DROP.md > # DATA DROP ZONE
+DATA DROP ZONE
+Impactr
+• < → •••
+Data Annotation Project Onboarding
+138
+139
+Claims concerning sensitive topics like
+conspiracy theories, religion, persons,
+nations, etc. with real world implications
+are critical to get right.
+Yeah, go ahead and test it out. Like test it on something
+that's like, like maybe l'll like, yeah, test it out. Run a couple.
+You can go ahead and open the browser. If it's not data
+annotation, I have no problem with you controlling. Plus that's
+why we have all that tab management stuff built as well is for
+that reason
+140
+141
+142
+143
+Explored 1 folder >
+I YMYL (Your Money / Your Life)
+Does the non-Accurate claim concern the
+health or money of the user?
+Edited 1 file >
+144
+145
+Thought for 1s ›
+Claims concerning health/money topics with
+possible impact on the user are critical to
+get right.
+Ran 1 command >
+146
+147
+Thought for 1s >
+148
+Rating the Overall Severity of the most
+severe non-Accurate claim:
+This involves giving the most severe claim
+an overall rating on a scale of 1-5, where
+1 is the least severe and 5 is the most
+severe.
+Ran 1 command >
+Thought for 1s>
+Ran 1 command ›
+149
+150
+Thought for 6s ›
+We're not putting hard rules on what you
+pick; we want to see what you think. But
+generally, something that is a major error
+on a central point regarding a sensitive
+topic would be more severe than a minor
+error on a non-central point.
+Edited 1 file >
+Thought for 1s
+151
+1522
+Contart ic kau in thaca naiacte but ac-
+< TH look.sh
+View 3 edited files
+START HERE.md
+153
+Problems
+Terminal
+Eh +@
+/Users/jeffkerr/.zshrc:111: defining function based
+firecrawl!
+/Users/jeffkerr/.zshrc:111:
+parse error near '()
+o jefferr@Mac DATA_ANNOTATION
+Prioritizing Specialized Tools
+I'm now focusing on specific tools instead of generic terminal
+commands. My current aim is to avoid using cat for file
+creation or appending within Bash. I also need to use
+aren search instead of aren in Bash. unless the latter is.
+CTAnT LIEDE md START HERE.md
+Scroll to Previous Command
+vift extract_text.swift
+Scroll to Next Command
+Clear Terminal
+Reject all
+Accept all
+Run Active File
+Run Selected Text
+Start Dictation
+Go to Recent Directory...
+Run Recent Command...
+H G
+AIR
+./look.sh
+Cance
+Ask anything, @ to mention, / for workflows
+~ Planning
+• Gemini 3.1 Pro (High)
+main* C
+Ln 222, Col 1
+Spaces: 4 UTF-8
+LF ( Markdown
+Antigravity - Settings

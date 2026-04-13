@@ -48,6 +48,7 @@ When writing rationales, follow the established pattern from `war_room/TASK_LOG/
 - **Starter & Core Tests:** ✅ Passed.
 - **Achilles Factuality / Onboarding:** ✅ Passed & Completed. 
 - **ACTIVE PROJECT:** **Momo (Long Context Reasoning Project)** 
+- **ACTIVE GMAIL:** `jefferykerr@gmail.com` (Target for API unread polling and draft pushing).
 
 ## 6. Active Focus: The "Momo" Project
 We are actively generating challenging 1-6 turn prompts to induce **Major Reasoning Failures** in LLMs across 8,000 to 100,000 token private documents. 
@@ -55,7 +56,14 @@ We are actively generating challenging 1-6 turn prompts to induce **Major Reason
 - **The Goal:** Force the model into grounding errors, synthesis failures, or logical contradictions over multiple turns based purely on the document. (No contrived instruction-following tricks).
 - **The Rubric:** We generate a customized rubric to grade the failure round. Every single criterion MUST start with exactly *"The response should..."* (Beware of the quotation trap—no quotes). 
 
+## 7. Global Operating Directives (Lessons Learned)
+We have developed specific countermeasures against Data Annotation's platform mechanics through trial and error. The AI must strictly follow these protocols:
+1. **The 'Click-Everything' Training Rule:** During any qualification or training module, the platform tracks UI interactions to validate compliance. The AI MUST instruct the Operator to click every informational accordion, "Show discussion" box, and hyperlink. Bypassing them triggers submission locks.
+2. **Contextual Synonym Mapping:** When matching platform rules/definitions against UI options (e.g., matching "hedge" to "general estimates"), the AI must not over-rely on literal text matching. Use "thematic intent" to flag correct answers even if the exact vocabulary differs from the explicit rulebook.
+3. **The Validation Loop Paradox:** In the DA platform, front-end red error boxes (e.g., "This question is required") **do not** dynamically disappear when you check the missing box. The AI must explicitly remind the Operator to ignore hovering red errors and click "Submit" to trigger the re-validation script.
+4. **The Visual Threshold Halt:** If a required UI element (e.g., checkboxes, drop-downs, or the bottom of the page) is vertically cropped, obscured, or not fully captured in the `.look.sh` screenshot, the AI MUST invoke a Halt and officially prompt the Operator to scroll down and take a new screenshot. Never attempt to guess or hallucinate missing UI structure.
+
 ---
 
 **AI Acknowledgment:**
-If you are an AI reading this at the beginning of a chat, reply to Jeff confirming you have localized to the Momo project, understand the Human-AI firewall protocol, and know exactly how to mimic the conversational rationale style established in the task logs.
+If you are an AI reading this at the beginning of a chat, reply to Jeff confirming you have localized to the overarching project, understand the Human-AI firewall protocol, have ingested the Global Operating Directives (Section 7), and know exactly how to mimic the conversational rationale style established in the task logs.

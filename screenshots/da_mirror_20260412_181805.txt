@@ -1,0 +1,223 @@
+=
+Chat
+weet
+Antigravity
+File
+Edit
+Selection
+View
+Go
+Run
+Terminal
+Window
+Help
+M Inbox (2,204) - jefferykerr@g x
+→
+mail.google.com/mail/u/3/#inbox
+*
+Gmail
+Comoost
+Inbox
+Starred
+2,204
+Sent
+Drafts
+All Mail
+Spam
+Trash
+Purchases
+253
+Social
+1,161
+Updates
+Forums
+Promotions
+6,026
+6,563
+Labels
+email
+Starred
+[Gmail] All Mail
+[Gmail Trash
+[Imap]/Drafts
+Apple Mail To Do
+Deleted Messages
+Sinksonur kama comi
+Junk (Gmail)
+Notes
+Save
+Sent Messages
+Upgrade
+• | Ca
+Search mail
+Active v
+1-50 of 2,517
+Primary
+Promotio.
+DataAnnotation
+Socialso
+Keane on Fa
+undates
+bark bark. Your we
+Al Training has invited you to work with them in Slack a...
+New Project: Koji - Pro API - Create Professional API Prompt....
+The Betabound team
+Hey Ruby Video Creation Software Test Opportunity - H...
+> DataAnnotation
+New Project: • Helium - Create diverse prompts (Gener...
+» bataAnnotation
+[Update] [QUALIFICATION] Do you use a wearable devi...
+DataAnnotation
+New Project: [PRIORITY +$2/hr] Lime - Write a Rubri..
+* > DataAnnotation
+New Project: [Survey] Do you have experience with Age..
+> DataAnnotation
+New Project: • Helium - Create diverse prompts (Gener...
+New Project: Lime - Create Instruction Following Pro...
+DataAnnotation
+[Update] [6° PRIORITY!! + $8/hr] / Styx - Easy Wee...
+→ DataAnnotation
+[Update] [* PRIORITY!! +$8] E3 Styx - Evaluate 2 Al Re...
+DataAnnotation
+New Project: [PRIORITY +$1] Cesium - Evaluate 2 Al Res...
+DataAnnotation
+Helium - Create prompts designed to test # Instruction...
+DataAnnotation
+New Project: • Helium - Create diverse prompts (Gener...
+Jessa Reed
+AOD Radio- Spring Break Edition - ...
+Google
+Security alert - New sign-in to your account jefferykerr@g...
+DataAnnotation
+[Update] [&• PRIORITY!! +$5] P2 Styx - Evaluate 2 Al Re...
+»Jessa Reed
+4/9 Energy Update - ...
+DataAnnotation
+[Update] [o* PRIORITY!! +$4][7 Styx - Evaluate 2 Al Re...
+DataAnnotation
+[Update] [QUALIFICATION] Calling 18-29 year old curre...
+DataAnnotation
+New Project: Does this prompt about using apps make ...
+Capital One
+Jeff, the payment status of one of your accounts chang...
+DataAnnotation
+[Update] [6• PRIORITY!! +$3][2 Styx - Evaluate 2 Al Re...
+DataAnnotation
+$28 PRIORITY PAY Merlin - Compare Responses to C...
+» DataAnnotation
+[Update] [QUALIFICATION] Calling 18-29 year old curre...
+6.00PM
+12:44 PM
+1231PM
+9:32 AM
+Apr 11
+Apr 11
+Apr 11
+Apr 11
+Apr 11
+Apr 11
+Apr 11
+Apr 10
+Apr 10
+Apr 10
+Apr 10
+Apr 10
+Apr 10
+Apr 9
+Apr 9
+Apr 9
+Apr 9
+Apr 9
+Anr g
+Apr 8
+Anr g
+Ask Gemini
+(had
+hile
+®
+Sun Apr 12 6:18 PM
+DATA_ANNOTATION - DATA_DROP.md
+Open Agent Manager
+0:
+MI DATA_DROP.md M •
+extract_text.sı
+war_room
+> M+ DATA_DROP.md > • # DATA DROP ZONE
+DATA DROP ZONE
+Impactr
+• < → •••
+Data Annotation Project Onboarding
+138
+139
+Claims concerning sensitive topics like
+conspiracy theories, religion, persons,
+nations, etc. with real world implications
+are critical to get right.
+Okay, take a look at the screen. Just take a look and when I
+say look, I mean look at, you know, using our framework,
+look. And just for context what I mean by that is you're not
+always going to know what I'm going to put on that screen
+but I want to see how you how well you get the information
+from that screen how fast it is
+140
+141
+142
+143
+Thought for 1s
+I YMYL (Your Money / Your Life)
+Does the non-Accurate claim concern the
+health or money of the user?
+Running 1 command
+144
+145
+Claims concerning health/money topics with
+possible impact on the user are critical to
+get right.
+146
+147
+148
+Rating the Overall Severity of the most
+severe non-Accurate claim:
+This involves giving the most severe claim
+an overall rating on a scale of 1-5, where
+1 is the least severe and 5 is the most
+severe.
+149
+150
+We're not putting hard rules on what you
+pick; we want to see what you think. But
+generally, something that is a major error
+on a central point regarding a sensitive
+topic would be more severe than a minor
+error on a non-central point.
+151
+152
+Contart ic kau in thace nraiacte but ac
+< TH look.sh
+View 3 edited files
+START_HERE.md
+TL
+153
+Problems
+Terminal
+/Users/jeffkerr/.zshrc:111: defining function based on alias
+firecrawl!
+/Users/jeffkerr/.zshrc:111:
+parse error near '()
+o jefferr@Mac DATA_ANNOTATION SO
++38
+START_HERE.md START_HERE.md
+extract text.swift extract_text.swift
+look.sh look.sh
+3 Files With Changes
+Reject all
+Accept all v
+main* a
+Ask anything, @ to mention, / for workflows
+~ Planning
+Gemini 3.1 Pro (High)
+Ln 222, Col 1
+Spaces: 4 UTF-8
+LF
+{) Markdown
+Antigravity - Settings

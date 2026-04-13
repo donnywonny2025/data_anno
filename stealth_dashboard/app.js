@@ -101,6 +101,7 @@ pollLog();
 let currentProject = null;
 const intPanel = document.getElementById('intelligence-panel');
 const projectLabel = document.getElementById('active-project-label');
+const scaffoldPanel = document.getElementById('scaffold-panel');
 
 async function pollIntelligence() {
     try {
@@ -134,6 +135,20 @@ async function pollIntelligence() {
     setTimeout(pollIntelligence, 2000);
 }
 pollIntelligence();
+
+async function pollScaffold() {
+    try {
+        const res = await fetch('/war_room/TASK_LOG/live_flight_plan.md?' + new Date().getTime());
+        if (res.ok) {
+            const mdText = await res.text();
+            scaffoldPanel.innerHTML = marked.parse(mdText);
+        }
+    } catch(e) {
+        console.error('Scaffold poll error', e);
+    }
+    setTimeout(pollScaffold, 1000); // Fast 1-second polling for live feel
+}
+pollScaffold();
 
 let currentDashboardVersion = null;
 async function pollDashboardVersion() {

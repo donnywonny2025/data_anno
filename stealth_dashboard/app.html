@@ -28,24 +28,42 @@
         </div>
     </header>
 
-    <main class="split-view">
-        <div id="timeline-column">
-            <div id="feed-container">
-                <!-- Empty state -->
-                <div id="empty-state" class="empty-state">
-                    <h3>// AWAITING INGESTION DATA</h3>
-                </div>
-            </div>
-        </div>
-        
-        <div id="intelligence-column">
+    <main class="grid-layout">
+        <div id="side-column">
             <div class="panel-header">
-                <span id="active-project-label" class="project-tag">NO PROJECT ASSIGNED</span>
+                <span id="active-project-label" class="project-tag">PROJECT RULES</span>
                 <span class="pulse"></span>
             </div>
             <div id="intelligence-panel" class="markdown-body">
                 <div class="empty-state">
                     <h3>// AWAITING INSTRUCTIONS</h3>
+                </div>
+            </div>
+        </div>
+
+        <div id="main-column">
+            <div id="scaffold-wrapper">
+                <div class="panel-header scaffold-header">
+                    <span class="project-tag">ACTIVE OBJECTIVE</span>
+                    <span class="pulse scaffold-pulse"></span>
+                </div>
+                <div id="scaffold-panel" class="markdown-body">
+                    <div class="empty-state">
+                        <h3>// AWAITING FLIGHT PLAN</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div id="timeline-wrapper">
+                <div class="panel-header">
+                    <span class="project-tag">PROCESS LOGS</span>
+                </div>
+                <div id="timeline-column">
+                    <div id="feed-container">
+                        <div id="empty-state" class="empty-state">
+                            <h3>// AWAITING INGESTION DATA</h3>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

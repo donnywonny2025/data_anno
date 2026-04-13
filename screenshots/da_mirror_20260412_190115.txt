@@ -1,0 +1,126 @@
+Antigravity
+File
+Edit
+Selection
+View
+Go
+Run
+Terminal
+Window Help
+Audience - Google Auth Platfi X
+console.cloud.google.com/auth/audienc...
+1 La
+Google Cloud
+• My First Project
+Search (/) for resources, docs, products, an.
+Search
+9 Google Auth Platform
+/ Audience
+Overview
+Branding
+Audience
+Clients
+Fo
+TACOSS
+Verification Center
+* Settings
+Audience
+Publishing status @
+Testing
+Publish app
+User type
+External
+Make internal
+Auth user cap
+While publishing status is set to "Testing", only test users are able to
+access the app. Allowed user cap prior to app verification is 100, and is
+counted over the entire lifetime of the app. Learn more
+0 users (0 test, 0 other) / 100 user cap
+Test users
++ Add users
+= Filter Enter property name or value
+User information
+No rows to display
+A Show less
+Sun Apr 12 7:01 PM
+Ask Gemini
+=J
+DATA_ANNOTATION - DATA_DROP.md
+Open Agent Manager
+0:
+MI DATA_DROP.md M •
+M+ AGENTS.md NUb
+war_room
+M+ DATA_DROP.md > • # DATA DROP ZONE
+DATA DROP ZONE
+• < → ••
+Data Annotation Project Onboarding
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+Claims concerning sensitive topics like
+conspiracy theories, religion, persons,
+nations, etc. with real world implications
+are critical to get right.
+I YMYL (Your Money / Your Life)
+Does the non-Accurate claim concern the
+health or money of the user?
+Claims concerning health/money topics with
+possible impact on the user are critical to
+get right.
+Rating the Overall Severity of the most
+severe non-Accurate claim:
+This involves giving the most severe
+claim
+an overall rating on a scale of 1-5, where
+1 is the least severe and 5 is the most
+severe.
+We're not putting hard rules on what you
+pick; we want to see what you think. But
+generally, something that is a major error
+on a central point regarding a sensitive
+topic would be more severe than a minor
+error on a non-central point.
+Contart ic kau in thaca naiacte but ac-
+View 3 edited files
+< TH auth_gmail.py
+153
+Take a look at the screen right now and tell me what's going
+on. Take a look
+Thought for 1s
+Running 1 command v
+Pending messages
+Doesn't Google have a CLI?
+manage_gmail.md L>
+Problems
+Terminal
+zsh +-@
+/Users/jeffkerr/.zshrc:111: defining function based on alias
+firecrawl!
+/Users/jeffkerr/.zshrc:111:
+parse error near ()'
+o jefferr@Mac DATA_ANNOTATION SO
+main* a
+manage_gmail.md directives/manage_gmail.md
+AGENTS. md AGENTS.md
+auth_gmail.py execution/auth_gmail.py
+3 Files With Changes
+Reject all
+Accept all
+Ask anything, @ to mention, / for workflows
+~ Planning
+Gemini 3.1 Pro (High)
+Ln 222, Col 1
+Spaces: 4 UTF-8 LF { Markdown
+Antigravity - Settings

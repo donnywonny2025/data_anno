@@ -1,0 +1,208 @@
+Antigravity
+File
+Edit
+Selection
+View
+Go
+Run
+Terminal
+Window Help
+Inbox (2,809) - donnywonny
+mail.google.com/mail/u/o/#inbox
+*
+Gmail
+Q
+Search mail
+• - c
+Compose
+Primary
+2,809
+Starred
+* PayPal Communicatio.
+Snoozed
+Mannan, Austin (Leg.
+Sent
+Drafts
+* Indeed
+Purchases
+104
+* kick
+More
+GitHub
+Labels
++
+noreply
+MOONSHOT AI PTE. LT.
+Kender
+Mirelo Al
+MOONSHOT AI PTE. LT.
+* Hannah, Austin (Leg.
+Sketchfab
+* Apple Card Support
+Indeed
+Google Business Pro.
+MOONSHOT AI PTE. LT.
+The Weather Channel
+Hannah, Austin (Leg.
+* Apple
+Lightning Al
+MOONSHOT AI PTE. LT.
+* Apple
+* MOONSHOT AI PTE. LT.
+Sooma Al
+Indeed
+Neural Analog
+Ask Gemini
+Upgrade
+1-50 01 3.165
+Promotions
+LANDRI
+Social
+YouTube
+Updates 50 new
+WantClips - iWantClips..
+We're making some changes to our PayPal legal agreements - Don Kerr...
+It's a new era for legal professionals - Hi Don, If you have documents or r...
+Kimi API: New Domain, New Docs (No Code Changes Required) - we're now....
+Graphic Designer/Video Editor @ Constellation Concerts - $25.74 - $31....
+Viewer bounty: Minecraft - Win 10,000 KICKs | KICK Bounties
+[GitHub] Your personal access token (classic) is about to expire - Hi @...
+Vetusware.com - your account information - Dear don kerr, Thank you for ....
+$19.00 payment to MOONSHOT AI PTE. LTD. was unsuccessful again - W
+Server failure detected on conflict-tracker - We recently detected a ser...
+Your Mirelo Al subscription will renew soon - This is a friendly reminder t....
+$19.00 payment to MOONSHOT AI PTE. LTD. was unsuccessful again - W
+Al you can Swear by - Hi Don, Thomson Reuters is investing over $200M a...
+Welcome to Sketchfab! - Sketchfab Hey wonny23, Welcome to Sketchfab!...
+Your Apple Card application status - Apple Card Applicant: Jeff Kerr donny...
+Film & Video Editor - Remote at YO IT CONSULTING in Remote and 2m...
+The Kerr Media Group, your performance report for March 2026 - 40 р...
+$19.00 payment to MOONSHOT AI PTE. LTD. was unsuccessful again - W
+March was wild. Here's why. - See the "epic" photo of a storm-lit moonris...
+Deep Research is Here - Hi Don, Westlaw Advantage, Thomson Reuters lat...
+Your receipt from Apple. - Your Apple Account was used to purchase Mov...
+Action Required: Your Data Will Be Deleted Soon Due to Inactivity - Lig...
+$19.00 payment to MOONSHOT AI PTE. LTD. was unsuccessful again - W
+Your YouTube receipt - Hi Donny, Thanks for purchasing Close Encounters...
+Your Apple Account information has been updated. - Your Apple Acc...
+$19.00 payment to MOONSHOT AI PTE. LTD. was unsuccessful - We we....
+Configure your new channels - Configure summaries for your new chann...
+Freelance Video Editor at California Concierge in Remote and 5 more n...
+Important update to Free plan track retention - Neural Analog - Hello, Than...
+Apr 11
+Apr 10
+Apr 10
+Apr 10
+Apr 9
+Apr 9
+Apr 9
+Apr 9
+Apr 8
+Apr 8
+Apr 8
+Apr 8
+Apr 8
+Apr 7
+Apr 7
+Apr 6
+Apr 6
+Apr 6
+Apr 6
+Apr 6
+Apr 5
+Apr 5
+Apr 5
+Apr 5
+Apr 5
+Apr 4
+Apr 4
+Apr 3
+Sun Apr 12 8:04 PM
+DATA_ANNOTATION - DATA_DROP.md
+M+ DATA_DROP.md M •
+gop_auth_play
+war_room > M+ DATA_DROP.md > •# DATA DROP ZONE
+DATA DROP ZONE
+impactr
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+Claims concerning sensitive topics like
+conspiracy theories, religion, persons,
+nations, etc.
+with real world implications
+are critical to get right.
+YMYL (Your Money / Your Life)
+Does the non-Accurate claim concern the
+health or money of the user?
+Claims concerning health/money topics with
+possible impact on the user are critical to
+get right.
+Rating the Overall Severity of the most
+severe non-Accurate claim:
+This involves giving the most severe claim
+an overall rating on a scale of 1-5, where
+1 is the least severe and 5 is the most
+severe.
+We're not putting hard rules on what you
+pick; we want to see what you think. But
+generally, something that is a major error
+on a central point regarding a sensitive
+topic would be more severe than a minor
+error on a non-central point.
+Open Agent Manager
+08
+Data Annotation Project Onboarding
+Contaxt ic kau in thaca arniacte
+< TH auth_gmail.py
+View 4 edited files
+gop_auth_playwright.py IL>
+Does that look like the correct email you? Use your look
+function
+Thought for 1s?
+Running 1 command v
+Running command
+/DATA_ANNOTATION $ ./look.sh
+Always run ^
+Cancel
+Pending messages
+I'm getting really confused. I'm talking about your built-in
+browser use dude. What is going on? Like what is all this new
+stuff? You're doing here is this going to be better or is this
+going to make you more confused?
+Terminal
+zsh +-@
+/Users/jeffkerr/zshrc: 111: defining function based on alias
+tirecrawl
+/Users/jeffkerr/.zshrc:111:
+parse error near ()'
+o jefferr@Mac DATA_ANNOTATION O
+main* a
+® 040
+manage gmail.md directives/manage_gmail.md
+AGENTS.md AGENTS.md
+auth_gmail.py execution/auth_gmail.py
+gcp_auth_playwright.py execution/gcp_auth_playwright.py
+4 Files With Changes
+Reject all
+Accept all
+Running steps
+Ask anything, @ to mention, / for workflows
+~ Planning
+• Gemini 3.1 Pro (High)
+Ln 222, Col 1
+Spaces: 4 UTF-8
+LF
+{) Markdown
+Antigravity - Settings
