@@ -127,9 +127,9 @@ The AI operates across dual modalities to solve structurally complex workspaces:
 |---|---|---|
 | Achilles FAQ Training Qualification | $20+/hr | ❓ 6/6 submitted — no result email. Check with support. |
 | Factuality Research Qualification | $25+/hr | ✅ PASSED (email confirmed 4/4/26 1:07 PM) |
-| Achilles Factuality Onboarding Review | $20/hr | 🔥 NEXT — unlocks factuality projects |
+| Achilles Factuality Onboarding Review | $20/hr | ✅ SUBMITTED |
 | Opt-in: Image/Video/Audio Projects | — | 🔥 1-click opt-in (submitted 4/4/26) |
-| Andromeda | $22.50+/hr | 🔥 Available (green tag) |
+| Andromeda | $22.50+/hr | ✅ SUBMITTED (April 13th) — Pending 3-14 day review |
 | Pegasus (Google Personalization) | $28+/hr | ⏳ Pending |
 | Coding Qualification | $40+/hr | 🎯 Ultimate Target |
 
@@ -138,7 +138,8 @@ The AI operates across dual modalities to solve structurally complex workspaces:
 ## Next Steps
 1. ✅ Secured Achilles FAQ document (47 pages, fully extracted)
 2. ✅ Codified evaluation rules and operational protocol
-3. ✅ Achilles FAQ Training — COMPLETED April 4, 2026 (6/6 tasks)
-4. ✅ Factuality Research Qualification — PASSED April 4, 2026 (Email Confirmed)
-5. 🔥 Start **Achilles Factuality Onboarding Review** ($20/hr, 1 training task)
-6. ⏳ Prepare for Coding Qualification ($40/hr)
+3. ✅ Completed Achilles Factuality Onboarding Review
+4. ✅ Completed Andromeda Qualification (11-Question Exam)
+5. 🔥 Accept **AI Training Slack Invitation** 
+6. 🔥 Execute high-priority live tasks (Quartz at $35/hr, Helium, Koji)
+7. ⏳ Monitor dashboard daily until Andromeda tasks unlock

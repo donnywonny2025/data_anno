@@ -1,5 +1,6 @@
 .DS_Store
 .camoufox_env/
+.da_browser_profile/
 brain/
 .agents/
 __pycache__/
@@ -8,3 +9,6 @@ __pycache__/
 .ipynb_checkpoints/
 credentials.json
 token.json
+screenshots/
+server.log
+stealth_server.log

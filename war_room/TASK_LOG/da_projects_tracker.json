@@ -1,0 +1,260 @@
+{
+    "qualifications": {},
+    "projects": {
+        "[QUALIFICATION] Patroclus - Register for a new project similar to Achilles Factuality! (US only)": {
+            "pay": "$1.00",
+            "tasks": "1",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "Achilles - Compare and Judge Factuality of Two Chatbot Responses (Gemini Fast 3.0 vs Claude Sonnet) (ID: T)": {
+            "pay": "$26.00/hr",
+            "tasks": "2",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "Achilles - Compare and Judge Factuality of Two Chatbot Responses (Gemini Fast 3.0 vs Claude Sonnet) (ID: U)": {
+            "pay": "$26.00/hr",
+            "tasks": "10",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "Achilles - Compare and Judge Factuality of Two Chatbot Responses (Gemini Fast 3.0 vs Claude Sonnet) (ID: V)": {
+            "pay": "$26.00/hr",
+            "tasks": "10",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "[PRIORITY] \ud83d\udc8e Quartz - Revise a Rewritten Response to a Prompt [ID: S-1959d]": {
+            "pay": "$40.00/hr",
+            "tasks": "1",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "[PRIORITY + $5 / Hour] \ud83d\udc8e Quartz - Revise a Rewritten Response to a Prompt [With Documents!] [ID: Q-1073]": {
+            "pay": "$35.00/hr",
+            "tasks": "1",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "\ud83c\udf0a Acheron - Write natural & realistic *Instruction Following* prompts for an AI chatbot [A-11075a]": {
+            "pay": "$22.00/hr",
+            "tasks": "5",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "Rate And Review: \ud83c\udf0a Acheron - Write natural & realistic *Instruction Following* prompts for an AI chatbot [A-11075a]": {
+            "pay": "$22.00/hr",
+            "tasks": "1",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "\ud83c\udf0a Acheron - Engage in naturally flowing conversations that test *Instruction Following* [A-11075b]": {
+            "pay": "$22.00/hr",
+            "tasks": "5",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "[PRIORITY +$2] \ud83c\udf4aGrapefruit - Talk to A Chatbot and Identify Factuality Issues (Open QA) [0409-1]": {
+            "pay": "$26.00/hr",
+            "tasks": "15",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "[PRIORITY +$2] \ud83c\udf4a Grapefruit - Ask a question about a content text and identify Factuality issues! (Closed QA) [0409-1]": {
+            "pay": "$26.00/hr",
+            "tasks": "7",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "Achilles - Compare and Judge Factuality of Two Chatbot Responses (Gemini Fast 3.0 vs ChatGPT) - REQUIRES Free Gemini and ChatGPT Accounts (ID: R)": {
+            "pay": "$26.00/hr",
+            "tasks": "10",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "Achilles - Compare and Judge Factuality of Two Chatbot Responses (Gemini Fast 3.0 vs ChatGPT) - REQUIRES Free Gemini and ChatGPT Accounts (ID: M)": {
+            "pay": "$26.00/hr",
+            "tasks": "10",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "\ud83c\udf20 Styx - Evaluate 4 AI Responses Based on Overall Quality [S-11076]": {
+            "pay": "$20.00/hr",
+            "tasks": "5",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "Achilles - Evaluate the Factuality and Severity of a Non-Accurate Response, Considering Previous Evaluations \ud83c\udfaf\u2696\ufe0f (ID:4)": {
+            "pay": "$25.00/hr",
+            "tasks": "5",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "[PRIORITY +$3/hr \ud83d\udcb8] \ud83c\udf20 Styx - Evaluate 2 AI Responses Based on Overall Quality [S-1090]": {
+            "pay": "$23.00/hr",
+            "tasks": "5",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "\ud83c\udf20 Styx - Evaluate 2 AI Responses Based on Overall Quality [S-11087]": {
+            "pay": "$20.00/hr",
+            "tasks": "5",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "[Priority Pay! \ud83d\udcb8] Achilles - Compare and Judge Factuality of Two Chatbot Responses (Gemini Fast 3.0 vs Grok) - REQUIRES Free Gemini and Grok Accounts (ID: P)": {
+            "pay": "$28.00/hr",
+            "tasks": "10",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "Achilles - Compare and Judge Factuality of Two Chatbot Responses (Gemini Fast 3.0 vs Grok) - REQUIRES Free Gemini and Grok Accounts (ID: Q)": {
+            "pay": "$26.00/hr",
+            "tasks": "10",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "Achilles - Compare and Judge Factuality of Two Chatbot Responses (Gemini Fast 3.0 vs Grok) - REQUIRES Free Gemini and Grok Accounts (ID: S)": {
+            "pay": "$26.00/hr",
+            "tasks": "10",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "Wisteria - Create a hard fact-seeking prompt that requires 12-20 steps to solve! (*Personal Context Edition*)": {
+            "pay": "$30.00/hr",
+            "tasks": "3",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "\ud83c\udf4b\u200d\ud83d\udfe9 Lime - Create Instruction Following Prompts to Challenge a Model (Single-Turn) [0411-1]": {
+            "pay": "$24.00/hr",
+            "tasks": "5",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "[Priority + $4/hr] Oriole: [Gemini Fast vs. Claude Sonnet 4.6] Chat with two AIs to try to achieve a goal (ID: 451-IZA)": {
+            "pay": "$30.00/hr",
+            "tasks": "1",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "\ud83c\udf88Helium - Create diverse prompts (Long Context)! [0413]": {
+            "pay": "$20.00/hr",
+            "tasks": "100",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "\ud83c\udf88Helium - Create diverse prompts about style & formatting (Easy - No Rubrics)! [0413]": {
+            "pay": "$20.00/hr",
+            "tasks": "30",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "\ud83c\udf88Helium - Create diverse prompts seeking \u2714\ufe0f FACTUAL, \u2714\ufe0f VERIFIABLE information (Easy - No Rubrics)! [0413]": {
+            "pay": "$20.00/hr",
+            "tasks": "100",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "\ud83c\udf88Helium - Create challenging prompts designed to test \ud81a\udcd4 Instruction Following \ud81a\udcd4 [NOSP/SDG] [0413]": {
+            "pay": "$20.00/hr",
+            "tasks": "100",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "\ud83c\udf88Helium - Create challenging prompts designed to test \ud81a\udcd4 Instruction Following \ud81a\udcd4 [NOSP/SDG] [0413-2]": {
+            "pay": "$20.00/hr",
+            "tasks": "100",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "\ud83c\udf20 Styx - Evaluate 2 AI Responses Based on Overall Quality [S-1991]": {
+            "pay": "$20.00/hr",
+            "tasks": "5",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "\ud83c\udf20 Styx - Evaluate 2 AI Responses Based on Overall Quality [S-1992]": {
+            "pay": "$20.00/hr",
+            "tasks": "5",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "\ud83c\udf20 Styx - Evaluate 2 AI Responses Based on Overall Quality [S-1993]": {
+            "pay": "$20.00/hr",
+            "tasks": "5",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "\ud83c\udf20 Styx - Evaluate 2 AI Responses Based on Overall Quality [S-1994]": {
+            "pay": "$20.00/hr",
+            "tasks": "5",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "\ud83c\udf20 Styx - Evaluate 2 AI Responses Based on Overall Quality [S-1995]": {
+            "pay": "$20.00/hr",
+            "tasks": "5",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "Rate And Review: [PRIORITY] \ud83d\udc8e Quartz - Evaluate 2 Responses Based on Quality - [S-1959-e]": {
+            "pay": "$30.00/hr",
+            "tasks": "4",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "\ud83c\udf20 Styx - Evaluate 2 AI Responses Based on Overall Quality [S-11091]": {
+            "pay": "$20.00/hr",
+            "tasks": "5",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "\ud83c\udf20 Styx - Evaluate 2 AI Responses Based on Overall Quality [S-11092]": {
+            "pay": "$20.00/hr",
+            "tasks": "5",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "\ud83c\udf20 Styx - Evaluate 2 AI Responses Based on Overall Quality [S-2100]": {
+            "pay": "$22.00/hr",
+            "tasks": "5",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "[per task bonus: +$1/per task!] [PRIORITY] Basket - Evaluate and compare AI responses about shopping! \ud83d\udecd\ufe0f (ID: H-70757)": {
+            "pay": "$23.00/hr and $1.00/response",
+            "tasks": "20",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "[PRIORITY] Achilles - Compare and Judge Factuality of Two Chatbot Responses - With Search Results + Severity Questions - Shopping Edition! \ud83d\udecd\ufe0f (ID: E-70754)": {
+            "pay": "$27.00/hr",
+            "tasks": "20",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "\ud83c\udf20 Styx - Evaluate 4 AI Responses Based on Overall Quality [S-11097]": {
+            "pay": "$20.00/hr",
+            "tasks": "5",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "\ud83c\udf20 Styx - Evaluate 4 AI Responses Based on Overall Quality [S-11096]": {
+            "pay": "$20.00/hr",
+            "tasks": "5",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "Achilles - Compare and Judge Factuality of Two Chatbot Responses - With Search Results + Severity Questions - Shopping Edition! \ud83d\udecd\ufe0f (ID: S-48593)": {
+            "pay": "$27.00/hr",
+            "tasks": "20",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "Achilles - Compare and Judge Factuality of Two Chatbot Responses - With Search Results + Severity Questions (ID: E-64631)": {
+            "pay": "$25.00/hr",
+            "tasks": "20",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "Onboarding Step 2 - Getting Paid!": {
+            "pay": "$15.00/hr",
+            "tasks": "1",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "[PAID TRAINING] Core Training - Intro to Rubrics & Criteria": {
+            "pay": "$25.00/hr",
+            "tasks": "1",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "Barnard - Solve complex search queries while screen recording and documenting your work - No Rubrics! (ID: 3)": {
+            "pay": "$29.00/hr",
+            "tasks": "10",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "[PRIORITY] \ud83d\udc8e Quartz - Do you agree with this Overall Quality Rating? (Easy task! Factuality!) - [S-1959c]": {
+            "pay": "$32.00/hr",
+            "tasks": "13",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "[PRIORITY] \ud83d\udc8e Quartz - Evaluate 2 Responses Based on Quality - [S-1959-e]": {
+            "pay": "$40.00/hr",
+            "tasks": "3",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "\ud83d\udc8e Quartz - Do you agree with this Overall Quality Rating? (Easy task!) [With Documents! \ud83d\udd0d] [Q-1073]": {
+            "pay": "$30.00/hr",
+            "tasks": "1",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "Koji - Pro API - Create Professional API Prompts & Rate Responses (G-113b) - Do 3 to get more tasks at $29/hr!": {
+            "pay": "$26.00/hr",
+            "tasks": "3",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        },
+        "Rate And Review: [Google AI Mode & ChatGPT] Chat with Two AI Apps to Try to Achieve a Goal *Health Edition* US Only (ID: P-6)": {
+            "pay": "$25.00/hr",
+            "tasks": "20",
+            "last_seen": "2026-04-14T07:48:26.133Z"
+        }
+    }
+}

@@ -44,3 +44,4 @@ Old logic and prior project tasks are preserved here so they don't pollute the c
 ## 🛠️ Toolchain Realities
 * **Firecrawl:** Configured natively via python script (`execution/fact_check.py`) using a global alias `firecrawl`. If it ever drops, we fall back to generic Web Search immediately.
 * **Docker/MCP:** Deprecated/Flaky on this machine. We stick to native deterministic Python scripts per `AGENTS.md`.
+* **Gmail / Account Ingestion:** NEVER use the browser subagent or optical `look.sh` to read the user's personal Gmail. You must bypass the Human-AI Firewall by running the dedicated OAuth scripts (`execution/search_gmail.py` and `execution/gmail_inbox.py`) to pull email logs securely via API.
