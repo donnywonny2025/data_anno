@@ -1,4 +1,10 @@
 {
-  "last_updated": "2026-04-14T17:06:00-04:00",
-  "tabs": {}
+  "last_updated": "2026-04-15T13:18:00-04:00",
+  "tabs": {
+    "da_dashboard": {
+      "page_id": "37CE9C3D251BF3C6DB82DE3139949688",
+      "url": "https://app.dataannotation.tech/workers/inbox",
+      "purpose": "DA dashboard (currently on inbox page)"
+    }
+  }
 }
