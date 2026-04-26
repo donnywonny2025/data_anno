@@ -47,20 +47,37 @@ Errors are learning opportunities. When something breaks:
 4. Update directive to include new flow
 5. System is now stronger
 
-## File Organization
+## File Organization & Data Pipeline
+
+**The Iron Rule of Data Flow:**
+- **Inbound Only (User → AI):** `war_room/DATA_DROP.md` is STRICTLY a drop-zone for the user to paste unstructured data. The AI MUST NOT write outputs or tasks into `DATA_DROP.md`. It is a one-way intelligence feed from the user.
+- **Outbound Only (AI → User):** AI outputs, drafted prompts, and completed work must be written to either a dedicated artifact, an explicit deliverable file (e.g., `war_room/DELIVERABLES/`), or external cloud services.
 
 **Deliverables vs Intermediates:**
-- **Deliverables**: Google Sheets, Google Slides, or other cloud-based outputs that the user can access
-- **Intermediates**: Temporary files needed during processing
+- **Deliverables**: Google Sheets, Google Slides, dedicated Markdown files in `war_room/DELIVERABLES/`, or other cloud-based outputs that the user can access.
+- **Intermediates**: Temporary files needed during processing.
 
 **Directory structure:**
 - `.tmp/` - All intermediate files (dossiers, scraped data, temp exports). Never commit, always regenerated.
 - `execution/` - Python scripts (the deterministic tools)
 - `directives/` - SOPs in Markdown (the instruction set)
+- `war_room/DATA_DROP.md` - Raw inbound data from user (AI Read-Only).
+- `war_room/DELIVERABLES/` - Ready-to-use AI outputs formatted for human action.
 - `.env` - Environment variables and API keys
 - `credentials.json`, `token.json` - Google OAuth credentials (required files, in `.gitignore`)
 
 **Key principle:** Local files are only for processing. Deliverables live in cloud services (Google Sheets, Slides, etc.) where the user can access them. Everything in `.tmp/` can be deleted and regenerated.
+
+## Workflows & Entry Points (Start Here)
+
+To kick off predefined processes, this project uses slash-command Workflows located in `.agents/workflows/`. 
+When the user invokes one of these commands (e.g., `/da-status-check`), you must find the corresponding markdown file in `.agents/workflows/` and execute it step-by-step.
+
+**Key Entry Points for this Project:**
+- `/da-status-check`: Runs the comprehensive Three-Channel status check (Gmail API, DA Projects DOM read, DA Inbox DOM read) to give the user a full picture of available work.
+- `/da-task-execution`: Outlines how to execute a standard task on the DA platform.
+
+Always look to these workflows as the "Start Here" mechanism for daily operations.
 
 ## Summary
 

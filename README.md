@@ -1,6 +1,13 @@
 # Data Annotation Stealth Copilot & Sandbox Architecture
 
-> This repository houses the unified Data Annotation AI architecture. It strictly separates production execution (The Stealth Mirror Copilot) from reverse-engineering initiatives (The Synthetic Portal Sandbox) to maintain the ultimate Gold Standard of operation.
+> [!CAUTION]
+> ## 🚨 MAJOR FAILURE LOG (April 26, 2026)
+> **1. Vision Model Blindness (CRITICAL):** The AI failed to read the bottom 20% of a `./look.sh` screenshot, missing a yellow-highlighted "1-hour limit" warning and a mandatory PayPal checkbox. **NEVER** assume a page is finished until you have visually verified the "Submit" button and the pixels directly above it.
+> **2. Confident Hallucination (TIER 1):** The AI hallucinated a "Type 'None' in the chat" instruction based on a separate manual, rather than reading the actual screen. **STRICT CONTEXTUAL LOCK:** "Look" means analyze the current turn's pixels ONLY.
+> **3. OCR Over-Reliance:** The AI attempted to use .txt OCR dumps for color-coding analysis (Drink vs. Price buttons). OCR is colorblind. **ALWAYS** use the Vision Model on the .jpg file first.
+
+---
+
 
 ---
 
