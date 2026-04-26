@@ -12,3 +12,7 @@ token.json
 screenshots/
 server.log
 stealth_server.log
+credentials_*.json
+token_*.json
+*.pdf
+.tmp/

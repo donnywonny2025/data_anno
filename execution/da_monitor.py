@@ -47,12 +47,15 @@ PRIORITY_KEYWORDS = {
     'LOW': ['see new projects', 'reminder']
 }
 
-def get_gmail_service():
+def get_gmail_service(account_name='jefferykerr'):
     """Authenticate and return Gmail service — checks project root for credentials."""
     creds = None
-    # Look for token.json in project root (one level up from execution/)
-    token_paths = ['token.json', '../token.json']
-    cred_paths = ['credentials.json', '../credentials.json']
+    # Look for token in project root (one level up from execution/)
+    token_filename = f'token_{account_name}.json'
+    token_paths = [token_filename, f'../{token_filename}']
+    
+    cred_filename = f'credentials_{account_name}.json'
+    cred_paths = [cred_filename, f'../{cred_filename}', 'credentials.json', '../credentials.json']
     
     token_path = None
     for p in token_paths:
@@ -78,7 +81,7 @@ def get_gmail_service():
             flow = InstalledAppFlow.from_client_secrets_file(cred_path, SCOPES)
             creds = flow.run_local_server(port=0)
         # Save token to where we found it (or project root)
-        save_path = token_path or 'token.json'
+        save_path = token_path or token_filename
         with open(save_path, 'w') as token:
             token.write(creds.to_json())
     
@@ -272,6 +275,7 @@ def print_intel_report(emails):
 
 def main():
     parser = argparse.ArgumentParser(description='DA Gmail Monitor')
+    parser.add_argument('--account', type=str, default='jefferykerr', help='Account name (e.g. jefferykerr, neuracolor)')
     parser.add_argument('--all', action='store_true', help='Show all emails, not just DA')
     parser.add_argument('--count', type=int, default=50, help='Number of emails to scan (default: 50)')
     parser.add_argument('--full', type=str, help='Read full body of email by ID')
@@ -280,7 +284,7 @@ def main():
     
     args = parser.parse_args()
     
-    service = get_gmail_service()
+    service = get_gmail_service(args.account)
     
     # Read specific email
     if args.full:
