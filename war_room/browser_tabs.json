@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-04-15T13:18:00-04:00",
+  "last_updated": "2026-05-01T07:30:25.392230",
   "tabs": {
-    "da_dashboard": {
-      "page_id": "37CE9C3D251BF3C6DB82DE3139949688",
-      "url": "https://app.dataannotation.tech/workers/inbox",
-      "purpose": "DA dashboard (currently on inbox page)"
+    "google_flow": {
+      "page_id": "15D963C4803E1AA2C8CB1F0D92C72C02",
+      "url": "https://labs.google/flow/about",
+      "purpose": "Google Flow interface"
     }
   }
 }

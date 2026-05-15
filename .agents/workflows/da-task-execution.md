@@ -12,6 +12,18 @@ This is the "Strategic Teammate" protocol for earning $20-$40/hr on DataAnnotati
 - **NEVER** visit dataannotation.tech directly. AI only sees SCREENSHOTS
 - **AI researches → User types** — that's the whole model
 
+## CHECKPOINT PROTOCOL (Applies to every step below)
+
+Before EVERY response during task execution:
+```bash
+python3 execution/da_session.py status
+```
+
+After EVERY action:
+```bash
+python3 execution/da_session.py checkpoint --step "<type>" --note "<description>"
+```
+
 ## The 4-Step Loop (Fast Turnaround)
 
 ### Step 1: Screenshot Intake
@@ -19,6 +31,7 @@ This is the "Strategic Teammate" protocol for earning $20-$40/hr on DataAnnotati
 - If content is long, take OVERLAPPING screenshots (make sure no text is cut off between shots)
 - User pastes screenshot(s) directly into the chat
 - AI confirms: "I can see the full task" or "I need another screenshot — the bottom is cut off"
+- **Checkpoint:** `--step "screenshot" --note "Task intake — <brief description>"`
 
 ### Step 2: Research & Verification (AI Does This FAST)
 - AI reads the prompt/task from the screenshot
@@ -29,6 +42,7 @@ This is the "Strategic Teammate" protocol for earning $20-$40/hr on DataAnnotati
   - **Coding** → Solve logic in local `/tmp/` sandbox, verify output
 - AI runs live web searches to catch factual hallucinations
 - AI checks for subtle errors: outdated info, logical gaps, missing context
+- **Checkpoint:** `--step "research" --note "<what was verified/found>"`
 
 ### Step 3: The "Raw Truth" Handoff
 AI provides TWO things:
@@ -38,11 +52,14 @@ AI provides TWO things:
 > The draft should sound like a smart human expert, NOT like an AI.
 > Use first person. Be specific. Cite real reasons, not vague praise.
 
+- **Checkpoint:** `--step "draft" --note "Handoff delivered"`
+
 ### Step 4: User Types It
 - User reads the Human-Voice Draft
 - User manually types it into the DA portal (do NOT copy-paste)
 - User can rephrase in their own words for extra authenticity
 - User submits
+- **After submission:** `python3 execution/da_session.py task-done`
 
 ## Task Type Quick Reference
 
@@ -58,3 +75,4 @@ AI provides TWO things:
 - **Starter**: Caught factual hallucinations by cross-referencing live web searches. Wrote 2-3 paragraph justifications.
 - **Core**: "Reasoning Out Loud" — AI gave the analytical breakdown, user rewrote in their own voice and manually typed it.
 - **Key insight**: Don't just say "Response A is better." Explain the SPECIFIC failure in Response B with evidence.
+

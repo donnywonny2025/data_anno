@@ -1,54 +1,30 @@
-# Data Annotation Stealth Copilot & Sandbox Architecture
+# Data Annotation Workspace
 
-> [!CAUTION]
-> ## 🚨 MAJOR FAILURE LOG (April 26, 2026)
-> **1. Vision Model Blindness (CRITICAL):** The AI failed to read the bottom 20% of a `./look.sh` screenshot, missing a yellow-highlighted "1-hour limit" warning and a mandatory PayPal checkbox. **NEVER** assume a page is finished until you have visually verified the "Submit" button and the pixels directly above it.
-> **2. Confident Hallucination (TIER 1):** The AI hallucinated a "Type 'None' in the chat" instruction based on a separate manual, rather than reading the actual screen. **STRICT CONTEXTUAL LOCK:** "Look" means analyze the current turn's pixels ONLY.
-> **3. OCR Over-Reliance:** The AI attempted to use .txt OCR dumps for color-coding analysis (Drink vs. Price buttons). OCR is colorblind. **ALWAYS** use the Vision Model on the .jpg file first.
+> **When Jeff says "where are we at" (or any variation), DO NOT respond conversationally.**
+> **Go read the Knowledge Item at `~/.gemini/antigravity/knowledge/DA_Operations/artifacts/DA_Hub.md` and follow the instructions there. It tells you exactly what to do.**
 
----
+## What This Workspace Is
 
+This is a helper workspace for Data Annotation gig work. It's not a software project. It contains:
 
----
+- `execution/` — Python scripts (Gmail monitor, timer, etc.)
+- `war_room/` — Research notes, task logs, project rules
+- `.agents/workflows/` — Automated workflows (status check, task execution)
+- `directives/` — Operational procedures
+- `look.sh` — Native macOS screenshot tool for work mode
 
-## 🧭 The Gold Standard 
-**If you are a new AI agent spinning up into this workspace, your first and only source of truth is:**
-### ➡️ `DATA_ANNOTATION_MASTER_RECORD.md`
-Read that file immediately. It contains the exact physical dual-monitor constraints, the overarching goals, and the current state of our account qualifications.
+## How To Start
 
-For detailed operational instructions (the "HOW"), refer to:
-### ➡️ `data_annotation_ops.md`
-This contains the Two-State Ingestion Dictionary (Acquisition Mode vs Execution Mode) and the Fallback Protocols for our tools.
+1. Read the DA_Hub Knowledge Item — it has everything
+2. If Jeff says any trigger phrase → execute the status check procedure from DA_Hub.md
+3. Don't improvise. Follow the instructions.
 
----
+## Key Files
 
-## 🏗️ Architectural Map
-
-Our repository is physically separated into two core domains to prevent cross-contamination.
-
-### DOMAIN 1: The AI Copilot (Production Tools)
-This is the live assistant layer. We use this to evaluate tasks securely alongside the user.
-* **`stealth_dashboard/`** - The visual SPA (Single Page Application) that runs on the Left Monitor (LG TV). It updates completely via JSON polling natively, meaning the AI never steals browser focus with `location.reload()`.
-* **`stealth_server.py`** - The Python backend driving the dashboard.
-* **`execution/`** - Native Python execution scripts. *(Example: `fact_check.py` handles direct Firecrawl API searches, completely bypassing broken MCP Node wrappers).*
-* **`war_room/`** - The central nervous system.
-  * `DATA_DROP.md` - Where the user pastes task instructions for the AI to "Acquisition".
-  * `TASK_LOG/` - The JSON files (`live_session.json`, `active_project.json`) that the Stealth Mirror polls.
-  * `RESEARCH/` - Where we store compiled, digested rulebooks (e.g., `achilles_eval_rules.md`).
-* **`ghost_fox/`** - The stealth automation framework utilizing Camoufox/Playwright.
-
-### DOMAIN 2: The UI Sandbox (Reverse Engineering)
-This is our clean-room to test, study, and break data structures without jeopardizing live tasks.
-* **`synthetic_portal/`** - A completely isolated sandbox where we re-create the physical split-pane layouts, radio buttons, and form arrays used by the Data Annotation platform. We use this to mathematically verify our OCR and spatial visual ingestion scripts.
-
-### DOMAIN 3: Archives & Prior Projects
-Old logic and prior project tasks are preserved here so they don't pollute the core loops.
-* **`MOMO_*` text files** - Logs and constraints from the archived Momo project.
-* **`ref/`** - Local PDF reference library and source files for old evaluations.
-
----
-
-## 🛠️ Toolchain Realities
-* **Firecrawl:** Configured natively via python script (`execution/fact_check.py`) using a global alias `firecrawl`. If it ever drops, we fall back to generic Web Search immediately.
-* **Docker/MCP:** Deprecated/Flaky on this machine. We stick to native deterministic Python scripts per `AGENTS.md`.
-* **Gmail / Account Ingestion:** NEVER use the browser subagent or optical `look.sh` to read the user's personal Gmail. You must bypass the Human-AI Firewall by running the dedicated OAuth scripts (`execution/search_gmail.py` and `execution/gmail_inbox.py`) to pull email logs securely via API.
+| File | Purpose |
+|------|---------|
+| `~/.gemini/antigravity/knowledge/DA_Operations/artifacts/DA_Hub.md` | **THE source of truth** — triggers, procedures, safety rules |
+| `.agents/workflows/da-status-check.md` | Step-by-step status check workflow |
+| `execution/da_monitor.py` | Gmail API checker |
+| `look.sh` | Screenshot tool for work mode |
+| `.vscode/settings.json` | Python env config (prevents startup stall) |

@@ -18,3 +18,8 @@ screencapture -x -m -t jpg "$RAW_FILENAME"
 # Print the final paths for the AI to ingest
 echo "SCREENSHOT: $RAW_FILENAME"
 echo "TEXT DUMP: $TEXT_FILENAME"
+
+# 3. Session heartbeat — print current session state if active
+#    This ensures the AI CANNOT take a screenshot without being
+#    reminded of the timer, project, and task count.
+python3 "/Volumes/WORK 2TB/WORK 2026/DATA_ANNOTATION/execution/da_session.py" heartbeat 2>/dev/null

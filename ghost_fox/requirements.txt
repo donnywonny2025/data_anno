@@ -1,4 +1,0 @@
-camoufox[nss]
-playwright
-numpy
-asyncio

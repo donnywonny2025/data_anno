@@ -4,32 +4,85 @@ description: Check Data Annotation status — dashboard, inbox, Gmail, and activ
 
 # Data Annotation Status Check
 
-> **Trigger:** User says "check DA status", "what's going on", "status check", or `/da-status-check`
-> **Full procedure:** See `directives/daily_status_check.md`
+> **Trigger:** User says "where are we at", "what's going on", "status check", "check DA", "what do we got", "anything new", "let's work", "what's available", or `/da-status-check`
+> **Knowledge Item:** ALWAYS read `DA_Operations` Knowledge Item first — it has credentials, pending actions, and behavioral rules.
 
 // turbo-all
+
+## CRITICAL RULES (Read BEFORE doing anything)
+
+1. **NEVER click into any project, qualification, or message on DA.** Read-only DOM reads only.
+2. **Browser harness for status checks. look.sh for work mode.** Never mix these. Disconnect browser harness before user starts any DA task.
+3. **DA site structure:** Projects, Qualifications, Surveys, and Report Time are TABS on the SAME page (`/workers/projects`). They are NOT separate URLs. Do NOT try to navigate to `/workers/qualifications` — that URL does not exist and will show an error page.
+4. **Inbox IS a separate URL:** `https://app.dataannotation.tech/workers/inbox`
+5. **Tab management:** Use `new_tab()` ONLY for the very first navigation. ALL subsequent navigations use `goto_url()`. The daemon persists between `browser-harness -c` calls.
+6. **Gmail is checked via Python script**, NOT by opening Gmail in the browser.
+7. **jefferykerr@gmail.com** is the only Gmail account.
+8. **Screenshots go in the workspace** at `/Volumes/WORK 2TB/WORK 2026/DATA_ANNOTATION/screenshots/` — NEVER to /tmp.
+9. **Report conversationally.** This user is a verbal processor. Don't give checklists.
 
 ## Step 1: Gmail API Check (No Browser Needed)
 
 ```bash
-cd /Volumes/WORK\ 2TB/WORK\ 2026/DATA_ANNOTATION && python3 execution/da_monitor.py --count 30
+cd /Volumes/WORK\ 2TB/WORK\ 2026/DATA_ANNOTATION && python3 execution/da_monitor.py --count 15
 ```
 
 Parse the output. Note HIGH and CRITICAL priority items. Hold this data for cross-reference in Step 4.
 
-## Step 2: DA Projects Board (Browser DOM Read)
+## Step 2: Connect Browser Harness
 
-1. Read `Browser State` from ADDITIONAL_METADATA.
-2. If a DA tab is already open → use that Page ID. If not → dispatch subagent to navigate to `https://app.dataannotation.tech/workers/projects`
-3. Dispatch a DOM read subagent with these exact instructions:
-   > "The DA dashboard is already open on Page ID [ID]. Do NOT click anything. Read the full DOM text content. Extract every project name, pay rate, task count, and created date from BOTH the Qualifications table and the Projects table. Return the complete list — every single row."
-4. **Use DOM read, NOT screenshot-scroll.** The page is 7000-8000px tall. Screenshots will miss content.
+### If Chrome is NOT running:
+```bash
+open -a "Google Chrome"
+```
+Then tell the user: "Pick your profile and let me know when you're in." Wait for confirmation.
 
-## Step 3: DA Inbox (Browser DOM Read)
+### If Chrome IS running:
+Check if the daemon is alive:
+```bash
+browser-harness --doctor
+```
+- If `[ok] daemon alive` → skip to Step 3
+- If `[FAIL] daemon alive` → clean sockets and reconnect:
+```bash
+rm -f /tmp/bu-default.sock /tmp/bu-default.pid /tmp/bu-default.log
+browser-harness -c "print(page_info())"
+```
 
-1. Dispatch subagent to navigate to `https://app.dataannotation.tech/workers/inbox` (same tab is fine).
-2. Read all messages via DOM — date, subject, preview text.
-3. Look for: priority pay bump announcements, rule changes, admin instructions.
+### First-time browser harness errors:
+- **"starting..." hang on chrome://inspect** → Check if OBS or screen capture is blocking. If not, quit Chrome fully, clean sockets, reopen Chrome normally, wait 5 seconds, retry.
+- **"DevToolsActivePort not found"** → The remote debugging checkbox hasn't been enabled on this profile. Open `chrome://inspect/#remote-debugging` and ask user to check the box. This is a one-time per-profile action.
+- **Stale websocket** → `rm -f /tmp/bu-default.sock /tmp/bu-default.pid && browser-harness -c "print(page_info())"`
+
+## Step 3: Read DA Dashboard (Browser DOM Read)
+
+### 3a. Navigate to projects page
+First time (no green-dot tab yet):
+```bash
+browser-harness -c "new_tab('https://app.dataannotation.tech/workers/projects'); wait_for_load(); import time; time.sleep(2); print(page_info())"
+```
+
+Subsequent navigations (green-dot tab exists):
+```bash
+browser-harness -c "goto_url('https://app.dataannotation.tech/workers/projects'); wait_for_load(); import time; time.sleep(2); print(page_info())"
+```
+
+### 3b. Read ALL content via DOM (no scrolling needed)
+```bash
+browser-harness -c "
+html = js(\"document.querySelector('body').innerText\")
+print(html)
+"
+```
+This gets ALL projects, qualifications, and tabs in one read — the entire page regardless of viewport.
+
+### 3c. Read Inbox (separate URL, same tab)
+```bash
+browser-harness -c "goto_url('https://app.dataannotation.tech/workers/inbox'); wait_for_load(); import time; time.sleep(2)
+html = js(\"document.querySelector('body').innerText\")
+print(html[:5000])
+"
+```
 
 ## Step 4: Cross-Reference All Three Channels
 
@@ -38,20 +91,15 @@ Build a comparison:
 - **Gmail vs Projects Board:** Emailed projects still available? Any filled up?
 - **DA Inbox vs Projects:** Do pay rates reflect announced priority bumps?
 - **Dashboard-only projects:** Things the user hasn't been notified about.
+- **Pending actions** from the DA_Hub Knowledge Item — anything overdue?
 
 ## Step 5: Report to User
 
-Present a clean summary with:
+Present a CONVERSATIONAL summary covering:
 1. **Top opportunities** — sorted by effective pay rate, highest first
 2. **New since last check** — anything new since the previous session
 3. **Priority alerts** — time-limited pay bumps with expiry windows
 4. **Admin notes** — rule changes or instructions from DA Inbox
-5. **Auto-excluded** — note any 18-35/student tasks filtered out
-
-## CRITICAL RULES
-- **NEVER** click "Start Working" or submit anything on the DA platform
-- **READ ONLY** — no replies, no form submissions, no clicking into projects
-- Gmail is checked via API (`da_monitor.py`), NOT by opening Gmail in the browser
-- **jefferykerr@gmail.com** is the only Gmail account — never touch other accounts
-- DOM read over screenshot-scroll — always
-- Update `war_room/browser_tabs.json` after any tab changes
+5. **Pending actions** — anything from the Knowledge Item that's overdue
+6. **Ask:** "Want to work or just checking in?"
+7. **If working:** Disconnect browser harness, start timer: `./execution/timer.sh start`

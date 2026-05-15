@@ -17,6 +17,7 @@ This document tracks the specific roles, qualifications, and API statuses of eve
 - Used for general UI/UX testing, chatbot interactions, and filling out demographic/software surveys.
 - **Opt-in Status:** Workspace Labs/Experiments Enabled.
 - **Usage:** If a task asks "Do you have access to Google Workspace / Gemini," use this account to test the features without cluttering your personal inbox.
+- **Metis Qualification (May 5, 2026):** Submitted for Gemini Google Services access (YouTube, Search, Photos, Gmail/Workspace). Unlocks $28-$34/hr Metis/Pegasus-tier projects.
 
 ## 3. Isolated API Monitor (The Air-Gap)
 **Email:** `seramusic2025@gmail.com`

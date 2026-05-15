@@ -1,37 +1,56 @@
 # Live Projects Tracker
-*Last Updated: April 26, 2026*
+*Last Updated: May 5, 2026 — 12:55 PM (Full DOM Read)*
 
-## 🏆 Top Paying Projects
-| Project | Pay | Tasks | Time Limit | Created |
-|---|---|---|---|---|
-| [Priority: +3$/hr] Barnard - Solve complex search queries (ID: 3) | $32.00/hr | 20 | 7h 40m | Apr 2 |
-| Wisteria - Create a hard fact-seeking prompt (*Personal Context*) | $30.00/hr | 3 | 2 days | Mar 28 |
-| [PRIORITY: +$2] Wisteria: Edit tool use prompts [ID: PV-01] | $30.00/hr | 1 | 6h 30m | Apr 10 |
-| [PRIORITY] 💎 Quartz - 🧠 Think like an AI! [M-11246] | $27.00/hr | 20 | 5 hours | Apr 21 |
-| [PRIORITY] 🌠 Revenge of the Styx [S-11244] | $27.00/hr | 5 | 1h 30m | Apr 21 |
+## ⚡ Easier Projects (No Rubrics)
+| Project | Pay | Tasks | Created |
+|---|---|---|---|
+| Styx - Evaluate 4 AI Responses [S-11464] | $20.00/hr | 1 | Apr 28 |
+| Styx - Evaluate 4 AI Responses [S-11466] | $22.00/hr | 20 | Apr 28 |
+| Styx - Evaluate 4 AI Responses [S-11463] | $20.00/hr | 20 | May 4 |
 
-## 🚀 Active Production Tasks
-| Project | Pay | Tasks | Time Limit | Created |
-|---|---|---|---|---|
-| Acheron - Write Natural & Realistic *Information Seeking* [4/24] | $25.00/hr | 5 | 2 hours | Apr 24 |
-| Rate And Review: [PRIORITY +$2] Two AI Apps *US Only* (HE-2) | $25.00/hr | 6 | 1 hour | Apr 14 |
-| Rate And Review: [PRIORITY +$2] Two AI Apps *Ent. Edition* (ENT 2) | $25.00/hr | 4 | 1 hour | Apr 20 |
-| Rate & Review: 💎 Quartz [M-11246] | $25.00/hr | 7 | 3 hours | Apr 21 |
-| [PRIORITY] Basket - Evaluate and compare shopping! (L-70785) | $24.00/hr | 20 | 1h 30m | Apr 24 |
-| [PRIORITY: $24/hr] Basket - Evaluate and compare shopping! (S-38492) | $24.00/hr | 20 | 1h 30m | Apr 23 |
-| 🌠 Styx - Evaluate 2 AI Responses [S-11353] | $24.00/hr | 1 | 1h 15m | Apr 25 |
-| Simba - Gather REAL-WORLD prompts and variants (EASY) | $20.00/hr | 90 | 15 min | Apr 14 |
-| 🌊 Acheron - Gather REAL-WORLD conversations (EASY) | $20.00/hr | 100 | 15 min | Apr 18 |
+## 🏆 Top Paying Projects (Sorted by Pay)
+| Project | Pay | Tasks | Created |
+|---|---|---|---|
+| Pegasus: Ask Two Models About Your Drive Files [R-508357724] | $28.00/hr | 10 | May 2 |
+| Acheron - Chat with 4 models (General/Creative) [4M_SI1_2] | $26.00/hr | 20 | May 4 |
+| Acheron - Chat with 4 models (General/Creative) [3M_SI1_2] | $26.00/hr | 20 | May 4 |
+| Styx - Evaluate 2 AI Responses [S-11485] | $24.00/hr | 50 | May 5 |
+| Styx - Evaluate 2 AI Responses [S-11486] | $24.00/hr | 50 | May 5 |
+| [PRIORITY] Basket - Shopping eval [R-59492] | $23.00/hr | 1 | May 5 |
+| [PRIORITY] Basket - Shopping eval [E-135631] | $23.00/hr | 20 | May 5 |
+| Basket - Shopping eval [S-59201] | $22.00/hr | 1 | May 5 |
+| Styx - Evaluate 4 AI Responses [S-11466] | $22.00/hr | 20 | Apr 28 |
 
-## 📚 Onboarding, Training & Qualifications
-| Project | Pay | Tasks | Time Limit | Created |
-|---|---|---|---|---|
-| **Onboarding Step 3 - Practice Quiz!** | - | 1 | 10 hours | Feb 17 |
-| ❗❗Achilles Factuality Instructions Refresher | - | 1 | 10 hours | Sep 17 |
-| [PAID TRAINING] Core Training - Intro to Rubrics & Criteria | $25.00/hr | 1 | 2 hours | Dec 30 |
-| Additional Projects: Opt-in | - | 1 | 19 years | Mar 31 |
-| [Quick Survey] How would you improve this platform? | - | 1 | 1 hour | Apr 15 |
+## 📝 Rate And Review Projects
+| Project | Pay | Tasks | Created |
+|---|---|---|---|
+| Rate And Review: Styx [S-11466] | $22.00/hr | 5 | Apr 28 |
+| Rate And Review: Styx [S-11464] | $21.00/hr | 1 | Apr 28 |
+| Rate And Review: Styx [S-11463] | $21.00/hr | 5 | May 4 |
 
-## 💬 Read-Only / Chat
-*   [Read-Only Version] Achilles Factuality Onboarding Review
-*   [Chat only - New Version!] Achilles Response Evaluations
+## 📚 Reference / Onboarding / Chat / Other
+| Project | Tasks | Created |
+|---|---|---|
+| [Read-Only] Achilles Factuality Onboarding Review 🔑🌟 | 1 | Aug 19 |
+| [View-only] Achilles Factuality Instructions Refresher | 1 | Sep 27 |
+| [Chat only] Achilles Response Evaluations - Discuss | 50 | Jul 31 |
+| Pegasus - View Only Email Address Checker v2 | 10 | Feb 17 |
+| Circe 🔮 Flamingo 🦩 Account Credentials Reference | 1 | Apr 30 |
+| ‼️ Bluebird - Voice conversations with AI ($32/hr+) | 1 | Jan 27 |
+| [Quick Survey] How would you improve this platform? | 1 | Apr 15 |
+
+---
+
+## ⚠️ CRITICAL: Disappeared Since Last Session (May 2)
+- **❌ [PRIORITY +$2/hr] Circe Flamingo [G117] — $32.00/hr, 16 tasks** — GONE. Queue filled over the weekend.
+- ❌ Circe Evaluate an interactive widget [G118] — $25.00/hr — GONE
+- ❌ Rate And Review: Circe Flamingo [G117] — $30.00/hr — GONE
+- ❌ Achilles Factuality (Shopping Edition) [D-70803] — $25.00/hr — GONE
+- ❌ Rate And Review: Google AI vs Claude (Health Edition) — $25.00/hr — GONE
+
+## 📊 Board Summary
+- **Total Projects**: 21
+- **Total Available Tasks**: ~348
+- **Top Earner Available**: Pegasus Drive Files @ $28/hr (10 tasks)
+- **Biggest Queue**: Styx S-11485 + S-11486 @ $24/hr (100 tasks combined)
+- **Transfer Funds**: $149
