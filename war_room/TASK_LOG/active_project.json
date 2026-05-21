@@ -1,3 +1,12 @@
 {
-  "active_project": "andromeda"
+  "active_project": "mort_51426",
+  "project_name": "Metis - Try to get Gemini to fail at Over-personalization + Rubrics (MORT-51426.2)",
+  "rate": "$32.00/hr ($28 base + $4 priority)",
+  "account": "neuracolor@gmail.com",
+  "models": ["PContext mode 33 Marshall - Gordon", "PContext mode 33 Marshall - Percy"],
+  "prompt_category": "Discovery & Recommendations",
+  "timer_start": "2026-05-20T21:20:00-04:00",
+  "session_log": "war_room/TASK_LOG/mort_51426_session.md",
+  "status": "in_progress",
+  "current_step": "Step 2 - Gordon prompts to trigger failure"
 }

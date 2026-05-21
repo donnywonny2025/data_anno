@@ -1,11 +1,18 @@
 # DA Project Dossier
-*Last updated: May 14, 2026 — 11:12 PM ET*
+*Last updated: May 20, 2026 — 11:26 AM ET*
 
 > **PURPOSE:** This is Jeff's personal field guide to every DA project he's encountered. Not just what's on the dashboard right now — everything he's ever worked on, what it felt like, whether he liked it, and whether to jump on it if it reappears. Every session, the AI updates this file.
 
 ---
 
 ## 🏆 TIER 1 — "DROP EVERYTHING AND GRAB THESE"
+
+### gUP Gemini App / HDO Multimodal (Google Partner Portal)
+- **Rate:** TBD (usually premium, $40+/hr)
+- **Client:** Google (gTech gUP Gemini App Multimodal Human Data Operations with AIDT)
+- **What it actually is:** External Google corporate portal work. The user received a direct message in their DA Inbox on April 21 with login credentials. Requires setting up two-step verification.
+- **Status:** CREDENTIALS RECEIVED, pending setup.
+- **Strategy:** High priority partner portal. Set this up as soon as possible to unlock premium multimodal tasks.
 
 ### TH8 / TH5 / TH9 / TH10 — Web App Design Evaluations
 - **Rate:** $40/hr (TH8/TH9/TH10), TH5 also $40/hr
@@ -14,7 +21,7 @@
 - **Why Jeff loves this:** ⭐⭐⭐⭐⭐ — This is the sweet spot. It's exactly what he does as an editor with a visual eye and front-end knowledge. He said he'd "literally do this every day" and "sit here and work on that all day." The pay-to-effort ratio is the best on the platform for his skillset.
 - **Availability:** Comes and goes in batches. Admin H sends inbox announcements when tasks drop. They get claimed FAST — sometimes gone within hours. Multiple batches dropped in May 2026 (TH5 on Tuesday, TH8 on Wednesday). Must check inbox alerts and jump immediately.
 - **Last worked:** May 14, 2026 — 5 hours, $200 earned
-- **Status as of May 14 PM:** NOT on dashboard. Inbox announcement only (21 hours old). Tasks were claimed.
+- **Status as of May 20:** NOT on dashboard. Last inbox announcement was for TH5 (May 12).
 - **Strategy:** When this appears, stop everything else. It's the highest $/hr for the lowest cognitive load given Jeff's background.
 
 ---
@@ -34,31 +41,30 @@
 ### Metis — Gemini Personalization Projects
 - **Rate:** $28/hr base, up to $32/hr with priority pay (+$2 to +$4 bumps)
 - **Client:** Google (Gemini product team)
-- **What it actually is:** A family of sub-projects all focused on testing and evaluating how Gemini personalizes to users. Requires having a Google account with Gemini usage history. Sub-projects include:
-  - **MDB (Daily Brief):** Evaluate Gemini's new "Daily Brief" feature over two days. Limited-time, priority pay. Currently active (MDB-51426.1).
-  - **MORT (Over-personalization):** Try to make Gemini fail at personalizing — find edge cases where it over-personalizes or gets creepy. 30 tasks available.
-  - **MGCL (Correction Ledger):** Have a conversation with Gemini, then evaluate how it handles corrections to its memory/understanding of you. 20 tasks.
-  - **MRCC (Memory Chains):** Evaluate retrieved memory chains — how well Gemini remembers prior conversations. 1 task.
-  - **MGCH (Chrome conversations):** Gemini in Chrome, evaluate personalization. Had priority +$2 earlier this week.
-  - **MG (General personalization):** Priority +$4 recently — highest priority bump seen.
-  - **MIE (Image editing):** Gemini image editing + personalization. Priority +$4.
-  - **MIG (Image generation):** Gemini image gen + personalization. Priority +$4.
-  - **MPG (Gmail):** Send Gmail-related prompts to Gemini, evaluate data retrieval.
-  - **MIOS (iOS):** Report bad Gemini responses in Chrome on iOS. Requires iPhone.
+- **What it actually is:** A family of sub-projects all focused on testing and evaluating how Gemini personalizes to users. Requires having a Google account with Gemini usage history. Sub-projects active right now:
+  - **MORT (Over-personalization):** Try to make Gemini fail at personalizing — find edge cases where it over-personalizes or gets creepy. Currently has **MORT-51426.3 with +$4 priority ($32/hr, 50 tasks)** and base MORT-51426.2 ($28/hr, 30 tasks) active.
+  - **MICH (Chrome Image Generation):** Ask Gemini in Chrome to generate an image and evaluate personalization. Has multiple versions active, including **priority pay MICH-51826.3 ($30/hr, 30 tasks)** and base versions MICH-51826.4/5/6 ($28/hr, 30 tasks each).
+  - **MIG (Image Generation):** Gemini image gen + personalization. Currently has **MIG-51926.2 with priority pay ($30/hr, 30 tasks)** active.
+  - **MGG (Generic Image Quality):** Request generic images and evaluate quality. Currently has **MGG-51926.1 with priority pay ($30/hr, 3 tasks)** active.
+  - **MGCE (Corrections / Exclusions):** Evaluate corrections for exclusions. MGCE-51826.1 ($28/hr, 20 tasks) active.
+  - **MUSI (Saved Information):** Evaluate personalization using Saved Info. MUSI-51626 ($28/hr, 5 tasks) active.
+  - **MSTM (Situational Memory):** Evaluate situational memory across multiple chats. MSTM-51626 ($28/hr, 4 tasks) active.
+  - **MPC / MPS (Gmail/Data Retrieval):** MPC-51826 ($28/hr, 15 tasks) and MPS-51926 ($28/hr, 30 tasks) active.
+  - **MCHR / MGCH (Chrome Image Gen/Conversations):** MCHR-51926.1 ($28/hr, 30 tasks) and MGCH-51926 ($28/hr, 10 tasks) active.
+  - **MIOS (iOS Chrome):** Report bad responses on iOS. MIOS-32726 ($28/hr, 20 tasks) active.
 - **Slack channel:** #metis — Admin Caleb runs it. Very active, sends priority pay alerts regularly.
 - **Why it matters:** This is the most ACTIVE project family on the platform right now. Caleb is pushing tasks daily. The priority bumps bring it up to $30-$32/hr which is competitive. Lots of variety in sub-projects.
 - **Site outage note (May 14):** Site went down 3:24 PM, back up 3:54 PM. Caleb warned in #metis to hold off on submitting during outage.
 - **Jeff's take:** Not yet rated — needs to try these
-- **Status:** Multiple sub-projects active, tasks available
+- **Status:** Massive queue active (16 sub-projects total) with several priority pay opportunities.
 
 ### Circe — UI Component Annotation
 - **Rate:** $27/hr
 - **Project ID:** G119
 - **What it actually is:** Classify optimal visual UI components for given prompts. You look at prompts and decide what type of UI element (button, form, card, modal, etc.) would best serve the user intent. Also has a Rate & Review variant at $27/hr.
-- **Previous variant:** Circe Flamingo [G117] was $32/hr with priority pay — that one disappeared. G118 (interactive widget evaluation) at $25/hr is also gone.
 - **Why it might be good for Jeff:** Visual/design work — evaluating UI components is adjacent to TH8's design evaluation. Not as high-paying but same general wheelhouse.
 - **Jeff's take:** Not yet rated
-- **Status:** 30 tasks available + 30 Rate & Review tasks
+- **Status as of May 20:** NOT active on dashboard (disappeared since May 14).
 - **Has a project folder:** `war_room/PROJECTS/Circe_Flamingo/`
 
 ### Acheron — Multi-Model Chat
@@ -66,33 +72,39 @@
 - **Project ID:** ID_1537_4M_15SP_V2
 - **What it actually is:** Have conversations with 4 different AI models about general, creative, and ambiguous topics. Then evaluate/compare the responses. Classic comparative RLHF work.
 - **Jeff's take:** Not yet rated
-- **Status:** 20 tasks + 28 Rate & Review tasks
+- **Status as of May 20:** NOT active on dashboard.
 
 ---
 
 ## 🥉 TIER 3 — "ALWAYS AVAILABLE, DECENT FALLBACK"
 
+### Achilles — Citation Support
+- **Rate:** $25/hr
+- **Project ID:** 62Y (Separate a Span into Claims and Determine if Citation Supports)
+- **What it actually is:** Evaluate if the citations provided actually support the claims made by the model. High precision factuality and grounding work.
+- **Jeff's take:** Not yet rated
+- **Status as of May 20:** 1 task active on dashboard.
+
 ### Grapefruit — Factual QA
 - **Rate:** $24/hr
 - **What it actually is:** Two flavors:
-  - **Closed QA** [0511-1]: Create conversations designed to challenge a model's factual ability. You craft questions that will trip the AI up on facts. 75 tasks.
-  - **Open Q&A** [0511-1]: Talk to a chatbot and identify factuality issues. More freeform — just converse and flag when it gets facts wrong. 50 tasks.
+  - **Closed QA** [0516-1]: Create conversations designed to challenge a model's factual ability. You craft questions that will trip the AI up on facts. Currently Closed QA [0516-1] is active.
+  - **Open Q&A**: Talk to a chatbot and identify factuality issues.
 - **Jeff's take:** Not yet rated — it's always there as a fallback
-- **Status:** 125 tasks combined — high availability
+- **Status as of May 20:** Closed QA active with 75 tasks.
 
 ### Styx — AI Response Evaluation
 - **Rate:** $20-$25/hr (varies by sub-project)
 - **What it actually is:** Evaluate AI responses based on overall quality. Rate and rank responses. The bread-and-butter RLHF work. Multiple sub-projects cycle in and out.
-- **Current:** Rate & Review variant at $25/hr, but only 5 tasks left
 - **Jeff's take:** Not yet rated
-- **Status:** Low task count right now
+- **Status as of May 20:** NOT active on dashboard.
 
 ### Pecan Macaroon — Variant Prompts
 - **Rate:** $26/hr
 - **Project ID:** 2-3
 - **What it actually is:** Create variant prompts with workplace utility. Rewrite/rephrase prompts for professional use cases.
 - **Jeff's take:** Not yet rated
-- **Status:** Only 3 tasks available
+- **Status as of May 20:** NOT active on dashboard.
 
 ---
 
@@ -130,6 +142,10 @@ These projects have disappeared from the dashboard but could return.
 | Pegasus Drive Files | $28/hr | Ask two models about your Google Drive files | May 5 | Gone |
 | Basket — Shopping Eval | $22-$23/hr | Shopping evaluation, had priority variant | May 5 | Gone |
 | TH8 Web App Evals | $40/hr | Web app design evaluation — Jeff's FAVORITE | May 14 | Tasks claimed fast |
+| Circe G119 | $27/hr | UI Component Annotation | May 14 | Disappeared from dashboard |
+| Acheron | $26/hr | Multi-Model Chat | May 14 | Disappeared from dashboard |
+| Pecan Macaroon | $26/hr | Workplace Utility Variant Prompts | May 14 | Disappeared from dashboard |
+| Styx | $20-$25/hr | RLHF Response Evaluation | May 14 | Disappeared from dashboard |
 
 ---
 
@@ -140,7 +156,7 @@ DA uses codenames. Here's what maps to what:
 | Codename | Client (Likely) | Domain | Notes |
 |----------|----------------|--------|-------|
 | **Metis** | Google | Gemini personalization | Biggest active family, many sub-projects |
-| **Achilles** | Unknown | Factual evaluation | Completed — led to Patroclus invite |
+| **Achilles** | Unknown | Factual evaluation | Grounding / citation / claim checks |
 | **Grapefruit** | Unknown | Factual QA | Always available, $24/hr |
 | **Styx** | Unknown | General AI eval | Classic RLHF, fluctuating rates |
 | **Acheron** | Unknown | Multi-model chat | 4-model comparison |
@@ -150,6 +166,7 @@ DA uses codenames. Here's what maps to what:
 | **Bluebird** | Unknown | Voice AI | Gateway to $32+/hr |
 | **Patroclus** | Google | RaterHub | Qualification gate |
 | **Pecan Macaroon** | Unknown | Prompt engineering | Workplace utility focus |
+| **HDO Multimodal** | Google (gUP) | Multimodal Partner operations | Google corporate partner portal |
 
 ---
 

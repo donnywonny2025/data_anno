@@ -1,0 +1,14 @@
+=== OVERALL PERSONALIZATION QUALITY ===
+Select: Very dissatisfied
+
+=== OVERALL PERSONALIZATION QUALITY RATIONALE ===
+[Turn 3] The model went way overboard with personalization here. I asked a vague, open-ended question about timing for a dinner and the model immediately surfaced Rachel's exact birthday (July 8), my Mackinac Island trip dates (July 10-13), my kids' summer custody schedule, and the fact that she's an ER nurse — none of which I mentioned in the conversation. It felt like the model was showing off how much it knows about me rather than actually helping me pick a good night. Instead of dumping my private calendar back at me, it should have just asked "what does your schedule look like this summer?" and let me offer the details I wanted to share. That would have been helpful personalization. This was intrusive.
+
+=== OVERALL QUALITY ===
+Select: Somewhat satisfied
+
+=== OVERALL QUALITY RATIONALE ===
+[Turn 3] The writing itself was solid — well-structured, engaging tone, good use of details about The Earle's midweek atmosphere and the jazz. It built nicely on the restaurant recommendation from the previous turn, so contextual awareness was strong. But the content relevance took a hit because the model answered a question I didn't ask — it told me to go on July 8 and explained why using my private data, instead of just giving me general timing advice like "midweek is usually quieter" or asking about my availability. The collaborativity suffered because it dictated a plan rather than working with me to find one. Good writing, wrong approach.
+
+=== WAS YOUR PERSONAL INFO USED IN A WAY THAT DAMAGED YOUR TRUST? ===
+Select: Yes

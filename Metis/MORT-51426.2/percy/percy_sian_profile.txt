@@ -1,0 +1,62 @@
+Profile from DATA_SOURCE_USER_PROFILE_GEMINI_CHAT:
+**Demographics Information**
+* The user is 33 years old and was born on March 12, 1993.
+    * Evidence: The user provided their date of birth. \"dob march 12 1993\" Conversation Date: 2026-05.
+    * Evidence: The user confirmed their current age. \"im 33\" Conversation Date: 2026-05.
+* The user resides in Ann Arbor, Michigan, and lives in an apartment on Packard Street.
+    * Evidence: The user mentioned their recent move and location. \"I just moved to a new place in Michigan and I am trying to figure out good spots to eat around here. What are some underrated restaurants in the Ann Arbor area?\" Conversation Date: 2026-05.
+    * Evidence: The user provided their home address. \"my business name is neuracolor media llc and my address is 1847 packard st apt 4b ann arbor mi 48104\" Conversation Date: 2026-05.
+* The user is a freelance video producer and editor with eight years of experience and is the owner of Neuracolor Media LLC.
+    * Evidence: The user described their career and business name. \"im a freelance video producer and editor, been doing it for about 8 years now. i mostly work with small businesses doing commercials and social media content... my business name is neuracolor media llc\" Conversation Date: 2026-05.
+    * Evidence: The user detailed their technical skills and equipment. \"i know premiere pro, after effects, davinci resolve, and final cut. also pretty good with photoshop and lightroom... i shot the whole thing on my a7iv\" Conversation Date: 2026-05.
+* The user holds a Bachelor's degree in Film from Columbia College Chicago, graduating in 2015.
+    * Evidence: The user shared their educational history. \"i went to columbia college in chicago for film and got my bachelors in 2015.\" Conversation Date: 2026-05.
+* The user previously worked as a production assistant at Channel 7 News in Detroit for two years.
+    * Evidence: The user noted their prior professional background. \"my last real job before freelancing was at channel 7 news in detroit, i was a production assistant there for about 2 years right after i graduated from columbia in 2015.\" Conversation Date: 2026-05.
+* The user grew up in Toledo, Ohio.
+    * Evidence: The user mentioned their hometown. \"before that i grew up in toledo ohio if that matters.\" Conversation Date: 2026-05.
+
+**Interests & Preferences**
+* The user is an active video producer and photographer, with a current interest in building a professional portfolio using modern web frameworks like Astro.
+    * Evidence: The user described their portfolio project. \"I want to start a small side project building a personal website. Nothing crazy, just a clean portfolio to show off some creative work I have done.\" Conversation Date: 2026-05.
+    * Evidence: The user inquired about specific web technologies. \"I have heard good things about Astro and also Next.js but I do not know which one is better for a simple portfolio site.\" Conversation Date: 2026-05.
+* The user enjoys outdoor activities and regional Midwestern travel, including visiting lakes and state parks.
+    * Evidence: The user expressed interest in outdoor summer activities. \"We are in the midwest so think lakes, state parks, maybe a road trip or two.\" Conversation Date: 2026-05.
+    * Evidence: The user planned a trip to a landmark in Northern Michigan. \"Mackinac Island sounds perfect for the first big trip. The kids would love the no-cars thing and the fudge shops.\" Conversation Date: 2026-05.
+* The user is interested in music, specifically blues and classic rock, and plays electric guitar.
+    * Evidence: The user described their musical tastes and equipment. \"i used to play acoustic in college and ive been wanting to pick it back up... i like blues and classic rock type stuff, hendrix, srv, that kinda vibe\" Conversation Date: 2026-05.
+* The user follows true crime media and video essays focused on the societal impacts of technology and space exploration.
+    * Evidence: The user discussed their podcast and video preferences. \"do u know any good podcasts about true crime? i just finished one... serial was so good omg.\" Conversation Date: 2026-05.
+    * Evidence: The user requested specific educational content. \"I have been really into stuff about how technology is changing society, like the impact of AI on jobs... Also anything about space exploration.\" Conversation Date: 2026-05.
+* The user enjoys Thai food, pizza, and tacos, and prefers unpretentious dining atmospheres.
+    * Evidence: The user specified their food preferences. \"I like Thai food and good pizza. Nothing too fancy, just solid food with a good atmosphere.\" Conversation Date: 2026-05.
+    * Evidence: The user mentioned a preference for taco-themed meals. \"taco night is genius actually... we did tacos for my birthday back in march\" Conversation Date: 2026-05.
+
+**Relationships**
+* The user is in a relationship with Rachel, who is a nurse in the emergency room at the University of Michigan Hospital.
+    * Evidence: The user shared details about their girlfriend’s profession. \"my gf rachels birthday is july 8th... she works at the university of michigan hospital as a nurse. shes in the ER\" Conversation Date: 2026-05.
+* The user has three children: Jake (age 14), Emma (age 11), and Ben (age 8).
+    * Evidence: The user identified their children and their ages. \"My three kids are coming to stay with me for summer break from June 15 to August 10. They are 8, 11, and 14.\" Conversation Date: 2026-05.
+    * Evidence: The user mentioned their children by name. \"i already booked the mackinac island trip for july and told jake and emma about it. and my youngest ben was so excited\" Conversation Date: 2026-05.
+* Sarah is the user's ex-wife, with whom he coordinates custody schedules.
+    * Evidence: The user mentioned their former spouse. \"my ex sarah wants to change the custody schedule for the kids.\" Conversation Date: 2026-05.
+* Diesel is the user's four-year-old lab mix dog.
+    * Evidence: The user described their pet. \"hes a 4 year old lab mix named diesel\" Conversation Date: 2026-05.
+* Dave is a friend who has season tickets for Michigan football.
+    * Evidence: The user mentioned their friend's sports access. \"my buddy dave has season tickets and he said he might be able to get me a pair for one of the home games.\" Conversation Date: 2026-05.
+
+**Dated Events, Projects & Plans**
+* The user's children are scheduled to stay with them for summer break from June 15 to August 10, 2026.
+    * Evidence: The user outlined the summer schedule. \"My three kids are coming to stay with me for summer break from June 15 to August 10.\" Conversation Date: 2026-05.
+* The user plans to launch a YouTube channel for video production tutorials by June 1, 2026.
+    * Evidence: The user set a specific project goal. \"im setting a goal to post my first tutorial by june 1st. i already have the neuracolor brand name and the instagram so ill just make a youtube channel with the same name.\" Conversation Date: 2026-05.
+* A family road trip to Mackinac Island is planned for July 10-13, 2026.
+    * Evidence: The user requested a calendar entry for the trip. \"Can you add this trip to my Google Calendar? Lets do July 10-13, four days three nights. Title it Mackinac Island Family Trip.\" Conversation Date: 2026-05.
+* The user is planning a birthday dinner for Rachel at The Earle on July 8, 2026.
+    * Evidence: The user scheduled a celebration. \"can u add dinner at the earle july 8 7pm to my calendar and put rachels birthday in there too\" Conversation Date: 2026-05.
+* The user plans to visit a science museum in Chicago around July 20, 2026.
+    * Evidence: The user mentioned an upcoming local trip. \"After that maybe plan a science museum trip to Chicago around July 20.\" Conversation Date: 2026-05.
+* The user intends to travel to Phoenix, Arizona, for Thanksgiving from November 25-30, 2026.
+    * Evidence: The user planned a holiday visit. \"can u just add thanksgiving trip phoenix to my calendar november 25-30?\" Conversation Date: 2026-05.
+* The user plans to teach their son Jake how to drive during the summer of 2026.
+    * Evidence: The user described a planned milestone. \"jake is turning 15 in september... i figure ill start teaching him this summer when hes here.\" Conversation Date: 2026-05.
