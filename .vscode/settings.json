@@ -1,5 +1,5 @@
 {
-  "python.defaultInterpreterPath": "/Library/Developer/CommandLineTools/usr/bin/python3",
+  "python.defaultInterpreterPath": "/usr/bin/python3",
   "python.envFile": "",
   "python.terminal.activateEnvironment": false,
   "python.venvPath": "",

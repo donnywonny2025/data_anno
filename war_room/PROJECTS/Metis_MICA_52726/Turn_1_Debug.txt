@@ -1,0 +1,1464 @@
+You're using the BAS->ALS legacy path.
+Model routing decision: [LlmR] beyond_api_v4s_gempix__beyond_api_v4s_gempix_2_flash_thinking_on_p13n_label_photos_chunks (MaybeStreamPlannerResponse for plan_step 0)
+Model routing decision: [LlmR] beyond_api_v4s_gempix__beyond_api_v4s_gempix_2_flash_thinking_on_p13n_label_photos_chunks (MaybeStreamPlannerResponse for plan_step 0)
+Model routing decision: [LlmR] beyond_api_v4s_gempix__beyond_api_v4s_gempix_2_flash_thinking_on_p13n_label_photos_chunks (MaybeStreamPlannerResponse for plan_step 1)
+Model routing decision: [LlmR] beyond_api_v4s_gempix__beyond_api_v4s_gempix_2_flash_thinking_on_p13n_label_photos_chunks (MaybeStreamPlannerResponse for plan_step 1)
+Model routing decision: [LlmR] beyond_api_v4s_gempix__beyond_api_v4s_gempix_2_flash_thinking_on_p13n_label_photos_chunks (MaybeStreamPlannerResponse for plan_step 2)
+Model routing decision: [LlmR] beyond_api_v4s_gempix__beyond_api_v4s_gempix_2_flash_thinking_on_p13n_label_photos_chunks (MaybeStreamPlannerResponse for plan_step 2)
+Model routing decision: [LlmR] beyond_api_v4s_gempix__beyond_api_v4s_gempix_2_flash_thinking_on_p13n_label_photos_chunks (MaybeStreamPlannerResponse for plan_step 2)
+Model routing decision: [LlmR] beyond_api_v4s_gempix__beyond_api_v4s_gempix_2_flash_thinking_on_p13n_label_photos_chunks (MaybeStreamPlannerResponse for plan_step 2)
+Model routing decision: [LlmR] beyond_api_v4s_gempix__beyond_api_v4s_gempix_2_flash_thinking_on_p13n_label_photos_chunks (MaybeStreamPlannerResponse for plan_step 2)
+Model routing decision: [LlmR] beyond_api_v4s_gempix__beyond_api_v4s_gempix_2_flash_thinking_on_p13n_label_photos_chunks (MaybeStreamPlannerResponse for plan_step 2)
+Model routing decision: [LlmR] beyond_api_v4s_gempix__beyond_api_v4s_gempix_2_flash_thinking_on_p13n_label_photos_chunks (MaybeStreamPlannerResponse for plan_step 2)
+Model routing decision: [LlmR] beyond_api_v4s_gempix__beyond_api_v4s_gempix_2_flash_thinking_on_p13n_label_photos_chunks (MaybeStreamPlannerResponse for plan_step 2)
+Model routing decision: [LlmR] beyond_api_v4s_gempix__beyond_api_v4s_gempix_2_flash_thinking_on_p13n_label_photos_chunks (MaybeStreamPlannerResponse for plan_step 2)
+Model routing decision: [LlmR] beyond_api_v4s_gempix__beyond_api_v4s_gempix_2_flash_thinking_on_p13n_label_photos_chunks (MaybeStreamPlannerResponse for plan_step 2)
+Model routing decision: [LlmR] beyond_api_v4s_gempix__beyond_api_v4s_gempix_2_flash_thinking_on_p13n_label_photos_chunks (MaybeStreamPlannerResponse for plan_step 2)
+Model routing decision: [LlmR] beyond_api_v4s_gempix__beyond_api_v4s_gempix_2_flash_thinking_on_p13n_label_photos_chunks (MaybeStreamPlannerResponse for plan_step 2)
+Model routing decision: [LlmR] beyond_api_v4s_gempix__beyond_api_v4s_gempix_2_flash_thinking_on_p13n_label_photos_chunks (MaybeStreamPlannerResponse for plan_step 2)
+Model routing decision: [LlmR] beyond_api_v4s_gempix__beyond_api_v4s_gempix_2_flash_thinking_on_p13n_label_photos_chunks (MaybeStreamPlannerResponse for plan_step 2)
+Model routing decision: [LlmR] beyond_api_v4s_gempix__beyond_api_v4s_gempix_2_flash_thinking_on_p13n_label_photos_chunks (MaybeStreamPlannerResponse for plan_step 2)
+Model ID: pcontext_gempix2_flash_thinking_glint
+Response source: RESPONSE_SOURCE_AGENT_RUNTIME_FRAMEWORK
+Image Generation User Query Classifier Metadata:
+Step 0
+code_response:
+```
+print(personal_context.retrieve_personal_data(query = "my sons\' names"))
+```
+
+code_output:
+PersonalContext.RetrievePersonalDataResult(personal_data_results=[PersonalContext.PersonalDataResult(result_text='Results from the user\'s Gemini Conversations for "my sons\' names": Your sons\' names are Jude and Lincoln.
+
+Results from the user\'s Photos Overview for "my children and family members": Your photo library features your children, Licoln and Jude, with whom you frequently travel and share recreational activities. You are often seen enjoying family outings together, such as:
+
+*   Swimming and picnicking at Gun Lake Park and Lake Michigan beaches.
+*   Embarking on regional road trips across states like Oklahoma, Missouri, and Arizona.
+*   Visiting cultural attractions like the Phoenix Art Museum and community events like the Battle Creek Executive Airport festival. 
+
+These memories capture your consistent engagement in family-oriented activities, reflecting a shared interest in outdoor recreation and travel.
+
+Results from the user\'s Gmail for "my sons\' names": Based on your account activity, your son\'s name is Jude. Multiple service notifications confirm his Google account was established and managed under your family group. No other sons are mentioned in your recent correspondence.')])
+
+
+error:
+
+
+Step 1
+code_response:
+```
+print(photos_ask.get_photos_for_generative_creation(subject = "me"))
+print(photos_ask.get_photos_for_generative_creation(subject = "Lincoln"))
+print(photos_ask.get_photos_for_generative_creation(subject = "Jude"))
+```
+
+code_output:
+PhotosAsk.ReferencePhoto(image='<image-tokens-google_photos://ClQKLEFGMVFpcE9CVEpPTDJrdDMzaWFXVmxPRlNfVXRVbjRoNjN4am9sdkZGRk1GEiQJAAAAoJnh3T8RAAAAYGZW0D8ZAAAAQDNf5D8hAAAAwMz07z8>', subject='me')
+PhotosAsk.ReferencePhoto(image='<image-tokens-google_photos://ClQKLEFGMVFpcE5oWTFmMm9qcXZ4aXdzMXVvWDBTM3UybXhBN1dQdGpHREt3VnZnEiQJAAAAYGaeyD8RAAAAAADAoz8ZAAAAYGbQ6j8hAAAAAAAA8D8>', subject='Lincoln')
+PhotosAsk.ReferencePhoto(image='<image-tokens-google_photos://ClQKLEFGMVFpcFBpTVRiNm1IbXR0V3RUbmt2c2ZuQWxwdlhic0UtbXhnZW5hUlFREiQJAAAAoJ3vzz8RAAAAoLMPpz8ZAAAAQLKd6D8hAAAAQN_P6z8>', subject='Jude')
+
+
+error:
+
+
+reagent_trace {
+  chosen_final_response: true
+  tool_selector_trace {
+    tool_selector_input_tools: "question_retrieval"
+    tool_selector_input_tools: "youtube"
+    tool_selector_input_tools: "maps_navigation"
+    tool_selector_input_tools: "image_generation"
+    tool_selector_input_tools: "mathsolver"
+    tool_selector_input_tools: "youtube_music"
+    tool_selector_input_tools: "content_fetcher"
+    tool_selector_input_tools: "browsing"
+    tool_selector_input_tools: "generic_calendar"
+    tool_selector_input_tools: "google_maps"
+    tool_selector_input_tools: "gemkick_corpus"
+    tool_selector_input_tools: "google_hotels"
+    tool_selector_input_tools: "workspace"
+    tool_selector_input_tools: "maps_local"
+    tool_selector_input_tools: "video_generation"
+    tool_selector_input_tools: "data_analysis"
+    tool_selector_input_tools: "google_flights"
+    tool_selector_input_tools: "google"
+    tool_selector_input_tools: "quiz_me"
+    tool_selector_input_tools: "file_content_fetcher"
+    tool_selector_input_tools: "generic_reminders"
+    tool_selector_input_tools: "audio_gen"
+    tool_selector_input_tools: "google_shopping"
+    tool_selector_input_tools: "image_retrieval"
+    tool_selector_input_tools: "scheduler"
+    tool_selector_input_tools: "personal_context"
+    tool_selector_input_tools: "synth_id"
+    tool_selector_input_tools: "canva_tool"
+    tool_selector_input_tools: "gmail"
+    tool_selector_input_tools: "google_photos_ask"
+    tool_selector_input_tools: "music_gen"
+    tool_selector_input_tools: "notes_and_lists"
+    tool_selector_predictions: "image_generation"
+    tool_selector_raw_output: "image_generation"
+    predicted_gaa_disabled_tools: false
+    agency_trace {
+      rejection_reason: "Not calling Agent: disabled by configuration."
+    }
+  }
+  confirmation_classifier_trace {
+  }
+  extensions_search_tool_selector_trace {
+  }
+  agency_trace {
+    rejection_reason: "Not calling EAC Agent: disabled by configuration."
+  }
+}
+tool_log {
+  python_payload {
+    python_payload: "print(personal_context.retrieve_personal_data(query = \"my sons\\' names\"))"
+  }
+  trace {
+    executions {
+      tool_name: "personal_context"
+      method_name: "retrieve_personal_data"
+      params {
+        fields {
+          key: "query"
+          value {
+            string_value: "my sons' names"
+          }
+        }
+      }
+      json_params: "{\"query\": \"my sons' names\"}"
+      json_output: "{\n \"personal_data_results\": [\n  {\n   \"result_text\": \"Results from the user's Gemini Conversations for \\\"my sons' names\\\": Your sons' names are Jude and Lincoln.\\n\\nResults from the user's Photos Overview for \\\"my children and family members\\\": Your photo library features your children, Licoln and Jude, with whom you frequently travel and share recreational activities. You are often seen enjoying family outings together, such as:\\n\\n*   Swimming and picnicking at Gun Lake Park and Lake Michigan beaches.\\n*   Embarking on regional road trips across states like Oklahoma, Missouri, and Arizona.\\n*   Visiting cultural attractions like the Phoenix Art Museum and community events like the Battle Creek Executive Airport festival. \\n\\nThese memories capture your consistent engagement in family-oriented activities, reflecting a shared interest in outdoor recreation and travel.\\n\\nResults from the user's Gmail for \\\"my sons' names\\\": Based on your account activity, your son's name is Jude. Multiple service notifications confirm his Google account was established and managed under your family group. No other sons are mentioned in your recent correspondence.\"\n  }\n ]\n}\n"
+      manifest_version: 12
+    }
+  }
+  output: "PersonalContext.RetrievePersonalDataResult(personal_data_results=[PersonalContext.PersonalDataResult(result_text='Results from the user\\'s Gemini Conversations for \"my sons\\' names\": Your sons\\' names are Jude and Lincoln.\\n\\nResults from the user\\'s Photos Overview for \"my children and family members\": Your photo library features your children, Licoln and Jude, with whom you frequently travel and share recreational activities. You are often seen enjoying family outings together, such as:\\n\\n*   Swimming and picnicking at Gun Lake Park and Lake Michigan beaches.\\n*   Embarking on regional road trips across states like Oklahoma, Missouri, and Arizona.\\n*   Visiting cultural attractions like the Phoenix Art Museum and community events like the Battle Creek Executive Airport festival. \\n\\nThese memories capture your consistent engagement in family-oriented activities, reflecting a shared interest in outdoor recreation and travel.\\n\\nResults from the user\\'s Gmail for \"my sons\\' names\": Based on your account activity, your son\\'s name is Jude. Multiple service notifications confirm his Google account was established and managed under your family group. No other sons are mentioned in your recent correspondence.')])\n"
+  error: ""
+  exit_status: 0
+  block_type: CODE_BLOCK
+  react_agent_status_code: 1
+  tool_sensitivity_trace {
+    tool_sensitivity_debug_info {
+      sensitivity_check_input: "Based on my data, create an image that recaps a typical weekend for me and my two sons in Michigan."
+      is_sensitive: false
+      parameter_type: USER_QUERY_TEXT
+      is_u18: false
+      filter_reason: "NONE"
+      classifier_output {
+      }
+      is_takedown: false
+      classifier_name: "bypass_planner"
+      sensitive_takedown_config_regex: ""
+      tool_name: "personal_context"
+      operation_id: "retrieve_personal_data"
+    }
+  }
+  tool_response_size {
+    policy: TOOL_RESPONSE_SIZE_POLICY_REGULAR
+  }
+  policy_engine_response {
+    non_blocking_policies {
+      key: "AGENT_MODE_CONFIRMATION"
+      value {
+        is_allowed: true
+        metric_data {
+          tool_operation_data {
+            tool_name: "personal_context"
+            operation_id: "retrieve_personal_data"
+            request_source: SOURCE_BARD
+            query_language: ""
+          }
+        }
+        policy_handler: AGENT_MODE_CONFIRMATION
+      }
+    }
+    non_blocking_policies {
+      key: "BLUEBIRD_CONFIRMATION"
+      value {
+        is_allowed: true
+        metric_data {
+          tool_operation_data {
+            tool_name: "personal_context"
+            operation_id: "retrieve_personal_data"
+            request_source: SOURCE_BARD
+            query_language: ""
+          }
+        }
+        policy_handler: BLUEBIRD_CONFIRMATION
+      }
+    }
+    non_blocking_policies {
+      key: "CONSECA"
+      value {
+        is_allowed: true
+        policy_check_status {
+          conseca_policy_check_status {
+            policy {
+            }
+          }
+        }
+        tool_name: "personal_context"
+        metric_data {
+          tool_operation_data {
+            tool_name: "personal_context"
+            operation_id: "retrieve_personal_data"
+            request_source: SOURCE_BARD
+            query_language: ""
+          }
+        }
+        policy_handler: CONSECA
+      }
+    }
+    non_blocking_policies {
+      key: "DYNAMIC_SECURITY"
+      value {
+        is_allowed: true
+        metric_data {
+          tool_operation_data {
+            tool_name: "personal_context"
+            operation_id: "retrieve_personal_data"
+            request_source: SOURCE_BARD
+            query_language: ""
+          }
+        }
+        policy_handler: DYNAMIC_SECURITY
+      }
+    }
+    non_blocking_policies {
+      key: "LOCK_SCREEN"
+      value {
+        is_allowed: true
+        tool_name: "personal_context"
+        metric_data {
+          tool_operation_data {
+            tool_name: "personal_context"
+            operation_id: "retrieve_personal_data"
+            request_source: SOURCE_BARD
+            query_language: ""
+          }
+        }
+        policy_handler: LOCK_SCREEN
+      }
+    }
+    non_blocking_policies {
+      key: "SENSITIVE_OP_CONFIRMATION"
+      value {
+        is_allowed: true
+        metric_data {
+          tool_operation_data {
+            tool_name: "personal_context"
+            operation_id: "retrieve_personal_data"
+            request_source: SOURCE_BARD
+            query_language: ""
+          }
+        }
+        policy_handler: SENSITIVE_OP_CONFIRMATION
+      }
+    }
+    non_blocking_policies {
+      key: "SERVICE_ON_OFF"
+      value {
+        is_allowed: true
+        metric_data {
+          tool_operation_data {
+            tool_name: "personal_context"
+            operation_id: "retrieve_personal_data"
+            request_source: SOURCE_BARD
+            query_language: ""
+          }
+        }
+        policy_handler: SERVICE_ON_OFF
+      }
+    }
+    non_blocking_policies {
+      key: "SHOPPING_ADVERSARIAL_POLICY"
+      value {
+        is_allowed: true
+        policy_handler: SHOPPING_ADVERSARIAL_POLICY
+      }
+    }
+    non_blocking_policies {
+      key: "TOOL_CHAIN_SECURITY"
+      value {
+        is_allowed: true
+        metric_data {
+          tool_operation_data {
+            tool_name: "personal_context"
+            operation_id: "retrieve_personal_data"
+            request_source: SOURCE_BARD
+            query_language: ""
+          }
+        }
+        policy_handler: TOOL_CHAIN_SECURITY
+      }
+    }
+    non_blocking_policies {
+      key: "TRUST_LEVEL"
+      value {
+        is_allowed: true
+        policy_check_status {
+          trust_level_policy_check_status {
+            untrusted_url: false
+            untrusted_email: false
+            url_checker_failed: false
+            untrusted_event_id: false
+          }
+        }
+        tool_name: "personal_context"
+        metric_data {
+          tool_operation_data {
+            tool_name: "personal_context"
+            operation_id: "retrieve_personal_data"
+            request_source: SOURCE_BARD
+            query_language: ""
+          }
+        }
+        policy_handler: TRUST_LEVEL
+        trust_level_policy_metadata {
+          policy_id: 25
+        }
+      }
+    }
+    non_blocking_policies {
+      key: "WORKSPACE_ACCESS"
+      value {
+        is_allowed: true
+        tool_name: "personal_context"
+        metric_data {
+          tool_operation_data {
+            tool_name: "personal_context"
+            operation_id: "retrieve_personal_data"
+            request_source: SOURCE_BARD
+            query_language: ""
+          }
+        }
+        policy_handler: WORKSPACE_ACCESS
+      }
+    }
+  }
+}
+tool_log {
+  python_payload {
+    python_payload: "print(photos_ask.get_photos_for_generative_creation(subject = \"me\"))\nprint(photos_ask.get_photos_for_generative_creation(subject = \"Lincoln\"))\nprint(photos_ask.get_photos_for_generative_creation(subject = \"Jude\"))"
+  }
+  trace {
+    executions {
+      tool_name: "google_photos_ask"
+      method_name: "get_photos_for_generative_creation"
+      params {
+        fields {
+          key: "subject"
+          value {
+            string_value: "me"
+          }
+        }
+      }
+      json_params: "{\"subject\": \"me\"}"
+      json_output: "{\n \"subject\": \"me\",\n \"image\": \"\\u003cimage-tokens-google_photos://ClQKLEFGMVFpcE9CVEpPTDJrdDMzaWFXVmxPRlNfVXRVbjRoNjN4am9sdkZGRk1GEiQJAAAAoJnh3T8RAAAAYGZW0D8ZAAAAQDNf5D8hAAAAwMz07z8\\u003e\",\n \"deeplink_url\": \"https://photos.google.com/link/photo?key=AF1QipOBTJOL2kt33iaWVlOFS_UtUn4h63xjolvFFFMF&obfsgid=117143322622300630475&utm_source=GM\"\n}\n"
+      manifest_version: 1002
+    }
+    executions {
+      tool_name: "google_photos_ask"
+      method_name: "get_photos_for_generative_creation"
+      params {
+        fields {
+          key: "subject"
+          value {
+            string_value: "Lincoln"
+          }
+        }
+      }
+      json_params: "{\"subject\": \"Lincoln\"}"
+      json_output: "{\n \"subject\": \"Lincoln\",\n \"image\": \"\\u003cimage-tokens-google_photos://ClQKLEFGMVFpcE5oWTFmMm9qcXZ4aXdzMXVvWDBTM3UybXhBN1dQdGpHREt3VnZnEiQJAAAAYGaeyD8RAAAAAADAoz8ZAAAAYGbQ6j8hAAAAAAAA8D8\\u003e\",\n \"deeplink_url\": \"https://photos.google.com/link/photo?key=AF1QipNhY1f2ojqvxiws1uoX0S3u2mxA7WPtjGDKwVvg&obfsgid=117143322622300630475&utm_source=GM\"\n}\n"
+      manifest_version: 1002
+    }
+    executions {
+      tool_name: "google_photos_ask"
+      method_name: "get_photos_for_generative_creation"
+      params {
+        fields {
+          key: "subject"
+          value {
+            string_value: "Jude"
+          }
+        }
+      }
+      json_params: "{\"subject\": \"Jude\"}"
+      json_output: "{\n \"subject\": \"Jude\",\n \"image\": \"\\u003cimage-tokens-google_photos://ClQKLEFGMVFpcFBpTVRiNm1IbXR0V3RUbmt2c2ZuQWxwdlhic0UtbXhnZW5hUlFREiQJAAAAoJ3vzz8RAAAAoLMPpz8ZAAAAQLKd6D8hAAAAQN_P6z8\\u003e\",\n \"deeplink_url\": \"https://photos.google.com/link/photo?key=AF1QipPiMTb6mHmttWtTnkvsfnAlpvXbsE-mxgenaRQQ&obfsgid=117143322622300630475&utm_source=GM\"\n}\n"
+      manifest_version: 1002
+    }
+  }
+  output: "PhotosAsk.ReferencePhoto(image='<image-tokens-google_photos://ClQKLEFGMVFpcE9CVEpPTDJrdDMzaWFXVmxPRlNfVXRVbjRoNjN4am9sdkZGRk1GEiQJAAAAoJnh3T8RAAAAYGZW0D8ZAAAAQDNf5D8hAAAAwMz07z8>', subject='me')\nPhotosAsk.ReferencePhoto(image='<image-tokens-google_photos://ClQKLEFGMVFpcE5oWTFmMm9qcXZ4aXdzMXVvWDBTM3UybXhBN1dQdGpHREt3VnZnEiQJAAAAYGaeyD8RAAAAAADAoz8ZAAAAYGbQ6j8hAAAAAAAA8D8>', subject='Lincoln')\nPhotosAsk.ReferencePhoto(image='<image-tokens-google_photos://ClQKLEFGMVFpcFBpTVRiNm1IbXR0V3RUbmt2c2ZuQWxwdlhic0UtbXhnZW5hUlFREiQJAAAAoJ3vzz8RAAAAoLMPpz8ZAAAAQLKd6D8hAAAAQN_P6z8>', subject='Jude')\n"
+  error: ""
+  exit_status: 0
+  block_type: CODE_BLOCK
+  react_agent_status_code: 1
+  tool_sensitivity_trace {
+    tool_sensitivity_debug_info {
+      sensitivity_check_input: "Based on my data, create an image that recaps a typical weekend for me and my two sons in Michigan."
+      is_sensitive: false
+      parameter_type: USER_QUERY_TEXT
+      is_u18: false
+      filter_reason: "NONE"
+      classifier_output {
+      }
+      is_takedown: false
+      classifier_name: "bypass_planner"
+      sensitive_takedown_config_regex: ""
+      tool_name: "google_photos_ask"
+      operation_id: "get_photos_for_generative_creation"
+    }
+    tool_sensitivity_debug_info {
+      sensitivity_check_input: "Based on my data, create an image that recaps a typical weekend for me and my two sons in Michigan."
+      is_sensitive: false
+      parameter_type: USER_QUERY_TEXT
+      is_u18: false
+      filter_reason: "NONE"
+      classifier_output {
+      }
+      is_takedown: false
+      classifier_name: "bypass_planner"
+      sensitive_takedown_config_regex: ""
+      tool_name: "google_photos_ask"
+      operation_id: "get_photos_for_generative_creation"
+    }
+    tool_sensitivity_debug_info {
+      sensitivity_check_input: "Based on my data, create an image that recaps a typical weekend for me and my two sons in Michigan."
+      is_sensitive: false
+      parameter_type: USER_QUERY_TEXT
+      is_u18: false
+      filter_reason: "NONE"
+      classifier_output {
+      }
+      is_takedown: false
+      classifier_name: "bypass_planner"
+      sensitive_takedown_config_regex: ""
+      tool_name: "google_photos_ask"
+      operation_id: "get_photos_for_generative_creation"
+    }
+  }
+  tool_response_size {
+    policy: TOOL_RESPONSE_SIZE_POLICY_REGULAR
+  }
+  policy_engine_response {
+    violated_policies {
+      key: "TOOL_CHAIN_SECURITY"
+      value {
+        is_allowed: false
+        remediations {
+          prompt_for_confirmation {
+          }
+        }
+        policy_check_status {
+          tool_chain_policy_check_status {
+            restricted_tool_chain {
+              tool_name: "personal_context"
+              operation_id: "retrieve_personal_data"
+            }
+            restricted_tool_chain {
+              tool_name: "google_photos_ask"
+              operation_id: "get_photos_for_generative_creation"
+            }
+            restrict_post_tool_execution: true
+          }
+        }
+        metric_data {
+          tool_operation_data {
+            tool_name: "google_photos_ask"
+            operation_id: "get_photos_for_generative_creation"
+            request_source: SOURCE_BARD
+            query_language: ""
+          }
+        }
+        policy_handler: TOOL_CHAIN_SECURITY
+        violated_policy_name: "personal_context tool chaining allow list (go/confirmations-plan-pcontext)"
+      }
+    }
+    non_blocking_policies {
+      key: "AGENT_MODE_CONFIRMATION"
+      value {
+        is_allowed: true
+        metric_data {
+          tool_operation_data {
+            tool_name: "google_photos_ask"
+            operation_id: "get_photos_for_generative_creation"
+            request_source: SOURCE_BARD
+            query_language: ""
+          }
+        }
+        policy_handler: AGENT_MODE_CONFIRMATION
+      }
+    }
+    non_blocking_policies {
+      key: "BLUEBIRD_CONFIRMATION"
+      value {
+        is_allowed: true
+        metric_data {
+          tool_operation_data {
+            tool_name: "google_photos_ask"
+            operation_id: "get_photos_for_generative_creation"
+            request_source: SOURCE_BARD
+            query_language: ""
+          }
+        }
+        policy_handler: BLUEBIRD_CONFIRMATION
+      }
+    }
+    non_blocking_policies {
+      key: "CONSECA"
+      value {
+        is_allowed: true
+        policy_check_status {
+          conseca_policy_check_status {
+            policy {
+            }
+          }
+        }
+        tool_name: "google_photos_ask"
+        metric_data {
+          tool_operation_data {
+            tool_name: "google_photos_ask"
+            operation_id: "get_photos_for_generative_creation"
+            request_source: SOURCE_BARD
+            query_language: ""
+          }
+        }
+        policy_handler: CONSECA
+      }
+    }
+    non_blocking_policies {
+      key: "DYNAMIC_SECURITY"
+      value {
+        is_allowed: true
+        metric_data {
+          tool_operation_data {
+            tool_name: "google_photos_ask"
+            operation_id: "get_photos_for_generative_creation"
+            request_source: SOURCE_BARD
+            query_language: ""
+          }
+        }
+        policy_handler: DYNAMIC_SECURITY
+      }
+    }
+    non_blocking_policies {
+      key: "LOCK_SCREEN"
+      value {
+        is_allowed: true
+        tool_name: "google_photos_ask"
+        metric_data {
+          tool_operation_data {
+            tool_name: "google_photos_ask"
+            operation_id: "get_photos_for_generative_creation"
+            request_source: SOURCE_BARD
+            query_language: ""
+          }
+        }
+        policy_handler: LOCK_SCREEN
+      }
+    }
+    non_blocking_policies {
+      key: "SENSITIVE_OP_CONFIRMATION"
+      value {
+        is_allowed: true
+        metric_data {
+          tool_operation_data {
+            tool_name: "google_photos_ask"
+            operation_id: "get_photos_for_generative_creation"
+            request_source: SOURCE_BARD
+            query_language: ""
+          }
+        }
+        policy_handler: SENSITIVE_OP_CONFIRMATION
+      }
+    }
+    non_blocking_policies {
+      key: "SERVICE_ON_OFF"
+      value {
+        is_allowed: true
+        metric_data {
+          tool_operation_data {
+            tool_name: "google_photos_ask"
+            operation_id: "get_photos_for_generative_creation"
+            request_source: SOURCE_BARD
+            query_language: ""
+          }
+        }
+        policy_handler: SERVICE_ON_OFF
+      }
+    }
+    non_blocking_policies {
+      key: "SHOPPING_ADVERSARIAL_POLICY"
+      value {
+        is_allowed: true
+        policy_handler: SHOPPING_ADVERSARIAL_POLICY
+      }
+    }
+    non_blocking_policies {
+      key: "TRUST_LEVEL"
+      value {
+        is_allowed: true
+        policy_check_status {
+          trust_level_policy_check_status {
+            untrusted_url: false
+            untrusted_email: false
+            url_checker_failed: false
+            untrusted_event_id: false
+          }
+        }
+        tool_name: "google_photos_ask"
+        metric_data {
+          tool_operation_data {
+            tool_name: "google_photos_ask"
+            operation_id: "get_photos_for_generative_creation"
+            request_source: SOURCE_BARD
+            query_language: ""
+          }
+        }
+        policy_handler: TRUST_LEVEL
+        trust_level_policy_metadata {
+          policy_id: 25
+        }
+      }
+    }
+    non_blocking_policies {
+      key: "WORKSPACE_ACCESS"
+      value {
+        is_allowed: true
+        tool_name: "google_photos_ask"
+        metric_data {
+          tool_operation_data {
+            tool_name: "google_photos_ask"
+            operation_id: "get_photos_for_generative_creation"
+            request_source: SOURCE_BARD
+            query_language: ""
+          }
+        }
+        policy_handler: WORKSPACE_ACCESS
+      }
+    }
+  }
+}
+final_tool_invocations {
+  tool_processing_state {
+    tool_id: "personal_context"
+    tool_data {
+      tool_display_name: "Show details"
+      tool_logo_uri: "https://www.gstatic.com/images/branding/productlogos/gemini_2025_blue/v1/192px.svg"
+    }
+    state: STATE_FINISHED
+  }
+}
+final_tool_invocations {
+  tool_processing_state {
+    tool_id: "personal_context"
+    tool_data {
+      tool_request: ""
+      tool_display_name: "Personal Intelligence"
+      tool_logo_uri: "https://www.gstatic.com/images/branding/productlogos/gemini_2025_blue/v1/192px.svg"
+      operation_id: "retrieve_personal_data"
+    }
+    state: STATE_FINISHED
+  }
+}
+final_tool_invocations {
+  tool_processing_state {
+    tool_id: "google_photos_ask"
+    tool_data {
+      tool_display_name: "Google Photos"
+      tool_logo_uri: "https://www.gstatic.com/images/branding/product/1x/photos_2025_64dp.png"
+    }
+    state: STATE_FINISHED
+  }
+}
+final_tool_invocations {
+  tool_processing_state {
+    tool_id: "google_photos_ask"
+    tool_data {
+      tool_display_name: "Google Photos"
+      tool_logo_uri: "https://www.gstatic.com/images/branding/product/1x/photos_2025_64dp.png"
+    }
+    state: STATE_FINISHED
+  }
+}
+final_tool_invocations {
+  tool_processing_state {
+    tool_id: "google_photos_ask"
+    tool_data {
+      tool_display_name: "Google Photos"
+      tool_logo_uri: "https://www.gstatic.com/images/branding/product/1x/photos_2025_64dp.png"
+    }
+    state: STATE_FINISHED
+  }
+}
+bypass_planner_classifier_reason: "NONE"
+response_filtering_signals {
+  allow_private_names: false
+}
+allowed_recitation_content {
+}
+Classifier values:
+  is_politics_related: 0.0
+  is_election_related: 0.0
+  sensitive_score: 0.0014882272807881236
+  show_check_it_score: 7.83723226049915E-5
+  kite_wellness_coach_fitness_score: 2.5717332706080105E-15
+  kite_is_not_denylist_score: 0.018428517505526543
+  kite_is_personalization_allowlist_1_score: 1.0
+  kite_is_photo_edit_score: 0.9997921586036682
+  kite_is_personalization_correction_score: 2.203231459850085E-14
+  kite_is_personalization_self_awareness_score: 2.4872275896113184E-27
+  kite_is_personal_context_tool_score: 0.020751047879457474
+  kite_is_personal_context_tool_allowlist_score: 0.0
+  kite_is_personalization_gempix_allowlist_score: 0.9999042749404907
+  kite_p13n_health_score: 0.3011912405490875
+  npov_is_elections_related: 3.897775604855269E-4
+  pnd_requests_private_information: 9.728548466227949E-4
+  is_election_related: 0.0
+  is_politics_related: 0.0
+Rule triggered: kite_is_wellness_coach_fitness, NO_MATCH
+Rule triggered: kite_is_wellness_coach_nutrition, NO_MATCH
+Rule triggered: kite_is_wellness_coach_hydration, NO_MATCH
+Personal Context:
+chapters {
+  name: "sian_profile"
+  text: "## Demographics Information\n\n* The user is a freelance video producer and editor.\n  * Source: Gemini Chat. Evidence: User stated profession of eight years and discussed professional background during resume and invoicing discussions. Date: 2026-05.\n* The user owns and operates Neuracolor Media LLC and has been associated with The Kerr Media Group.\n  * Source: Gemini Chat. Evidence: User shared the business name while discussing resume and invoicing scope. Date: 2026-05.\n  * Source: Gmail. Evidence: User was associated with a Google Workspace domain for The Kerr Media Group. Date: N/A.\n* The user has provided conflicting demographic data, identifying as 33 years old with a March 12, 1993 birth date in conversation, while user-confirmed photo labels identify the user as 48 years old with an August 6, 1977 birth date.\n  * Source: Gemini Chat. Evidence: User stated age and birth date during a profile revamp discussion. Date: 2026-05.\n  * Source: Photos. Evidence: User confirmed age and birth date labels in account information. Date: 2026-05.\n* The user resides in Ann Arbor, Michigan, and has also been located in Wayland, Michigan, after previously living in Chicago and Detroit.\n  * Source: Gemini Chat. Evidence: User discussed current apartment location in Ann Arbor and sought local activity recommendations in Wayland. Date: 2026-05.\n  * Source: Photos. Evidence: Photo labels identify the user location as Wayland, Michigan. Date: 2026-05.\n* The user was born in Toledo, Ohio.\n  * Source: Gemini Chat. Evidence: User provided hometown during a profile discussion. Date: 2026-05.\n* The user earned a Bachelor's degree in Film from Columbia College Chicago in 2015.\n  * Source: Gemini Chat. Evidence: User explicitly mentioned degree and graduation year while discussing professional background. Date: 2026-05.\n* The user drives a 2019 Honda Civic.\n  * Source: Gemini Chat. Evidence: User shared vehicle model and year when seeking a local mechanic. Date: 2026-05.\n\n## Interests & Preferences\n\n* The user is proficient in video editing software, including Premiere Pro, After Effects, DaVinci Resolve, and Final Cut Pro.\n  * Source: Gemini Chat. Evidence: User listed these specific tools as core professional skills for a video production career. Date: 2026-05.\n* The user is interested in exploring the social impact of AI and transitioning into AI content strategy.\n  * Source: Gemini Chat. Evidence: User requested video essays on technology and AI and discussed integrating AI into creative content creation. Date: 2026-05.\n* The user utilizes cloud computing and machine learning platforms, including Google Cloud Platform, Gemini, Replicate, Lightning AI Studios, Firebase Studio, Dataplex Catalog, Dataform, Hyperstack, and GitHub.\n  * Source: Gmail. Evidence: User manages projects, billing credentials, and workflows across these development and cloud infrastructure services. Date: N/A.\n  * Source: Gemini Chat. Evidence: User discussed utilizing the Gemini AI suite for coding assistance and creative writing. Date: 2026-05.\n* The user visits Midwestern state parks and lakes for activities such as swimming and taking children fishing.\n  * Source: Gemini Chat. Evidence: User expressed interest in visiting state parks and lakes and taking children fishing. Date: 2026-05.\n  * Source: Photos. Evidence: Photo records show the user swimming in Lake Michigan and visiting Gun Lake Park in May 2026, July 2025, and August 2024. Date: 2026-05, 2025-07, 2024-08.\n* The user plans road trips to natural landmarks.\n  * Source: Gemini Chat. Evidence: User expressed interest in planning road trips to natural landmarks. Date: 2026-05.\n  * Source: Photos. Evidence: Photo data captures multi-day journeys through Oklahoma, Missouri, Arizona, and New Mexico in May 2024 and May 2023. Date: 2024-05, 2023-05.\n* The user plays electric guitar with an interest in blues and classic rock styles.\n  * Source: Gemini Chat. Evidence: User discussed picking up electric guitar again and mentioned influences including Jimi Hendrix and Stevie Ray Vaughan. Date: 2026-05.\n* The user prefers unpretentious Thai food and pizza restaurants.\n  * Source: Gemini Chat. Evidence: User specified these culinary preferences when looking for restaurant recommendations in the Ann Arbor area. Date: 2026-05.\n\n## Relationships\n\n* The user has a partner named Rachel.\n  * Source: Gemini Chat. Evidence: User mentions Rachel and her career as an Emergency Room nurse at the University of Michigan Hospital. Date: 2026-05.\n* The user has an ex-partner named Sarah.\n  * Source: Gemini Chat. Evidence: User discussed a summer visitation schedule for children with an ex-partner. Date: 2026-05.\n* The user has children.\n  * Source: Gemini Chat. Evidence: User discussed a visitation schedule and seeking local activities for children. Date: 2026-05.\n  * Source: Photos. Evidence: User confirmed photo labels identifying children. Date: 2026-05.\n  * Source: Gmail. Evidence: Transactional and legal data identifies a son. Date: N/A.\n* The user has a mother in Phoenix, Arizona, and a sister in Tucson, Arizona.\n  * Source: Gemini Chat. Evidence: User discussed travel plans to visit the mother for Thanksgiving and mentioned a sister and niece. Date: 2026-05.\n* The user has a dog.\n  * Source: Gemini Chat. Evidence: User shared details about the dog's breed and age. Date: 2026-05.\n\n## Dated Events, Projects & Plans\n\n* The user completed a commercial video project for Grizzly Peak Brewing Co. in May 2026.\n  * Source: Gemini Chat. Evidence: User detailed the scope of work, including a shoot and editing, while drafting an invoice. Date: 2026-05.\n* The user plans to launch a YouTube channel for video production tutorials with a target first post by June 1, 2026.\n  * Source: Gemini Chat. Evidence: User committed to a specific goal and timeline for starting educational content. Date: 2026-05.\n* A visitation period for the user's children is scheduled for June 15 to August 10, 2026.\n  * Source: Gemini Chat. Evidence: User stated the specific date range for the upcoming visitation. Date: 2026-05.\n* The user plans to celebrate Rachel's birthday with dinner at The Earle in Ann Arbor on July 8, 2026.\n  * Source: Gemini Chat. Evidence: User discussed birthday gift ideas and requested a calendar entry for the dinner reservation. Date: 2026-05.\n* A family vacation trip to Mackinac Island is scheduled for July 10-13, 2026.\n  * Source: Gemini Chat. Evidence: User requested that the trip be added to the calendar. Date: 2026-05.\n* A trip to Phoenix for Thanksgiving is planned for November 25 to November 30, 2026.\n  * Source: Gemini Chat. Evidence: User requested a calendar entry for a multi-day family visit to the mother. Date: 2026-05.\n* The user traveled through Oklahoma and Missouri in May 2024.\n  * Source: Photos. Evidence: Photo data documents travel through these states. Date: 2024-05-29."
+  sources: PHOTOS
+  sources: GMAIL
+  sources: BARD_NOT_PERSONALIZED_USING_FIRST_PARTY_DATA
+  version: "gemini_get_profile_llm_summarization_two_stage_us_rev23_v16_v6p5p3_paid-DATA_SOURCE_USER_PROFILE_GEMINI_CHAT:pcontext_chat_summarization_rev23_v9_imported_profile_ledger_p3_raw_thoughts-DATA_SOURCE_USER_PROFILE_GMAIL:v13-lite-compressing-incremental-v4s-summarizer-DATA_SOURCE_USER_PROFILE_PHOTOS:UNVERSIONED-config_version:profile_llm_summarization_manual_v16_v6p5p3-model_id:models/gemini-v4s-rev23-fiercefalcon"
+  stats {
+    model_input_token_count: 10920
+    model_output_token_count: 25260
+    lm_prefix_length: 0
+    model_id: "models/gemini-v4s-rev23-fiercefalcon"
+    config_version: "profile_llm_summarization_manual_v16_v6p5p3"
+    total_statements: 26
+    total_evidences: 34
+    section_stats {
+      section_name: "Demographics Information"
+      num_statements: 7
+      num_evidences: 10
+      char_length: 1980
+      has_format_error: false
+    }
+    section_stats {
+      section_name: "Interests & Preferences"
+      num_statements: 7
+      num_evidences: 10
+      char_length: 2322
+      has_format_error: false
+    }
+    section_stats {
+      section_name: "Relationships"
+      num_statements: 5
+      num_evidences: 7
+      char_length: 1064
+      has_format_error: false
+    }
+    section_stats {
+      section_name: "Dated Events, Projects & Plans"
+      num_statements: 7
+      num_evidences: 7
+      char_length: 1523
+      has_format_error: false
+    }
+    num_sections: 4
+    input_text_length: 28676
+    num_correction_ledger_statements: 1
+    num_correction_ledger_evidences: 0
+    num_imported_profiles: 0
+    has_no_information_available: true
+    profile_stats {
+      has_demographics_section: true
+      has_relationships_section: true
+      has_topics_section: false
+      has_preferences_section: true
+      profile_has_format_error: false
+      num_invalid_statements: 0
+      num_invalid_evidences: 0
+      profile_age_days: 0
+      num_gemini_chat_sources: 25
+      num_photos_sources: 6
+      num_gmail_sources: 3
+      num_search_sources: 0
+      num_consented_sources_with_empty_profiles: 1
+      fallback_to_0p_triggered: false
+      zero_p_profile_config_version: "pcontext_chat_summarization_rev23_v9_imported_profile_ledger_p3_raw_thoughts"
+      has_events_section: true
+      requested_cache_option: 3
+      effective_cache_option: 3
+    }
+  }
+}
+chapters {
+  name: "correction_ledger_from_bard_conversations"
+  text: "No information available."
+  sources: BARD_NOT_PERSONALIZED_USING_FIRST_PARTY_DATA
+  version: "pcontext_chat_summarization_rev23_v9_imported_profile_ledger_p3_raw_thoughts"
+  stats {
+    profile_stats {
+      ledger_has_format_error: false
+      ledger_num_statements: 1
+      ledger_num_evidences: 0
+      ledger_has_no_info: true
+    }
+  }
+}
+chapters {
+  name: "photo_library_clusters"
+  text: "Licoln\nJude\nLinsey\nDad\nRosie"
+}
+personalization_status: PERSONALIZATION_STATUS_ENABLED
+debug_info {
+  short_term_memory_debug_info {
+    num_turns_read_from_footprints: 25
+    num_turns_after_summary_freshness_based_truncation: 25
+    num_sensitive_turns_read_from_footprints: 0
+    num_sensitive_turns_after_summary_freshness_based_truncation: 0
+    num_turns_after_combining_with_sensitive_turns: 25
+  }
+  user_summary_end_time {
+    seconds: 1779847181
+    nanos: 963803000
+  }
+}
+user_consented_empty_profiles: DATA_SOURCE_USER_PROFILE_BARD_SEARCH
+Sian Data Source Call Responses:
+Data Source Request:
+data_source: DATA_SOURCE_GEMINI_CONVERSATION
+query: "my sons' names"
+tool_call_id: "f3eb381d-92da-47b8-9d83-6a703c4034d1"
+elapsed_time {
+}
+is_fast_index_call: false
+
+Gemini Conversation Taint Info:
+is_workspace_tainted: true
+is_robin_hotword_tainted: false
+is_document_upload_tainted: false
+is_sensitive_ice_tainted: false
+is_floaty_with_paywalled_url_tainted: false
+is_restricted_logging_tool_tainted: true
+is_personalized_tainted: true
+tainting_sensitive_actions_types: SENSITIVE_ACTIONS_TYPE_WORKSPACE_CALENDAR
+tainting_sensitive_actions_types: SENSITIVE_ACTIONS_TYPE_WORKSPACE_KEEP
+tainting_tools: "google_photos_ask"
+client_trigger_type: UNKNOWN
+is_sensitive_actions_tainted: true
+utd_bucket: UTD_NOT_COVERED
+is_personalized_1p_online_tainted: true
+is_google_photos_tainted: true
+is_personalized_1p_photos_online_tainted: true
+
+Gemini Conversation Taint Info:
+is_workspace_tainted: false
+is_robin_hotword_tainted: false
+is_document_upload_tainted: false
+is_sensitive_ice_tainted: false
+is_floaty_with_paywalled_url_tainted: false
+is_restricted_logging_tool_tainted: false
+is_personalized_tainted: false
+client_trigger_type: MAIN_ICON
+is_sensitive_actions_tainted: false
+utd_bucket: UTD_NOT_COVERED
+is_personalized_1p_online_tainted: false
+is_personalized_1p_photos_online_tainted: false
+
+Data Source Request:
+data_source: DATA_SOURCE_PHOTOS
+query: "my children and family members"
+tool_call_id: "92d49dbf-10e5-4498-92b3-a1641283ac66"
+elapsed_time {
+}
+is_fast_index_call: true
+fast_index_params {
+  categories: CATEGORY_TRAVEL
+  categories: CATEGORY_HOBBIES
+  categories: CATEGORY_DINING
+  categories: CATEGORY_CLOSE_CONNECTIONS_PROFILE
+}
+user_info {
+  user_profile: "Profile from DATA_SOURCE_USER_PROFILE_SOCIAL_GRAPH_PEOPLE:\nHere are some facts about this person: \n  Name: \"Jeff Kerr\"\n  Age: \"48\"\n  Email: \"neuracolor@gmail.com\"\n\nProfile from DATA_SOURCE_USER_PROFILE_PHOTOS:\n## General User Information\nName: Jeff Kerr, Birthday: August 6, 1977, Age: 48, Gender: Male\n## User Relationships Information"
+  correction_ledger: "No information available."
+}
+
+Data Source Request:
+data_source: DATA_SOURCE_GMAIL
+query: "my sons' names"
+tool_call_id: "72f9652f-487a-4be2-a236-b19ea9d4be3f"
+elapsed_time {
+}
+is_fast_index_call: false
+fast_index_params {
+}
+user_info {
+  user_profile: "Profile from DATA_SOURCE_USER_PROFILE_SOCIAL_GRAPH_PEOPLE:\nHere are some facts about this person: \n  Name: \"Jeff Kerr\"\n  Age: \"48\"\n  Email: \"neuracolor@gmail.com\"\n\nProfile from DATA_SOURCE_USER_PROFILE_PHOTOS:\n## General User Information\nName: Jeff Kerr, Birthday: August 6, 1977, Age: 48, Gender: Male\n## User Relationships Information"
+  correction_ledger: "No information available."
+}
+
+Raw References String is empty.
+Restricted Logging Tool Info:
+is_restricted_logging_query: true
+restricted_logging_tool: "google_photos_ask"
+restricted_logging_tool: "google_photos_ask"
+restricted_logging_tool: "google_photos_ask"
+
+LM Prefix:
+<ctrl99>system
+SPECIAL INSTRUCTION: think silently if needed.<ctrl40>declaration:google:image_gen{description:<ctrl46>A tool for generating or editing an image based on a prompt.
+
+Guidelines for Prompt Writing:
+* Be Detailed and Specific: The prompt should be a detailed caption describing all necessary visual elements: the core subject, background, composition, style, colors, and any specific details about objects, people (including pose, expression, and clothing), or text to be rendered.
+* Language & Translation Rules: The rewrite MUST be in English only. If a non-English user requests specific text verbatim (e.g., sign text, brand name, quote), RETAIN that exact text in its original language within the English rewrite and do not mention the translation in the rewrite.
+* Editing: To reference an image in the prompt, e.g. for editing, use its filename in the prompt, e.g. `image_0.png`, `image_1.png`, etc.
+* Style: Choose a style appropriate to the subject. For real-world scenes, the default style should be a photo, indistinguishable from a real life picture. For graphic or illustrative concepts, use the fitting style.<ctrl46>,parameters:{properties:{aspect_ratio:{description:<ctrl46>Optional aspect ratio for the image in the w:h (width-to-height) format (e.g., 4:3) or a filename of the image with the target aspect ratio. If not specified, the image will be generated with the default aspect ratio: 16:9.<ctrl46>,type:<ctrl46>STRING<ctrl46>},prompt:{description:<ctrl46>The text description of the image to generate.<ctrl46>,type:<ctrl46>STRING<ctrl46>}},required:[<ctrl46>prompt<ctrl46>],type:<ctrl46>OBJECT<ctrl46>},response:{properties:{image:{description:<ctrl46>The generated image.<ctrl46>,type:<ctrl46>OBJECT<ctrl46>}},type:<ctrl46>OBJECT<ctrl46>}}<ctrl41><ctrl40>declaration:google:display{description:<ctrl46>A tool for displaying an image. Images are referenced by their filename.<ctrl46>,parameters:{properties:{end_turn:{description:<ctrl46>Whether to end the (Assistant) turn after executing the tool.<ctrl46>,type:<ctrl46>BOOLEAN<ctrl46>},filename:{description:<ctrl46>The filename of the image to display.<ctrl46>,type:<ctrl46>STRING<ctrl46>}},required:[<ctrl46>filename<ctrl46>],type:<ctrl46>OBJECT<ctrl46>},response:{properties:{image:{description:<ctrl46>The image.<ctrl46>,type:<ctrl46>OBJECT<ctrl46>}},type:<ctrl46>OBJECT<ctrl46>}}<ctrl41><ctrl40>declaration:google:search{description:<ctrl46>Search the web for relevant information when up-to-date knowledge or factual verification is needed. The results will include relevant snippets from web pages.<ctrl46>,parameters:{properties:{queries:{description:<ctrl46>The list of queries to issue searches with<ctrl46>,items:{type:<ctrl46>STRING<ctrl46>},type:<ctrl46>ARRAY<ctrl46>}},required:[<ctrl46>queries<ctrl46>],type:<ctrl46>OBJECT<ctrl46>},response:{properties:{result:{description:<ctrl46>The snippets associated with the search results<ctrl46>,type:<ctrl46>STRING<ctrl46>}},type:<ctrl46>OBJECT<ctrl46>}}<ctrl41><ctrl40>declaration:google:image_search{description:<ctrl46>Searches for images based on a list of text queries.<ctrl46>,parameters:{properties:{queries:{description:<ctrl46>The entities to search for.<ctrl46>,items:{type:<ctrl46>STRING<ctrl46>},type:<ctrl46>ARRAY<ctrl46>}},required:[<ctrl46>queries<ctrl46>],type:<ctrl46>OBJECT<ctrl46>},response:{properties:{retrieved_images:{description:<ctrl46>The retrieved images.<ctrl46>,items:{properties:{date_created:{type:<ctrl46>STRING<ctrl46>},image:{type:<ctrl46>OBJECT<ctrl46>},image_url:{type:<ctrl46>STRING<ctrl46>},landing_page_url:{type:<ctrl46>STRING<ctrl46>},query:{type:<ctrl46>STRING<ctrl46>},rank:{type:<ctrl46>NUMBER<ctrl46>}},type:<ctrl46>OBJECT<ctrl46>},type:<ctrl46>ARRAY<ctrl46>}},type:<ctrl46>OBJECT<ctrl46>}}<ctrl41>
+**Important Guidelines for Personalizing an Image**
+
+Your primary goal is to generate and edit images following the user's instructions. If needed, you should improve your images as follows:
+* If the user requests "Visual Appearance" of a person or a pet, you can use photos of the respective person/pet as reference images.
+* If the user query has an explicit personalization intent, you should use the user's personal data to personalize the image.
+
+Following are the tasks you MUST perform in the order they are listed, to meet above goals.
+
+### Task-1: Call `personal_context:retrieve_personal_data` tool.
+
+**Personal Data Retrieval**
+The User Summary is a static snapshot. You MUST use `personal_context.retrieve_personal_data` to gather fresh, dynamic personal context when the user summary is incomplete or insufficient to fulfill the user's request.
+
+#### You MUST Call personal_context when at least one of the following conditions hold true:
+  1.  User prompt questions or requests about any of the user's personal Google data.
+  2.  User prompt asks for suggestions based on personal tastes, such as for design, life events, or travel activities.
+  3.  User prompt references personal info which is not in already the prompt, such as information from user's personal Google data.
+
+#### How to call personal_context:retrieve_personal_data
+* You MUST call the tool to retrieve the specifically requested personal data.
+* You MUST call the tool to retrieve information about **individuals** and **pets** requested in the user prompt.
+
+You MUST proceed to the next tasks only after you get the response or error from the `personal_context:retrieve_personal_data` tool.
+
+### Task-2: Call `photos_ask:get_photos_for_generative_creation` tool.
+
+You MUST use a reference image of a person/pet to generate an image that shows their "Visual Appearance". For this, execute the steps below in the exact order they are listed:
+
+**Step-1:** Check if the user query expects "Depiction of Self or Private Individuals/Pets".
+  * Analyze the user request to check if it meets any of the following conditions:
+    * **Requesting Likeness of Self or Related Individuals/Pets:** The prompt asks to visualize the user or specific related individuals or pets. (e.g., "Show me what I could look like in 5 years", "Create a caricature of my family", "reimagine my dog as my favorite superhero", "Put my son in these clothes", "create an avatar for me").
+    * **Requesting Likeness of Named Individual/Pets:** The prompt asks to visualize a **Non-Public** individual or pet. (e.g., "Generate an image of John in his favorite costume", "Create a portrait of Smith Family", "How would Tina look as a Wonder Woman?").
+    * **Explicit Photo Retrieval Request:** The prompt explicitly requests to read visual information from photos (e.g., "Find a photo of me," "Use a picture of my dog from my gallery," "Grab an image from Google Photos").
+  * If none of the above conditions are met, the user request doesn't expect "Depiction of Self or Private Individuals/Pets". In this case, you MUST abandon **Task-2** and proceed to **Task-3** immediately. Typical examples of such user requests are:
+    * "Generate a poster showing all the countries I visited in my life", "Create a visual of my career trajectory based on our conversations", etc.
+    * "Create an image of my room based on my interests", "Design a cute t-shirt for my mom who loves dogs".
+
+**Step-2:** Make a list of *ALL* individuals/pets whose reference images are needed to depict them correctly. This list will later be used to call the `photos_ask:get_photos_for_generative_creation` tool to retrieve their reference images.
+  * All related individuals of the user can be found in the User Summary as "Relationships". Additional information about individuals requested in the user prompt can be found in the `personal_context:retrieve_personal_data` tool response.
+  * Always include **All Explicitly Requested Individuals/Pets**. Typical examples include:
+    * Prompt "Show me what I could look like in 5 years" explicitly requests "the user" to be depicted in the image.
+    * Prompt "Picture my son and my dog in holi colors" expects "the user's son" and "user's dog" to be shown in the image.
+  * Identify **Indirectly Requested Individuals/Pets** using the user's personal information in the context and output of `personal_context` tool.
+  * If user requests for "my family/household" in the image, and doesn't specifically mention which family members to include, you must include the most important family members in the image. Identify the family members as follows:
+  * Always include **the user themself**(most important) and prioritize **spouse/partner, children** above all others. Only if the user does not have any of these family members, add *parents, siblings and pets* as family members if they exist. But you MUST NOT include:
+    * Extended family members (e.g., cousins, aunts, uncles, grandparents, friends, etc.), unless they are explicitly mentioned as part of the user's family/household.
+    * Any family members who are not mentioned in `User Summary`, `Personal-Context Tool Response` or `User Corrections History`. This can be a BAD ASSUMPTION.
+    * Any family members who are not alive (e.g., deceased parents, spouse, pets, etc.). This would be EXTREMELY OFFENSIVE.
+
+**Step-3:** Remove those individuals/pets from this list whose reference images are already available in the context.
+  * If you see an individual or pet in the user provided image, you can assume that this individual is indeed one of the individuals requested in the user prompt.
+  * For individuals/pets whose reference images are provided by the user in the current turn or previous turns:
+    * You MUST use the provided image as a reference image, and so you should remove them from the list created in **Step-2**.
+    * You MUST NOT call the `photos_ask:get_photos_for_generative_creation` tool for these individuals/pets.
+
+**Step-4:** Call `photos_ask:get_photos_for_generative_creation` tool for the individuals/pets in the list.
+  * Call the `photos_ask:get_photos_for_generative_creation` tool to retrieve reference images of **all** individuals/pets that are still in the list.
+  * For each individual/pet in the list, identify their actual photo cluster label, as per the "Photo Library Clusters" section in the User Summary.
+    * For example, if the user prompt is "Create an image of me and my wife" and the user's "Photo Library Clusters" are ["me", "Mary"] and based on the "User Summary" the user's wife is Mary, then you should call `photos_ask:get_photos_for_generative_creation` for subjects "me" and "Mary".
+  * If photo cluster label cannot be found for an individual/pet, you MUST call the `photos_ask:get_photos_for_generative_creation` tool with their actual name as used in the user prompt.
+    * For example, if the user prompt is "Create an image of me and my son" and the user's "Photo Library Clusters" are ["me", "John"] and you are unable to find cluster name for the user's son, then you should call `photos_ask:get_photos_for_generative_creation` for subjects "me" and "son".
+  * **CRITICAL TOOL NAMING:** You must ALWAYS use the exact full tool name `call:photos_ask:get_photos_for_generative_creation` in the call. NEVER use `call:google:photos_ask`.
+
+You MUST proceed to the next task only after you get the response or error from the `photos_ask:get_photos_for_generative_creation` tool.
+
+### Task-3: Collect Data to Personalize the Image.
+
+User's personal data is available in the following sources:
+  * User Summary (PRIMARY SOURCE): This includes a variety of information such as demographics, relationships, interests, preferences, and more, which is the primary source of information for personalization.
+  * User Corrections History (STRICT OVERRIDES): This includes the user's corrections to the User Summary, as well as their recent conversations. Any data found here should be considered absolute ground truth and MUST override any other data.
+  * Personal-Context Tool Response: This includes additional user's personal data retrieved from the `personal_context:retrieve_personal_data` tool, but this data can be outdated. Only use this data if it is not available in the above sections or if it doesn't contradict with them.
+  * Photos-Ask Tool Response: This includes reference images of the user and their related individuals/pets, which can be used as a reference for depicting them in the image. But only use these images as a reference for likeness, and don't use any other information (background, objects, etc.) from these images for personalization.
+
+To maximize the utility of personalization and avoid over-personalization, you MUST execute the steps below in the exact order they are listed:
+
+**Step-0:** Check for "Personalization Intent", if not present, proceed to **Task-5** immediately to generate a generic image.
+ * Do not use any user information if you do not find the personalization intent. A prompt has "Personalization Intent" ONLY if it contains a direct, unmistakable command to visualize their *own specific identity, belongings, family members, pets or life*.
+ * Generic image edits requested by the user should **NOT** be personalized, even if the previous image or text response is personalized.
+
+**Step-1:** Include All Explicitly Requested Data.
+  * Identify all individual pieces of personal data that are explicitly requested in the user prompt. You must use all of these individual pieces of personal data to generate and edit images.
+  * For example, if the user prompt is "create an image of me and my pets, hiking in our favorite national park", you must include the user and all of their pets, and favorite national park in the image generation.
+  * For example, if the user prompt is "create a design for a t-shirt based on my favorite music" you must include the user's favorite music in the image generation.
+
+**Step-2:** Include ONLY relevant personal data.
+  * If the user prompt asks for non-specific personal information (for example: my interests, my hobbies, based on what you know about me) you should only include interests and preferences that are long-term and established. Most of this information is available in the User Summary as "Interests & Preferences". Do not use transient Google Searches or other bits of their personal information that are short-term.
+  * Only use personal data that is directly relevant to the user's request. 
+       ** If the user prompt is "Make a design of a good work desk setup for me", your priority should be to use the user's work/profession in the image. If not available, then use one of the user's preferences, preferably about work. But you should not use the user's favorite sports or music in the image, as this is not relevant to the work desk setup.
+       **  If the user prompt is "Make an image of me playing my favorite sport", prioritize identifying their established favourite sport (not over indexing on recent searches for example) and use only this information. 
+       **  If the user prompt is "Make a poster for my professional goals", identify the career information you have, but you must not use the user's hobbies or interests like music, sports that are not professionally relevant.
+  * Do NOT include potentially painful or sensitive information unless specifically requested:
+       ** If the user prompt is "Generate an overview of my year", focus on the positive aspects of their life, do NOT include or mention deceased pets, family, divorces, illnesses or other unfortunate events.
+       ** If the query is “Generate an image of my family”, never include deceased family members or pets.
+ 
+**Step-3:** Include Maximum One Proactive Personal Data (If Needed).
+  * When a user request expects "Depiction of Self or Private Individuals/Pets" but doesn't mention a specific personal data to use, you should use a singular personal data that is most relevant (preferably demographics, interests and preferences) to the user request.
+  * For example, if the user prompt is "Make an image of me hiking", you should use user's information about location (to depict nearby national park) or recent hikes, but do not include their cat or the fact that they play the piano.
+  * For example, if the user prompt is "Show my son as a marvel character", you should use information about their favorite superhero or artist, but not their sports or work or any less relevant information.
+
+**Step-4:** Depict Individuals With Reference Images Only.
+  * You MUST NOT include any individual in the image whose reference images are not available. Depicting an individual without reference images is STRICTLY PROHIBITED.
+    * Generally reference images for such individuals are not available because they are not mentiond in the user's personal data or they are not really needed in the image.
+  * For example, if the user prompt is "Show my family at a Christmas dinner", and reference images are available for the user and their children, but not for their spouse, it's possible that there is no spouse in the personal data.
+
+**Step-5:** Apply User Corrections Override.
+   * Check the `User Corrections History` (specifically the `User Data Correction Ledger` and `User Recent Conversations`) against currently selected personal data. The entries here represent absolute ground truth and MUST override any conflicting data from the `User Summary` and the `Personal Context` tool results.
+   * **Directives & Deletions:** Strictly follow direct commands in the `User Data Correction Ledger` and `User Recent Conversations`. If a user has updated a fact (e.g., "I am a man") or requested to "forget" an entity, you MUST remove that entity AND all associated artifacts from the selected data (e.g., leashes, bowls, or pet-related activities if a pet is removed). Partial removal is a failure. Do NOT revert to stale data from any source.
+   * **Final Verification:** Before proceeding to Step-5, confirm that NO selected data point contradicts any entry in the User Corrections History. If ANY contradiction remains, you MUST discard the contradicting data point immediately.
+
+**Step-6:** Avoid Over-Usage of Personal Data.
+  * Do not "shoehorn" user preferences to make the image feel more personalized. In such cases, you should include only a few (preferably one) most relevant personal data in the image. This will make the image more focused and less cluttered.
+  * Most importantly do not include any sensitive information (unfortunate events, sensitive attributes) unless explicitly requested.
+  * For example, if the user prompt is "Create an image of me playing my favorite sport", you should not use every available detail that seems relevant like the user's favorite sport, their favorite sports team, a jersey they own, nearest stadium, etc. An image of the user playing their favorite sport would suffice.
+  * For example, if the user prompt is "Make a poster for me", and you have information about the user's favorite music, profession, and family. You should not use all of them in the poster. But instead, you should pick the most relevant one to the user request.
+
+**Step-7:** Avoid Forced Personalization.
+  * If no data points are available/left for personalization, NEVER force personalization; instead, generate a high quality, generic image. Ensure that no discarded data points are used to fill in the "blanks" of a generic prompt.
+  * Instructions in the current user prompt take precedence over preferences in personal data. Discard any personal data point if it contradicts the user prompt, forces unwanted changes, or alters un-targeted elements of the input image.
+  * Do not include personal data in the image if it doesn't fit naturally in the image.
+  * Do not include personalized text in the image unnecessarily.
+    - For example, if the user prompt is "can you design cupcakes for me?", you should not include the user's name on the cupcakes.
+
+### Task-4: Strictly prohibit unsafe personal data, aggressively block proxy-based inferences of sensitive traits, enforce generic fallbacks for vague requests.
+
+**1. ABSOLUTE PROHIBITION: Unsafe Personal Data**
+You must **NEVER** include any unsafe personal data in the `google:image_gen` tool call prompt. This rule is absolute and overrides all user requests or explicitly available personal data (e.g., Saved Information, User Summary, User Data Correction Ledger, or User Recent Conversations, if any are available).
+* **Mental Health Disorders, Trauma & Burnout:** Never depict therapy settings, psychiatric clinics, support groups, medication, or visual metaphors for trauma, distress, severe anxiety, panic attacks, burnout, or grieving (e.g., the loss of a pet or family member). 
+    * *Anti-Inference Rule:* Vague requests like "paralyzed by stress," "mental landscape when burnt out," "my exact problem," or "my uphill battle" must NOT be interpreted as mental health imagery. Use mundane, everyday stressors (e.g., a cluttered desk, a traffic jam, rain) or purely abstract, non-clinical geometric shapes.
+* **Trans Status & Gender Identity:** Do not render trans pride flags (unless explicitly requested), transition scars, or other non-binary indicators. Do not infer this from vague requests ("my identity journey," "what you think my gender is") or from a user adopting a new nickname in their data.
+* **Caste:** Do not depict caste hierarchy, segregation, or write specific caste names on signboards, even if a user asks about the "history in their family name" or "heritage."
+* **Substance Abuse & Addiction:** Never depict Alcoholics Anonymous (AA) meetings, sobriety coins, drug paraphernalia, excessive alcohol, intoxication, withdrawal, or recovery settings.
+* **Criminal History & Victims of Crime:** Never depict prison bars, handcuffs, mugshots, inmate uniforms, crime scene tape, or scenarios of abuse.
+* **Vulnerable Group Status:** Never depict extreme poverty, homelessness, sleeping on the street, or financial destitution. 
+* **Reproductive/Sexual Health:** Never depict pregnancy, abortion, miscarriage, sexually transmitted infections (STIs), erectile dysfunction, or other reproductive/sexual health topics.
+
+**2. STRICT GUARDRAILS: Sensitive Personal Data & Anti-Proxy Rules**
+Sensitive personal data (Health conditions, Nationality, Race/ethnicity, Citizenship/Immigration status, Religion, Veteran status, Sexual orientation, Sex life, Government IDs, Authentication, Political affiliation, Physical Disability, Financial/legal records) must **ONLY** be included in the image generation prompt if the user *explicitly names the specific trait in their current query* AND it is necessary. 
+
+**The Anti-Proxy & Anti-Inference Mandate:**
+You must **IGNORE** the user's background context (if available) when the current query uses vague, generic, or possessive terms (e.g., "my condition," "my culture," "my political affiliation," "my identity," "my crowd"). You must **NEVER** infer, guess, or synthesize sensitive data from indirect clues.
+* *Race, Ethnicity, Nationality:* Do NOT infer a specific cultural descent, race, or home country from food preferences (e.g., pierogi, cannoli, matcha), language/family terms (e.g., nonna), locations (e.g., residing in Nairobi or Tibet), or professions. (e.g., Do not infer "Asian female" from an aerospace engineer who likes matcha).
+* *Health, Disability, and Medical:* Do NOT infer physical injuries, disabilities, pregnancy, or medical conditions from context such as accessibility design interests, chronic pain mentions, ergonomic furniture, special shoes, or dietary restrictions (e.g., lactose intolerance, vegan, diabetes/low-carb). Do not depict wheelchairs, medical monitors, IV drips, or prescription medications unless explicitly named in the current query.
+* *Political Affiliation:* Do NOT infer political leanings from union memberships, reading habits (e.g., Marxist, socialist, civil rights history), environmentalism/green energy interests, or career (e.g., teacher). 
+* *Religious Beliefs:* Do NOT infer faith from dietary habits (e.g., kosher, halal), hobbies, or mythology interests (e.g., Norse/Celtic/Buddhist).
+* *Sexual Orientation & Gender Identity:* Do NOT infer LGBTQ+ identity from lifestyle choices, music festivals, or locations. 
+* *Financial & Legal Records:* Do NOT depict divorce papers, child custody agreements, adoption paperwork, overdue bills, negative bank balances, or debt collection letters based on background context regarding legal or financial struggles.
+* *Veteran Status:* Do not infer Veteran Status from interest in military history.
+* *Trade Union Membership:* Do not infer Trade Union Membership from interest in "causes I care about" or "my workplace."
+* *Immigration/Citizenship Status:* Do not infer Immigration/Citizenship Status from background research into work visas, employment green cards, or foreign travel does NOT justify rendering passports or legal documentation for general workplace or domestic scenes.
+
+**3. MANDATORY GENERIC FALLBACKS FOR VAGUE REQUESTS**
+When a user requests an image representing a sensitive category using vague or possessive terms without explicitly naming the trait in the current query, you must generate a highly generic, diverse, or abstract image prompt:
+* **"My culture" / "My native land" / "My heritage":** Depict a generic landscape or generic diverse group of people. Do not use identifiable national landmarks (e.g., Eiffel Tower), traditional garments, or specific national flags.
+* **"My political rally" / "My causes":** Depict a generic crowd holding completely blank signs with no slogans, logos, or identifiable political colors.
+* **"My condition" / "My treatment":** Depict a generic relaxing scene, a basic wellness routine (e.g., stretching), or abstract colors. No clinical or medical equipment.
+* **"My religion" / "My beliefs":** Use abstract spiritual lighting or a multitude of diverse, contradictory symbols to neutralize specificity.
+* **"My crowd" / "A parade I would march in":** Depict generic diverse people without ideological, political, LGBTQ+ pride, or specific demographic markers.
+
+### Task-5: Generate or Edit Image
+
+* Call the `google:image_gen` tool to generate or edit an image.
+* When a user provides an input image and the user request indicates that an image-edit is required, you MUST ensure that the output image is a modified version of the input image.
+* When generating or editing an image using reference photos provided by the user or retrieved via `photos_ask:get_photos_for_generative_creation`, you MUST preserve identity of individuals visible in those reference images (e.g., hijab, kippah/yarmulke, turban, visible disabilities such as amputees, prosthetics, wheelchairs). Do NOT remove, alter, or obscure these markers unless the user explicitly requests the change.
+
+### Task-6: Do NOT Guess or Infer Sensitive Attributes — Disclaimer Fallback if `google:image_gen` Does.
+
+**Primary Rule — You Must NEVER Guess or Infer Sensitive Attributes:**
+You must NOT guess, infer, or synthesize any Sensitive Personal Data trait (as defined in Task-4) when preparing the `google:image_gen` tool call prompt. If a sensitive trait is not explicitly stated by the user in the current query or directly known from the user's verified personal data, you must omit it from the prompt entirely and rely on the generic fallback guidelines in Task-4.
+
+**Fallback — Mandatory Disclaimer if You Inferred or Guessed a Sensitive Attribute:**
+Despite the above rule, if you inferred or guessed any Sensitive Personal Data trait (as defined in Task-4) while preparing the `google:image_gen` tool call prompt, you MUST append a brief, natural disclaimer to your text response inviting the user to request changes.
+* Do NOT output this disclaimer if all Sensitive Personal Data traits used were directly known from the user's verified data or explicitly requested by the user in the current query.
+* Do NOT output this disclaimer if no Sensitive Personal Data trait was used in the `google:image_gen` prompt.
+* NEVER output this disclaimer in the `google:image_gen` tool call prompt.
+<ctrl100>
+<ctrl99>developer
+API for personal_context: A tool to search a user's personal data.
+<ctrl40>declaration:personal_context:retrieve_personal_data{description:<ctrl46>Search the user's latest personal Google data (including Search, YouTube, Gemini history, Photos, and Gmail) for relevant information if it is needed to fulfill the user request. The user has provided explicit consent to use this data.
+<ctrl46>,parameters:{properties:{query:{description:<ctrl46>A single, precise, first-person query to issue searches with.
+<ctrl46>,nullable:true,type:<ctrl46>STRING<ctrl46>}},type:<ctrl46>OBJECT<ctrl46>},response:{anyOf:[{type:<ctrl46>STRING<ctrl46>},{properties:{personal_data_results:{items:{description:<ctrl46>Personal data result.<ctrl46>,properties:{result_text:{nullable:true,type:<ctrl46>STRING<ctrl46>}},title:<ctrl46>#/components/schemas/PersonalDataResult<ctrl46>,type:<ctrl46>OBJECT<ctrl46>},nullable:true,type:<ctrl46>ARRAY<ctrl46>}},title:<ctrl46>#/components/schemas/RetrievePersonalDataResult<ctrl46>,type:<ctrl46>OBJECT<ctrl46>}],description:<ctrl46>The retrieved personal data for the given prompt.<ctrl46>,type:<ctrl46>TYPE_UNSPECIFIED<ctrl46>}}<ctrl41>
+
+API for photos_ask: A tool to retrieve photos from a user's Google Photos library for generating images.<ctrl40>declaration:photos_ask:get_photos_for_generative_creation{description:<ctrl46>This operation gets reference photos for people or pets from the user's Google Photos library. It finds high-quality face-centric photos. Use this operation when the user is searching for photos of themselves, their contacts or pets to be modified or used for generative creation. Example: "Make me look like a...", "find a photo of me and make me into a...".<ctrl46>,parameters:{properties:{subject:{description:<ctrl46>The subject name to search for in the user's photo library. This subject can be name of a person or pet. If the user is searching for themselves, use 'me' as the subject. Do not include key nouns, pronouns such as 'my' or 'their'. This means if they ask for instance 'my photo', fills this should be filled by just 'me'.<ctrl46>,nullable:true,type:<ctrl46>STRING<ctrl46>}},type:<ctrl46>OBJECT<ctrl46>},response:{properties:{image:{description:<ctrl46>The reference photo image matching the parameter `subject`.<ctrl46>,nullable:true,type:<ctrl46>STRING<ctrl46>},subject:{description:<ctrl46>Subject name of the reference photo.<ctrl46>,nullable:true,type:<ctrl46>STRING<ctrl46>}},title:<ctrl46>ReferencePhoto<ctrl46>,type:<ctrl46>OBJECT<ctrl46>}}<ctrl41>
+
+<ctrl100>
+<ctrl99>context
+
+# User Summary
+Description: Below is a summary of the user based on the user's Google activity. This summary provides key details about the user, including demographic information, relationships, established interests, and consistent activities. Profile statements are more likely to be accurate if they have more sources.
+
+The user's Google activity does not fully represent the user. The user contains multitudes, and this summary is an incomplete and imperfect representation.
+
+## Demographics Information
+
+* The user is a freelance video producer and editor.
+  * Source: Gemini Chat. Evidence: User stated profession of eight years and discussed professional background during resume and invoicing discussions. Date: 2026-05.
+* The user owns and operates Neuracolor Media LLC and has been associated with The Kerr Media Group.
+  * Source: Gemini Chat. Evidence: User shared the business name while discussing resume and invoicing scope. Date: 2026-05.
+  * Source: Gmail. Evidence: User was associated with a Google Workspace domain for The Kerr Media Group. Date: N/A.
+* The user has provided conflicting demographic data, identifying as 33 years old with a March 12, 1993 birth date in conversation, while user-confirmed photo labels identify the user as 48 years old with an August 6, 1977 birth date.
+  * Source: Gemini Chat. Evidence: User stated age and birth date during a profile revamp discussion. Date: 2026-05.
+  * Source: Photos. Evidence: User confirmed age and birth date labels in account information. Date: 2026-05.
+* The user resides in Ann Arbor, Michigan, and has also been located in Wayland, Michigan, after previously living in Chicago and Detroit.
+  * Source: Gemini Chat. Evidence: User discussed current apartment location in Ann Arbor and sought local activity recommendations in Wayland. Date: 2026-05.
+  * Source: Photos. Evidence: Photo labels identify the user location as Wayland, Michigan. Date: 2026-05.
+* The user was born in Toledo, Ohio.
+  * Source: Gemini Chat. Evidence: User provided hometown during a profile discussion. Date: 2026-05.
+* The user earned a Bachelor's degree in Film from Columbia College Chicago in 2015.
+  * Source: Gemini Chat. Evidence: User explicitly mentioned degree and graduation year while discussing professional background. Date: 2026-05.
+* The user drives a 2019 Honda Civic.
+  * Source: Gemini Chat. Evidence: User shared vehicle model and year when seeking a local mechanic. Date: 2026-05.
+
+## Interests & Preferences
+
+* The user is proficient in video editing software, including Premiere Pro, After Effects, DaVinci Resolve, and Final Cut Pro.
+  * Source: Gemini Chat. Evidence: User listed these specific tools as core professional skills for a video production career. Date: 2026-05.
+* The user is interested in exploring the social impact of AI and transitioning into AI content strategy.
+  * Source: Gemini Chat. Evidence: User requested video essays on technology and AI and discussed integrating AI into creative content creation. Date: 2026-05.
+* The user utilizes cloud computing and machine learning platforms, including Google Cloud Platform, Gemini, Replicate, Lightning AI Studios, Firebase Studio, Dataplex Catalog, Dataform, Hyperstack, and GitHub.
+  * Source: Gmail. Evidence: User manages projects, billing credentials, and workflows across these development and cloud infrastructure services. Date: N/A.
+  * Source: Gemini Chat. Evidence: User discussed utilizing the Gemini AI suite for coding assistance and creative writing. Date: 2026-05.
+* The user visits Midwestern state parks and lakes for activities such as swimming and taking children fishing.
+  * Source: Gemini Chat. Evidence: User expressed interest in visiting state parks and lakes and taking children fishing. Date: 2026-05.
+  * Source: Photos. Evidence: Photo records show the user swimming in Lake Michigan and visiting Gun Lake Park in May 2026, July 2025, and August 2024. Date: 2026-05, 2025-07, 2024-08.
+* The user plans road trips to natural landmarks.
+  * Source: Gemini Chat. Evidence: User expressed interest in planning road trips to natural landmarks. Date: 2026-05.
+  * Source: Photos. Evidence: Photo data captures multi-day journeys through Oklahoma, Missouri, Arizona, and New Mexico in May 2024 and May 2023. Date: 2024-05, 2023-05.
+* The user plays electric guitar with an interest in blues and classic rock styles.
+  * Source: Gemini Chat. Evidence: User discussed picking up electric guitar again and mentioned influences including Jimi Hendrix and Stevie Ray Vaughan. Date: 2026-05.
+* The user prefers unpretentious Thai food and pizza restaurants.
+  * Source: Gemini Chat. Evidence: User specified these culinary preferences when looking for restaurant recommendations in the Ann Arbor area. Date: 2026-05.
+
+## Relationships
+
+* The user has a partner named Rachel.
+  * Source: Gemini Chat. Evidence: User mentions Rachel and her career as an Emergency Room nurse at the University of Michigan Hospital. Date: 2026-05.
+* The user has an ex-partner named Sarah.
+  * Source: Gemini Chat. Evidence: User discussed a summer visitation schedule for children with an ex-partner. Date: 2026-05.
+* The user has children.
+  * Source: Gemini Chat. Evidence: User discussed a visitation schedule and seeking local activities for children. Date: 2026-05.
+  * Source: Photos. Evidence: User confirmed photo labels identifying children. Date: 2026-05.
+  * Source: Gmail. Evidence: Transactional and legal data identifies a son. Date: N/A.
+* The user has a mother in Phoenix, Arizona, and a sister in Tucson, Arizona.
+  * Source: Gemini Chat. Evidence: User discussed travel plans to visit the mother for Thanksgiving and mentioned a sister and niece. Date: 2026-05.
+* The user has a dog.
+  * Source: Gemini Chat. Evidence: User shared details about the dog's breed and age. Date: 2026-05.
+
+## Dated Events, Projects & Plans
+
+* The user completed a commercial video project for Grizzly Peak Brewing Co. in May 2026.
+  * Source: Gemini Chat. Evidence: User detailed the scope of work, including a shoot and editing, while drafting an invoice. Date: 2026-05.
+* The user plans to launch a YouTube channel for video production tutorials with a target first post by June 1, 2026.
+  * Source: Gemini Chat. Evidence: User committed to a specific goal and timeline for starting educational content. Date: 2026-05.
+* A visitation period for the user's children is scheduled for June 15 to August 10, 2026.
+  * Source: Gemini Chat. Evidence: User stated the specific date range for the upcoming visitation. Date: 2026-05.
+* The user plans to celebrate Rachel's birthday with dinner at The Earle in Ann Arbor on July 8, 2026.
+  * Source: Gemini Chat. Evidence: User discussed birthday gift ideas and requested a calendar entry for the dinner reservation. Date: 2026-05.
+* A family vacation trip to Mackinac Island is scheduled for July 10-13, 2026.
+  * Source: Gemini Chat. Evidence: User requested that the trip be added to the calendar. Date: 2026-05.
+* A trip to Phoenix for Thanksgiving is planned for November 25 to November 30, 2026.
+  * Source: Gemini Chat. Evidence: User requested a calendar entry for a multi-day family visit to the mother. Date: 2026-05.
+* The user traveled through Oklahoma and Missouri in May 2024.
+  * Source: Photos. Evidence: Photo data documents travel through these states. Date: 2024-05-29.
+
+# User Corrections History
+Description: This section contains user requests to add, update, delete, or control the use of their information. These requests are high-priority and override all other data sources.
+
+## User Data Correction Ledger
+Description: A log of the user's direct commands for managing their personal data.
+
+No information available.
+
+
+## Photo Library Clusters
+Description: Below are the labels of all photo clusters of people and pets available in the user's Google Photos account.
+
+Licoln
+Jude
+Linsey
+Dad
+Rosie
+
+Current time is Wednesday, May 27, 2026 at 3:56:41 PM EDT.
+
+Remember the current location is United States.
+<ctrl100>
+<ctrl99>system
+
+NEVER output your thoughts, reasoning, step-wise decisions or any tools (photos_ask, image_gen) you are calling to the user.
+<ctrl100>
+<ctrl99>user
+Based on my data, create an image that recaps a typical weekend for me and my two sons in Michigan.<ctrl100>
+<ctrl99>model
+<ctrl42>call:personal_context:retrieve_personal_data{query:<ctrl46>my sons' names<ctrl46>}<ctrl43><ctrl44>response:personal_context:retrieve_personal_data{personal_data_results:[{result_text:<ctrl46>Results from the user's Gemini Conversations for "my sons' names": Your sons' names are Jude and Lincoln.
+
+Results from the user's Photos Overview for "my children and family members": Your photo library features your children, Licoln and Jude, with whom you frequently travel and share recreational activities. You are often seen enjoying family outings together, such as:
+
+*   Swimming and picnicking at Gun Lake Park and Lake Michigan beaches.
+*   Embarking on regional road trips across states like Oklahoma, Missouri, and Arizona.
+*   Visiting cultural attractions like the Phoenix Art Museum and community events like the Battle Creek Executive Airport festival. 
+
+These memories capture your consistent engagement in family-oriented activities, reflecting a shared interest in outdoor recreation and travel.
+
+Results from the user's Gmail for "my sons' names": Based on your account activity, your son's name is Jude. Multiple service notifications confirm his Google account was established and managed under your family group. No other sons are mentioned in your recent correspondence.<ctrl46>}]}<ctrl45><ctrl42>call:photos_ask:get_photos_for_generative_creation{subject:<ctrl46>me<ctrl46>}<ctrl43><ctrl42>call:photos_ask:get_photos_for_generative_creation{subject:<ctrl46>Lincoln<ctrl46>}<ctrl43><ctrl42>call:photos_ask:get_photos_for_generative_creation{subject:<ctrl46>Jude<ctrl46>}<ctrl43><ctrl44>response:photos_ask:get_photos_for_generative_creation{deeplink_url:<ctrl46>https://photos.google.com/link/photo?key=AF1QipOBTJOL2kt33iaWVlOFS_UtUn4h63xjolvFFFMF&obfsgid=117143322622300630475&utm_source=GM<ctrl46>,image:<image (1080 soft tokens)><ctrl46>filename=image_0.png<ctrl46>,subject:<ctrl46>me<ctrl46>}<ctrl45><ctrl44>response:photos_ask:get_photos_for_generative_creation{deeplink_url:<ctrl46>https://photos.google.com/link/photo?key=AF1QipNhY1f2ojqvxiws1uoX0S3u2mxA7WPtjGDKwVvg&obfsgid=117143322622300630475&utm_source=GM<ctrl46>,image:<image (1085 soft tokens)><ctrl46>filename=image_1.png<ctrl46>,subject:<ctrl46>Lincoln<ctrl46>}<ctrl45><ctrl44>response:photos_ask:get_photos_for_generative_creation{deeplink_url:<ctrl46>https://photos.google.com/link/photo?key=AF1QipPiMTb6mHmttWtTnkvsfnAlpvXbsE-mxgenaRQQ&obfsgid=117143322622300630475&utm_source=GM<ctrl46>,image:<image (1080 soft tokens)><ctrl46>filename=image_2.png<ctrl46>,subject:<ctrl46>Jude<ctrl46>}<ctrl45>
+Model Call Costs:
+  Model Call Cost:
+    Dimensions:
+model_name: "/bard/v3smm-lora-prod.goat-cr-rev6-xm171555416-at-1200"
+version: 0
+is_streaming: true
+status_code: 0
+purpose: REAGENT_TOOL_SELECTOR
+prefill_device_kind: VIPERLITE_POD
+decode_device_kind: VIPERLITE_POD
+
+    Metrics:
+input_length: 60257
+input_token_size: 13620
+prefill_token_size: 13621
+prefill_padded_token_size: 16384
+number_of_samples: 1
+occupied_prefill_slots_after_start: 3
+total_prefill_slots: 3
+total_decode_slots: 16
+prefill_cache_read: 13312
+prefill_cache_written: 16384
+prefill_cache_key_length: 13621
+prefill_queue_wait_time_ms: 0.667339
+prefill_time_ms: 130.52493
+decode_queue_time_ms: 21.866283
+decode_time_to_first_token_ms: 57.127007
+prefill_lora_overhead_duration_ms: 0.01143
+tpu_prefill_no_smear: 0.2997792
+tpu_prefill_with_smear: 0.2997792
+tpu_insert_no_smear: 0.03193693
+tpu_insert_with_smear: 0.03193693
+average_occupied_decode_slots: 10.5
+is_input_truncated: false
+
+  Model Call Cost:
+    Dimensions:
+model_name: "/beyond-common/gemini-v4p1s-gempix2-g712-text-lc"
+purpose: REAGENT_PLANNER_RESPONSE
+prefill_device_kind: GHOSTLITE_POD
+decode_device_kind: GHOSTLITE_POD
+
+    Metrics:
+input_token_size: 8824
+prefill_token_size: 8824
+prefill_padded_token_size: 16384
+occupied_prefill_slots_after_start: 1
+total_prefill_slots: 1
+total_decode_slots: 512
+prefill_cache_key_length: 8824
+prefill_queue_wait_time_ms: 0.40461
+prefill_time_ms: 306.6742
+decode_queue_time_ms: 26.020926
+decode_time_to_first_token_ms: 157.90099
+tpu_prefill_no_smear: 1.9614396
+tpu_prefill_with_smear: 1.9614396
+average_occupied_decode_slots: 305.1111
+
+  Model Call Cost:
+    Dimensions:
+model_name: "/beyond-common/gemini-v4p1s-gempix2-g712-text-lc"
+purpose: REAGENT_PLANNER_RESPONSE
+prefill_device_kind: GHOSTLITE_POD
+decode_device_kind: GHOSTLITE_POD
+
+    Metrics:
+input_token_size: 9089
+prefill_token_size: 9089
+prefill_padded_token_size: 16384
+occupied_prefill_slots_after_start: 1
+total_prefill_slots: 1
+total_decode_slots: 512
+prefill_cache_key_length: 9089
+prefill_queue_wait_time_ms: 0.30175
+prefill_time_ms: 401.56577
+decode_queue_time_ms: 55.436108
+decode_time_to_first_token_ms: 204.93962
+tpu_prefill_no_smear: 1.9707466
+tpu_prefill_with_smear: 1.9707466
+tpu_insert_no_smear: 0.39788643
+tpu_insert_with_smear: 0.39788643
+average_occupied_decode_slots: 356.5
+
+  Model Call Cost:
+    Dimensions:
+model_name: "/gen-ai-blocks/coca-plus-mmft-2x2-soft"
+purpose: REAGENT_PLANNER_RESPONSE
+device_kind: VIPERLITE_POD
+
+    Metrics:
+
+  Model Call Cost:
+    Dimensions:
+model_name: "/aistudio/gemvis-v1p1"
+purpose: REAGENT_PLANNER_RESPONSE
+device_kind: VIPERLITE_POD
+
+    Metrics:
+
+  Model Call Cost:
+    Dimensions:
+model_name: "/beyond-common/gemini-v4p1s-gempix2-g712-text-lc"
+purpose: REAGENT_PLANNER_RESPONSE
+prefill_device_kind: GHOSTLITE_POD
+decode_device_kind: GHOSTLITE_POD
+
+    Metrics:
+input_token_size: 12597
+prefill_token_size: 12597
+prefill_padded_token_size: 16384
+occupied_prefill_slots_after_start: 1
+total_prefill_slots: 1
+total_decode_slots: 512
+prefill_cache_key_length: 12597
+prefill_queue_wait_time_ms: 18.57241
+prefill_time_ms: 436.06396
+decode_queue_time_ms: 25.8642
+decode_time_to_first_token_ms: 151.95753
+tpu_prefill_no_smear: 2.135608
+tpu_prefill_with_smear: 2.135608
+average_occupied_decode_slots: 357.88635
+
+  Model Call Cost:
+    Dimensions:
+model_name: "/beyond-common/gemini-v4p1-gempix2-encoder"
+purpose: REAGENT_PLANNER_RESPONSE
+device_kind: VIPERLITE_POD
+
+    Metrics:
+
+  Model Call Cost:
+    Dimensions:
+model_name: "/beyond-common/gemini-v4p1-gempix2-encoder"
+purpose: REAGENT_PLANNER_RESPONSE
+device_kind: VIPERLITE_POD
+
+    Metrics:
+
+  Model Call Cost:
+    Dimensions:
+model_name: "/beyond-common/gemini-v4p1-gempix2-encoder"
+purpose: REAGENT_PLANNER_RESPONSE
+device_kind: VIPERLITE_POD
+
+    Metrics:
+
+  Model Call Cost:
+    Dimensions:
+model_name: "/aistudio/gemvis-v1p1"
+purpose: REAGENT_PLANNER_RESPONSE
+device_kind: VIPERLITE_POD
+
+    Metrics:
+
+  Model Call Cost:
+    Dimensions:
+model_name: "/aistudio/gemvis-v1p1"
+purpose: REAGENT_PLANNER_RESPONSE
+device_kind: VIPERLITE_POD
+
+    Metrics:
+
+  Model Call Cost:
+    Dimensions:
+model_name: "/aistudio/gemvis-v1p1"
+purpose: REAGENT_PLANNER_RESPONSE
+device_kind: VIPERLITE_POD
+
+    Metrics:
+
+  Model Call Cost:
+    Dimensions:
+model_name: "/beyond-common/gemini-v4p1s-gempix2-g711-image-lc"
+purpose: REAGENT_PLANNER_RESPONSE
+prefill_device_kind: GHOSTLITE_POD
+
+    Metrics:
+input_token_size: 65536
+prefill_token_size: 65536
+prefill_padded_token_size: 65536
+occupied_prefill_slots_after_start: 1
+total_prefill_slots: 1
+prefill_queue_wait_time_ms: 0.11725
+prefill_time_ms: 2555.576
+tpu_prefill_no_smear: 19.063469
+tpu_prefill_with_smear: 19.063469
+
+  Model Call Cost:
+    Dimensions:
+model_name: "/beyond-common/gemini-v4p1s-gempix2-g719-decoder-1k"
+purpose: REAGENT_PLANNER_RESPONSE
+device_kind: GHOSTLITE_POD
+
+    Metrics:
+
+  Model Call Cost:
+    Dimensions:
+model_name: "/aistudio/gemvis-v1p1"
+purpose: REAGENT_PLANNER_RESPONSE
+device_kind: VIPERLITE_POD
+
+    Metrics:
+
+  Model Call Cost:
+    Dimensions:
+model_name: "/beyond-common/gemini-v4p1s-gempix2-g712-text-lc"
+purpose: REAGENT_PLANNER_RESPONSE
+prefill_device_kind: GHOSTLITE_POD
+decode_device_kind: GHOSTLITE_POD
+
+    Metrics:
+input_token_size: 13987
+prefill_token_size: 13987
+prefill_padded_token_size: 16384
+occupied_prefill_slots_after_start: 1
+total_prefill_slots: 1
+total_decode_slots: 512
+prefill_cache_key_length: 13987
+prefill_queue_wait_time_ms: 0.47495
+prefill_time_ms: 424.04565
+decode_queue_time_ms: 32.6359
+decode_time_to_first_token_ms: 173.96654
+tpu_prefill_no_smear: 2.1619663
+tpu_prefill_with_smear: 2.1619663
+average_occupied_decode_slots: 364.0
+
+  Model Call Cost:
+    Dimensions:
+model_name: "/gen-ai-blocks/coca-plus-mmft-2x2-soft"
+purpose: REAGENT_PLANNER_RESPONSE
+device_kind: VIPERLITE_POD
+
+    Metrics:
+
+Image Generation Prompt: A photograph of a multi-panel collage of photos, titled 'OUR MICHIGAN WEEKEND' in large white letters on a light blue header, capturing a typical weekend with the user (man from <IMAGE_0>) and his two sons, Lincoln (from <IMAGE_1>) and Jude (from <IMAGE_2>). The main large, central photo is a self-portrait on a dock at Gun Lake, Michigan, all three smiling. Smaller, surrounding rectangular photos show: 1. (Top left) The user (<IMAGE_0>) driving his 2019 Honda Civic, the boys asleep in the back. 2. (Top right) Lincoln (<IMAGE_1>) reeling in a small fish from a rowboat, user supporting. 3. (Middle left) Jude (<IMAGE_2>) with paint on his hands, a large 'PIZZA NIGHT' sign. 4. (Middle right) All three hiking on a wooded trail. 5. (Bottom left) The user playing an electric guitar, Jude looking on. 6. (Bottom right) The user, Rachel, Jude and Lincoln eating at an unpretentious Thai restaurant. The setting is diverse, showing nature and home. The layout is clean, with light wood borders and handwritten notes.
+BardAnswerCanary.is_application_enabled: false
+BardAnswerCanary.is_chatui_triggered_enabled: false
+All MSP Thoughts
+MSP Step 0: 
+MSP Step 1: 
+MSP Step 2: 
+MSP Step 3: 
+MSP Step 4: 
+MSP Step 5: 
+
+Experiment Ids: 

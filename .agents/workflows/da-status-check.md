@@ -15,7 +15,7 @@ description: Check Data Annotation status — dashboard, inbox, Gmail, and activ
 2. **Browser harness for status checks. look.sh for work mode.** Never mix these. Disconnect browser harness before user starts any DA task.
 3. **DA site structure:** Projects, Qualifications, Surveys, and Report Time are TABS on the SAME page (`/workers/projects`). They are NOT separate URLs. Do NOT try to navigate to `/workers/qualifications` — that URL does not exist and will show an error page.
 4. **Inbox IS a separate URL:** `https://app.dataannotation.tech/workers/inbox`
-5. **Tab management:** Use `new_tab()` ONLY for the very first navigation. ALL subsequent navigations use `goto_url()`. The daemon persists between `browser-harness -c` calls.
+5. **Tab management:** Keeping multiple tabs open (e.g. one for DA, one for Gmail) is perfectly fine and preferred. Use `new_tab()` to open them side-by-side.
 6. **Gmail is checked via Python script**, NOT by opening Gmail in the browser.
 7. **jefferykerr@gmail.com** is the only Gmail account.
 8. **Screenshots go in the workspace** at `/Volumes/WORK 2TB/WORK 2026/DATA_ANNOTATION/screenshots/` — NEVER to /tmp.

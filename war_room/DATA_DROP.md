@@ -1,211 +1,434 @@
-We are receiving submissions in which an over-personalization error was flagged, but the response was not actually personalized at all. Please keep in mind that in order to be over-personalized, a response must be personalized using your personal data. A response that only uses information from your prompt cannot be over-personalized.
 
+DataAnnotation
+Work on projects
+Transfer Funds
+Refer & Earn
+Inbox
+85
+$0.00
+Jeffery Kerr 
+Projects
+[QUALIFICATION] 🐴🪽 Pegasus: Are You a Gmail User? Qualify for Additional Gmail Projects! (Open Globally 🌎)
+Collapse Instructions
 
-Task Overview
-Your job in this task is to catch the model making an over-personalization mistake, and then write a precise rule (rubric) that prevents the model from making that specific mistake again. You will be targeting the specific loss types defined in the "Types of Over-personalization" section below.
 
-You will be assigned a prompt category for each task. Examples for the prompt category will be shown later in the task.
+OVERVIEW
+This is the personal email version of this project.
 
-For this task, your assignment is:
-Prompt Category: Discovery & Recommendations
-Category Definition - Asking for specific suggestions to help make a choice or discover new favorites, like products, media, activities, trips, or gifts.
+You must use the email you provided in your Pegasus personal qualification.
 
-Once you trigger an over-personalization failure with the first model, you will have the same conversation with a second model. For multi-turn conversations, maintain identical prompts across both sides as far as possible unless they become nonsensical, in which case, adjust the prompts while keeping the same user goal.
+You can check which email address you provided here.
 
-In the conversation with the first model, stop generating turns as soon as a failure occurs. Once you identify an error in the response, you should end the conversation immediately without collecting more turns.
+If you are unable to view that project, you will need to remember which email you signed up for Pegasus projects with.
 
-Then, in the conversation with the second model, continue generating turns until fulfilling the same user requests as per the first conversation, ignoring any interim failures.
+We're launching a new project in the Pegasus family, for Gmail users.
 
-If you are attempting multiple tasks, please try to target a different loss category each time.
+You may have participated in other, similar projects. To be eligible for this new project, you must complete this qualification even if you have completed qualifications for other, similar projects.
 
-You can redact sensitive information/PII that you are not comfortable sharing, but if you remove anything, you must replace it with plausible fabricated details, which must remain consistent throughout the task. For example, if you redact the name "John Smith", you should replace it with "Jack Jones" - not just delete it or put "redacted" or "[full name]". Additionally, any references to John Smith in the task must be changed to Jack Jones, and any mention of "John" (assuming it is the same person) must be replaced with "Jack".
+In total, this qualification should take you about 10 minutes to complete.
 
+⚠️ We've included screenshots with the questions below. If they are too small for you to see, you can right-click and choose "Open Image in new Tab".
 
-Types of Over-personalization
-There are 5 flavors of over-personalization to try to trigger:
+FAQs
+Some workers are reporting receiving a 500 error when uploading their screenshot. This has solved the problem for others:
 
-🤪 Forced Connection — Shoehorning irrelevant personal facts.
+Use Chrome
 
-🌀 Tunnel Vision — Over-indexing on a single fact (the "echo chamber").
+Click the "more" button (3 vertical dots) in the top right corner of Chrome.
 
-🤖 Overnarrating — Robotic framing (e.g., "Since you…", "Based on…").
+Select "Settings...".
 
-🎯 Showing off — Unnecessary precision (e.g., names, dates, addresses).
+Click "Privacy and Security" in the right side panel.
 
-🚩 Offensiveness — Intrusive, creepy, or insulting use of data.
+Click on "Security"
 
-Responses often have multiple issues at once — when you get a response with an over-personalization loss, select all losses that apply rather than picking just the most prominent. Overlap is common and expected.
+Scroll down to the "Advanced" section.
 
-Common Combos
-🌀 Tunnel Vision is typically about over-indexing on a relevant user detail. Sometimes a 🤪 Forced Connection (bringing up an irrelevant fact) connects to 🌀 Tunnel Vision (derailing the whole response to focus on that fact). Similarly, 🎯 Showing off (citing overly precise personal data) can feel invasive, tipping the response into 🚩 Offensiveness (creepy or insulting). 🤖 Overnarrating (robotic framing like "Based on…") can be an aspect of anything.
+Enable "Use Secure DNS" if it isn't already enabled
 
-Examples
-A prompt like 💬 "Can you give me a recipe for pancakes?" could generate any of these:
+Select "Google (Public DNS)" from the "Select DNS provider" menu
 
-Combo 1 — The model frames its response like a robot [🤖], shoehorns an irrelevant fact [🤪], and uses unnerving precision [🎯]:
+Try an upload.
 
-🤖 Overnarrating: "Since you…"
+Important note: This qualification is subject to the Confidentiality Obligations outlined in the Confidentiality Agreement portion of the Terms of Use (ToU) that you agreed to when you signed up to the platform.
 
-🤪 Forced Connection: "…are a graphic designer…"
+This project may only be discussed on approved channels.
 
-🎯 Showing off: "…using the food dye you bought Tuesday at 8:14 AM…"
+Projects on this platform that contain the word “Pegasus” in the title.
 
-Combo 2 — The model fixates on a single user fact [🌀], uses unnerving precision [🎯], and insults the user [🚩]:
+Within the Pegasus Slack channel
 
-🌀 Tunnel Vision: "…Here is a low-carb, high-protein pancake recipe that won't offset your macros."
+Emails to Support.
 
-🎯 Showing off: "…Weigh your portions on the smart-scale you bought Tuesday at 8:14 AM…"
+To proceed with Pegasus projects, you affirm that:
 
-🚩 Offensiveness: "…to avoid overeating, which you said is a problem lately."
+You will not share any information about this project OR about anything you see, access, or interact with in Pegasus projects (e.g., prompts, responses, model behavior, UI elements, feature names, internal tooling) with any third party. This includes screenshots and screen recordings.
 
-Combo 3 — The model fixates on a single user fact (that the user has a daily protein target) [🌀], surfacing it across multiple statements in one response:
+If you are required to take any screenshots or recordings as part of this project, you will immediately delete them from your devices after uploading them to the platform.
 
-🌀 Tunnel Vision: "…Here are several recipes for low-carb, high-protein pancakes that'll help you stay within your macros…"
+You will not discuss any details of this project, or any content or behavior observed in Pegasus projects, outside of approved channels.
 
-🌀 Tunnel Vision: "…any of these recipes will help you achieve your daily protein goal…"
+You will not refer to this project, even by its codename, on any public forum (e.g., Reddit, X/Twitter, Discord, blogs, YouTube).
 
+You understand that during your work you may be exposed to unreleased features, products, models, or experiments as part of Pegasus projects that are not directly related to this project. You may not even be aware that what you're seeing is an unreleased feature or model.  For this reason, as you've already agreed in the Confidentiality Agreement, you may not discuss or share anything you see, do or experience in this project.
 
-Examples by Loss Type
-🤪 Forced Connection
-The model uses personal info in an illogical or irrelevant way. (Requires a Negative rubric)
+Experimental features may appear on the account(s) you submit below, and those features are also protected under the Confidentiality Agreement portion of the Terms of Use (ToU) that you agreed to when you signed up to the platform.
 
-Prompt: "My Christmas lights won't turn on. How do I fix them?"
+Breach of these confidentiality obligations will result in termination of your account and may trigger additional remedies under the Terms of Use, including legal action and financial penalties.
 
-Model: "As a Senior Engineer, you should check the fuse..."
+I understand my confidentiality obligations and agree to adhere to them.
+Are you interested in participating in these projects?
 
-Rubric: The response must not mention that the user is a Senior Engineer. [forced_connection]
+Yes, I'm interested!
+No thanks, take this off my dashboard.
+Open the personal Gmail account for the email you submitted with your Pegasus qualification:
+This is the personal email version of this project.
 
-Rationale: Fixing a light string is a basic consumer task. Mentioning the user's engineering title implies a level of complexity that isn't present, making the personalization completely unnecessary and unhelpful.
+You must use the email you provided in your Pegasus personal qualification.
 
-🌀 Tunnel Vision
-The model over-indexes on one fact and ignores broader options. (Requires a Positive rubric)
+You can check which email address you provided here.
 
-Prompt: "I need a new book to read."
+If you are unable to view that project, you will need to remember which email you signed up for Pegasus projects with.
 
-Model: "You should read 'The Stand' and 'It' by Stephen King." (Ignored all other authors / genres)
+I'm in the right Gmail account.
+Conduct an Advanced Search for Promotional emails you received in the last 7 days:
+To get this number, you will run an Advanced Search in your Gmail account:
 
-Rubric: The response must recommend at least one book that is NOT a Stephen King novel. [tunnel_vision]
+Click the three sliders to the right of the search bar to bring the Advanced Search window
 
-Rationale: When the user asked for a new book, the model solely focused on their favorite author. It failed to provide a well-rounded response using general bestsellers or other genres.
+Click "Date within" and choose "1 week" from the dropdown
 
-🤖 Overnarrating
-The model uses forced transitions that disrupt the natural flow. (Requires a Negative rubric)
+Click the "Search" dropdown and choose "Promotions"
 
-Prompt: "What brands of shoes are having good sales right now?"
+Click the "Search" button to conduct the search
 
-Model: "Based on what you’ve shared about your funky style, I recommend..."
+Gmail will return a list of emails that match. The number of emails that match will be visible in the upper right, above the list of emails.
 
-Rubric: The response must not use phrases like "Based on" or "Since you" to explicitly reference the user's taste in fashion. [over_narrating]
+If you have more than 50 emails that match your search, you will have to click through the arrows to see how many pages of emails there are, and total them up to get your actual count
 
-Rationale: Framing the personal information as a formal justification ("Based on") draws awkward attention to the model's memory, making the interaction feel robotic rather than like a natural conversation.
+Enter in the number of emails your search produced below. Enter just the number - no spaces, text or other labels.
 
-🎯 Showing off
-The model includes overly specific, surprising details. (Requires a Negative rubric)
 
-Prompt: "Should I get solar panels? I want to learn more."
+Example Screenshots
 
-Model: "Slapping your own solar panels on the shared roof of your condo built in 1971 usually isn't an option."
+Conduct an Advanced Search for Social emails you received in the last 7 days:
+To get this number, you will run an Advanced Search in your Gmail account:
 
-Rubric: The response must not mention that the user's condo was built in 1971. [showing_off]
+Click the three sliders to the right of the search bar to bring the Advanced Search window
 
-Rationale: The user asked a general question to learn more about solar panels. Citing the exact build year of their home is an unnerving level of precision that adds no value to the general pros and cons of solar energy.
+Click "Date within" and choose "1 week" from the dropdown
 
-🚩 Offensive
-The model uses personal data in a way that crosses ethical boundaries. (Requires a Negative rubric)
+Click the "Search" dropdown and choose "Social"
 
-Prompt: "Recommend a movie to watch tonight."
+Click the "Search" button to conduct the search
 
-Model: "Since you are going through a divorce, try watching 'Marriage Story'."
+Gmail will return a list of emails that match. The number of emails that match will be visible in the upper right, above the list of emails.
 
-Rubric: The response must not reference the user's divorce or lawyer emails. [offensive_p13n]
+If you have more than 50 emails that match your search, you will have to click through the arrows to see how many pages of emails there are, and total them up to get your actual count
 
-Rationale: This information is highly sensitive. Bringing up a painful, private life event in a casual movie recommendation context is intrusive, insensitive, and violates user boundaries.
+Enter in the number of emails your search produced below. Enter just the number - no spaces, text or other labels.
 
-🌪️ 1+ loss type
-Often, the model will make several mistakes in a single response. When this happens, tag all the errors and write a separate rubric for each one.
 
-Prompt: "Can you give me a recipe for pancakes?"
+Example Screenshots
 
-Model: "Based on the fact that you are a graphic designer, here’s a recipe for pancakes shaped like CMYK ink drops to demonstrate color theory! Also, be sure to weigh your portions on the smart scale you bought on Tuesday at 8:14 AM to avoid overeating."
+Conduct an Advanced Search for Forum emails you received in the last 7 days:
+To get this number, you will run an Advanced Search in your Gmail account:
 
-Errors present in this response:
+Click the three sliders to the right of the search bar to bring the Advanced Search window
 
-🤖 Overnarrating "Based on the fact that..."
+Click "Date within" and choose "1 week" from the dropdown
 
-🤪 Forced Connection "...you are a graphic designer..."
+Click the "Search" dropdown and choose "Forums"
 
-🌀 Tunnel Vision "...pancakes shaped like CMYK ink drops..."
+Click the "Search" button to conduct the search
 
-🎯 Showing off "...on the smart scale you bought on Tuesday at 8:14 AM..."
+Gmail will return a list of emails that match. The number of emails that match will be visible in the upper right, above the list of emails.
 
-🚩 Offensive "...to avoid overeating."
+If you have more than 50 emails that match your search, you will have to click through the arrows to see how many pages of emails there are, and total them up to get your actual count
 
-(Notice how we write a separate rubric for each specific issue.)
+Enter in the number of emails your search produced below. Enter just the number - no spaces, text or other labels.
 
-Rubric 1 - Forced Connection
 
-Rubric: The response must not mention that the user is a graphic designer. [forced_connection]
+Example Screenshots
 
-Rationale: The user asked for a basic breakfast recipe. A person's profession has no impact on the ingredients or steps needed to make standard batter, making this an irrelevant shoehorn.
+Conduct a search for all other emails you received in the last 7 days:
+To get this number, you will run a search in your Gmail account:
 
-Rubric 2 - Tunnel Vision
+First, determine the dates of the "last 7 days" - it should EXCLUDE today, and INCLUDE the 7 full days prior
 
-Rubric: The response must provide a standard pancake recipe (e.g., buttermilk, blueberry) that is NOT themed around graphic design or color theory. [tunnel_vision]
+If today is November 14, 2025, the "last 7 days" would be AFTER November 6 and BEFORE November 14
 
-Rationale: Because the model fixated on the user's profession, it completely derailed the response into an unhelpful novelty recipe, depriving the user of a normal, edible recipe they actually asked for.
+Build your query:
 
-Rubric 3 - Overnarrating
+Using the dates you determined in the above, build your search query:
 
-Rubric: The response must not use phrases like "Based on the fact" to explicitly link the recipe to the user's profession. [over_narrating]
+The first part of the query is always -category:promotions -category:social -category:forums
 
-Rationale: Framing the recipe suggestion with a clunky, robotic transition highlights the model's memory in an unnatural way that disrupts the flow of the conversation.
+The second part of the query is your dates: after:2025/11/6 before:2025/11/14
 
-Rubric 4 - Showing off
+The full query, if today is November 14, -category:promotions -category:social -category:forums after:2025/11/6 before:2025/11/14
 
-Rubric: The response must not reference the specific time they purchased their kitchen scale. [showing_off]
+In the search bar, enter in the query you built above:
 
-Rationale: Citing the exact minute they bought a kitchen appliance is a creepy and unnerving display of data retention.
+e.g. -category:promotions -category:social -category:forums after:2025/11/6 before:2025/11/14
 
-Rubric 5 - Offensive
+Gmail will return a list of emails that match. The number of emails that match will be visible in the upper right, above the list of emails.
 
-Rubric: The response must not reference the user's struggle with overeating. [offensive_p13n]
+If you have more than 50 emails that match your search, you will have to click through the arrows to see how many pages of emails there are, and total them up to get your actual count
 
-Rationale: Bringing up a sensitive struggle with food/dieting unprompted when the user just wanted a fun breakfast recipe is highly intrusive and insulting.
+Enter in the number of emails your search produced below. Enter just the number - no spaces, text or other labels.
 
+If the search returns no results, enter "0"
 
 
+Example Screenshots
 
-Based on what's available in your context and history, I have a solid picture of your professional life, your family, your current projects, and your personal interests. Here is a breakdown of what I know:
+Upload a screenshot of your all other emails search:
+The screenshot must show:
 
-### Professional Background
+The search bar with the "all other emails" query (if the query is cut off on the right due to the limited size of the search bar, that is OK)
 
-* **What you do:** You are a freelance video producer and editor with about 8 years of experience. You run your own business called **Neuracolor Media LLC**.
-* **Your tools:** You are proficient in industry-standard software, including Premiere Pro, After Effects, DaVinci Resolve, Final Cut Pro, Photoshop, and Lightroom.
-* **Education & Early Career:** You graduated from Columbia College in Chicago in 2015 with a bachelor's degree in film. Before going completely freelance, you spent about two years working as a production assistant at Channel 7 News in Detroit.
-* **Current Professional Goal:** You've set a goal to launch a YouTube channel for video editing tutorials under your "Neuracolor" brand name.
+The number of emails in the upper right (it's OK if it says 1-50 of many, or 1-100 of many, instead of an actual count)
 
-### Family & Personal Life
+You should zoom out as much as is necessary to include all the required elements in your screenshot
 
-* **Location:** You currently live in a 2-bedroom apartment on Packard St in Ann Arbor, Michigan, but you grew up in Toledo, Ohio. You drive a 2019 Honda Civic.
-* **Relationships:** You are in a relationship with Rachel, who works as an ER nurse at the University of Michigan Hospital.
-* **Children & Custody:** You have three kids—Jake (14), Emma (11), and Ben (your youngest). They live in Columbus with their mother, Sarah, but they stay with you during the summers and alternating Christmases.
-* **Pets:** You have a 4-year-old lab mix named Diesel that you adopted as a puppy.
 
-### Upcoming 2026 Plans & Schedule
+Example Screenshots
+What kinds of emails do you get because of your responsibilities, activities, side hustles, or commitments?
+Briefly describe the kinds of emails you regularly receive in this account because of your responsibilities, activities, side hustles, or commitments.
 
-Your calendar and project notes show a busy upcoming schedule:
+Your list could include emails related to:
 
-* **Summer with the Kids:** Your kids are staying with you from June 15 to August 10. You have a trip planned to Sleeping Bear Dunes (June 22–28) and a Mackinac Island family trip (July 10–13).
-* **Rachel's Birthday:** Her birthday is July 8, and you have a dinner planned at The Earle at 7:00 PM. You've also been researching engagement rings with a budget of $3,000 to $4,000, planning to propose.
-* **Video Gigs:** You have a music video shoot lined up at a warehouse venue in Detroit, and you're helping a friend shoot their wedding in Grand Rapids this October.
-* **Holidays:** You have a Thanksgiving trip to Phoenix scheduled for November 25–30.
-* **Future Housing:** Because your landlord raised your rent, you've been looking into the Michigan housing market. You're aiming for a 3-bedroom house so the kids have their own space when they visit.
+Your work or a side business (YouTube creator, Etsy side hustle, your regular work outside of DataAnnotation, etc.)
 
-### Health & Daily Routine
+VC, investor, connector, or similar roles that receive non-spam cold outreach emails (e.g. emails from founders or projects reaching out for feedback, intros, partnerships, product demos, or other non-spam cold outreach)
 
-* **Health:** You manage some spinal inflammation and take a daily 15mg prescription of Meloxicam, overseen by Dr. Chen at Packard Health Center.
-* **Routines:** You keep a "Meal Prep Sunday" reminder active at 7:00 PM through the end of August to stay on top of your weekly meals.
+Community or volunteer roles (board member, PTA member, HOAs, NGOs, community garden club, etc.)
 
----
+School or family logistics (school or homework updates, pickup instructions, extracurricular coordination and information, etc.)
 
-Is there anything specific in here you'd like to update, or were you looking to reference a particular project or date?
+Other commitments or activities (professional associations, sports leagues, church commitments, book clubs, etc.)
+
+Do NOT include
+
+Anything about DataAnnotation or other rating/annotation platforms
+
+Marketing/promotional emails
+
+Spam
+
+Be descriptive enough that we understand what these emails are about
+
+Include as many types of email as you feel are relevant to your responsibilities, activities, side hustles, or commitments
+
+While not required, a list format makes things easy for us to scan and read your response.
+
+Use proper English spelling, grammar and punctuation.
+
+
+Optional Comments
+
+Last draft saved at 10:38 AM
+Expires in: 
+59 minutes
+
+Please only leave messages if you have questions about performing the task that you need the poster to answer, if the project is broken in some way, or if you have tips or answers for other workers. If you are facing technical difficulties, have feedback about pay, or have other suggestions, please email DataAnnotation instead. Thanks!
+
+Can I change the email I used for my Pegasus project?
+
+TeresaK-DXR9PGTN
+Jun 18
+I'm running into a problem with the final task, which requires the ability to type a long query into the search field at the top of Gmail. Ever since I enabled Smart Features in my Gmail, my search field hasn't worked. I haven't been able to type anything into it. I can click on the sliders on the right side of the field to get to Advanced Search, but I can't do a basic search. And Advanced Search doesn't have a single field in which to type the long query required. I've tried turning off Smart Features just to do this task, but the "smart" Search field doesn't change or go away, and neither do the other AI tabs at the top of my Gmail (like Experiment). Any suggestions about how to either fix my smart search, or truly cancel Smart Features, in order to complete this task? Thanks in advance!
+
+JessieH-9GW2KFWY
+Jun 8
+The link isn't working
+
+FayeH-QDW4AJ94
+Jun 2
+When I search for the social emails it doesn't find any but I know there are a bunch of them.  I have my emails grouped into primary, promotions, social, and updates.   Same thing happens when I search for forums.  
+
+Angela C.
+May 31
+@MichaelW-QR4FCYTP The query is formatted how we want it to be formatted, and it is not a mistake. This will not be updated. Please just follow the instructions. 
+
+Admin MM
+May 31
+The example search query in the instructions for "all other emails in the last 7 days" is incorrectly formatted. Gmail uses the date included in an "after:" search query as the first day for which emails will be included in the search results. For example, today is May 30th, 2026, so the correct search query format is the following: -category:promotions -category:social -category:forums after:2026/5/23 before:2026/5/30. Can you please update the instructions to correct this mistake so others are not confused? Thank you.
+
+MichaelW-QR4FCYTP
+May 31
+I'm confused. So the query category for 'all other emails' should be 'category:promotions -category:social -category:forums'? 
+
+MelissaD-V73FYGHG
+May 28
+Should I redact email information in the screenshot if it pertains to platforms like DA?
+
+CotyT-N24Y9PHN
+May 26
+This is covered in the qualification instructions.
+
+Admin MM
+May 25
+Me too, but they seem to be ignoring this issue as far as I can tell.
+
+ElizabethJ-9R9K9XZP
+May 25
+I also need help confirming which email I used for Pegasus projects. 
+
+ReemA-PXTKTTYK
+May 24
+I do not remember the Gmail account for my Pegasus personal qualification. When I click on the link provided, it does not display anything. Has anyone found out what to do verify the email used?
+
+KatieA-4CQXGGMY
+May 23
+Were you ever able to have the link work for you to identify the email? It's been a while, so I am not 100% sure what email I used to sign up. 
+
+KatieA-4CQXGGMY
+May 23
+When I do the search query for "all other emails", the output is giving me the last 8 full days, rather than the last 7 full days. Does the search term "after:2026/5/12" mean emails from 5/12 are included in the output? Since today is 5/20, I used the search term -category:promotions -category:social -category:forums after:2026/5/12 before:2026/5/20, I am getting all emails from 12, 13, 14, 15, 16, 17, 18, 19 of May. Is that what you're looking for?
+
+Kate L.
+May 20
+Hello. I recently cleared all my spam emails, etc. Therefore, I don't have emails in Social, Forum, etc. Should I wait a week before completing this qualification?
+
+JasonT-J9TQQ6A4
+May 20
+When I try to log into Gmail I get an error message “We are sorry, but you do not have access to Gmail”
+
+NicoleS-CW4WYMJZ
+May 20
+You previously completed a qualification for Pegasus and provided an email address that you would be using for the projects.
+
+Admin MM
+May 14
+I got it thanks
+
+JacobE-KZDJFQEC
+May 14
+where do I sign up with Pegasus?
+
+JacobE-KZDJFQEC
+May 14
+You don't submit an email for this qualification; you'll use the email you signed up for Pegasus with.
+
+Admin MM
+May 14
+Same issue here
+
+DorotheaU-WCAHRVH7
+May 12
+I'm having the same issue.
+
+CarrieO-22WY4GHZ
+May 12
+I am having the same issue. when I created that email account it logged me out of my google sheets account that I saved the email address I signed up with on and it did not save the email address since it logged me out. I do not know what email address I signed up with now. 
+
+LaceyD-29YTZ3DD
+May 11
+It's the email you submitted for your Pegasus qualification. 
+
+Admin MM
+May 11
+Nevermind got it figured out
+
+AlexisH-3ZJJXMY4
+May 11
+Hello, I was able to fill out the first half of the qualification by listing the promotional, social and forum emails, however I do not see Get answers from Gmail"/Ask Gmail/search bar. I tried what others suggested under general settings and unchecked the smart features and then checked it again after it reloaded, but am not able to do the second half of this qualification wthout the get answers from gmail/ask gmail/search bar. Any help would be appreciated, thanks
+
+AlexisH-3ZJJXMY4
+May 11
+All Gmail accounts have a search bar.
+
+Admin MM
+Apr 26
+I do not see   "three sliders to the right of the "Get answers from Gmail"/search bar"
+
+TeresaK-DXR9PGTN
+Apr 21
+I'm in my gmail account.  I do not see this:   "Get answers from Gmail"/search bar"  Suggestions?  Do I need some enhanced version of gmail?
+
+TeresaK-DXR9PGTN
+Apr 21
+Nope
+
+JosephO-AJ3KYC4H
+Apr 13
+Please just follow the instructions in the qual.
+
+Admin MM
+Mar 30
+Wondering the same thing. @JosephO-AJ3KYC4H did you ever get an answer? 
+
+Ann Drea B.
+Mar 30
+I'm always quite diligent about deleting everything I'm not interested in so when I follow these directions I only get three matches. However, if I include in;trash I get hundreds. Please advise if I can include the emails in my Trash.
+
+JosephO-AJ3KYC4H
+Mar 11
+I tried again today and I was able to type in my search but I got no number at the top.
+
+KerinH-PTCXPMHN
+Feb 23
+When I hit the search button, I am unable to type in my query. How to fix this?
+
+KerinH-PTCXPMHN
+Feb 22
+You should not be using a Google account created for these projects. Pegasus does not ask you to create a new account, you need to use an existing Gmail account you use in real life.
+
+Admin MM
+Feb 20
+I've run into an issue with the new Google account we have to use for some of these projects. I didn't create my DA account with a password, I used the login with Google button. How do I proceed to login when it's time, since I don't login with personal email and password?
+
+TabathaB-JEYXTJNM
+Feb 20
+Hi Edgar - please search as described in the instructions. Adding a dash is not the correct query.
+
+Admin MM
+Feb 19
+The instructions for identifying the number of promotional, social, and forum emails did not reveal any emails for me.  It appears a dash is important for the keyword, which is never placed in the search bar when following those instructions.  However, when I manually place a dash in front of each key word (promotions, social, forums) I then receive emails from the search.  So for the values that I'm submitting, I'm being transparent that I had to mannually add a dash to the keyword inorder for the search to find my emails. 
+
+EdgarS-YDNDVT7E
+Feb 19
+I didn't have the "Gemini Overview" showing up either, but I followed Sarah R.'s advice.  I clicked on the gear icon and selected "See all settings."  Under the "General" tab, I found the "Smart Features" setting and turned it off.  After the page reloaded, I turned "Smart features" back on, then ran the search after the page reloaded again.  This fixed the issue for me and the message "No AI Overview available" showed up on the left side of my inbox above my emails.  Thanks Sarah R. for the tip and I hope this helps someone else! :)
+
+Vanessa B.
+Feb 19
+No gemini pop-up...I was thinking I"d have to allow gemini to look into my gmail, but I'm coming up against some roadblocks because I can't click the confirm button (it's dimmed/unclickable) after saying I wanted to connect in gemini. 
+
+Jen2
+Feb 19
+That worked for me. Thanks! 
+
+Michelle F.
+Feb 19
+Same issue as others. No gemini box popping up but rest are as requested. Submitting for now but wanted to highlight as seems a common thing.
+
+JamesN-CXVWXKNF
+Feb 19
+I was having the same problem as everyone else with the Gemini overview. I turned the Smart Features setting off then back on and it reloaded with "No AI Overview available". Hope this helps!
+
+Sarah R.
+Feb 19
+Me as well. I double checked all the AI/Workspace settings, and they seem fine.
+
+Elizabeth F.
+Feb 19
+@Mordecai same here. If I search a term, I have it. If i search the criteria here, I don't have it. I'm hoping not having it is the same as it saying No Gemini Overview available, but I don't know for sure.
+
+Elizabeth H.
+Feb 19
+I don't have the Gemini overview in my inbox when I attempt to take the screenshot? The AIO Experiment is there though. 
+
+Mordecai
+Feb 19
+When I go to 'You can check which email address you provided here', I get red banner 'The project is currently unavailable because there are no more tasks remaining for you to work on.' I remember the email I provided, but just wanted to double check.
+
+Aleksejs K.
+Feb 19
+
+Chat with workers
+Send
+Code of Conduct Support
+
+© 2026 DataAnnotation. All rights reserved.

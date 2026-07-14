@@ -30,6 +30,162 @@ We track 7 metrics. Each tells us something different:
 
 ## 📊 SESSION SNAPSHOTS
 
+### Session: June 25, 2026 — 8:08 AM ET
+
+**Dashboard:**
+- Total Projects: 12
+- Qualifications Available: 34
+- Surveys: 0
+- Report Time: 0
+- Inbox Unread: 86
+
+**Pay Tier Breakdown:**
+| Tier | Count | Projects |
+|------|-------|---------|
+| $40+/hr | 0 | — |
+| $28-39/hr | 1 | Metis MGSP-62426 ($28, 30 tasks) |
+| $24-27/hr | 0 | — |
+| <$24/hr | 0 | — |
+| Unpaid/Reference | 11 | Qualifications, reference, chat, opt-outs |
+
+**Emails This Session:**
+- Katherine Laub #metis mention (MVRT-62326, Jun 24)
+- Kardia consent opt-out update (Jun 24, read)
+- Email cadence extremely low — only 2 DA emails in last 50 scanned
+
+**Key Events:**
+- Metis access was revoked due to ~1 month of inactivity (no penalty, just timeout)
+- Reactivation submitted at 8:08 AM — access expected within ~1 hour
+- Missed inbox: $900 qualification (MDCQ-201G, Jun 6), Metis MIGH priority (Jun 10), Styx T-1017 (Jun 1), Pomelo batches (Jun 4/10)
+- Metis confidentiality training deadline (Jun 5) — status unknown
+
+**Activity:**
+- Hours worked today: 0.0 (status check + reactivation)
+- Earnings today: $0.0
+- Days since last session: 29
+
+**Health Grade: C+**
+- ⚠️ Project count dropped dramatically: 21 → 12
+- ⚠️ Only 1 paid project on dashboard ($28/hr Metis)
+- ⚠️ Email cadence near zero — platform has gone quiet on outreach
+- ⚠️ Month-long inactivity gap triggered Metis access revocation
+- ✅ Reactivation submitted — should restore Metis family within 1 hour
+- ✅ Qualification count stable at 34 (no doors closed)
+- ✅ Coding Entry Test still open (no expiration)
+- ✅ No flags, warnings, or account issues — just inactivity
+- ✅ New $900 qualification opportunity available (MDCQ-201G)
+
+---
+
+### Session: May 26, 2026 (Evening)
+
+**Dashboard:**
+- Total Projects: 21
+- Qualifications Available: 31
+- Surveys: 0
+- Report Time: 0
+- Inbox Unread: 86
+
+**Pay Tier Breakdown:**
+| Tier | Count | Projects |
+|------|-------|----------|
+| $40+/hr | 0 | (TH-series inactive) |
+| $28-39/hr | 8 | Metis Priority MICA ($30), Metis Priority MPCR ($30), Metis Priority MG ($30), Metis base ($28) |
+| $24-27/hr | 2 | Grapefruit ($24), Pomelo ($24) |
+| <$24/hr | 0 | — |
+| Unpaid/Reference | 11 | Qualifications, reference/chat, surveys |
+
+**Emails This Session:**
+- Teacher Qualification (Sunday)
+- Metis MORT Priority (Thursday)
+- Metis MDB Priority (Wednesday)
+
+**Activity:**
+- Hours worked today: 0.0
+- Earnings today: $0.0
+
+**Health Grade: B+**
+- ✅ Several Metis sub-projects active with $30/hr priority pay
+- ⚠️ Project count dropped from 29 to 21
+- ⚠️ Premium $40+/hr generalist projects remain offline
+
+### Session: May 26, 2026
+
+**Dashboard:**
+- Total Projects: 29
+- Qualifications Available: 32
+- Surveys: 0
+- Report Time: 0
+- Inbox Unread: 86
+
+**Pay Tier Breakdown:**
+| Tier | Count | Projects |
+|------|-------|----------|
+| $40+/hr | 0 | (TH5/TH8 inactive on dashboard) |
+| $28-39/hr | 16 | Metis MORT Priority ($32), Metis sub-projects (MICH/MIG/MGG Priority $30, base Metis $28) |
+| $24-27/hr | 4 | Achilles Citation Check ($25), Grapefruit ($24), Pomelo ($24) |
+| <$24/hr | 0 | — |
+| Unpaid/Reference | 9 | Qualifications, reference/chat, surveys |
+
+**Emails This Session:**
+- 2 New Project Notifications (Pomelo [0525-1], Grapefruit [0522-2])
+- Inbox: 'Are you a teacher?' Qualification alert, Metis MORT priority pay alert
+
+**Reddit Cross-Reference:**
+- N/A (On-demand check, not run this session)
+
+**Activity:**
+- Hours worked today: 0.0 (just status check)
+- Earnings today: $0.0
+
+**Health Grade: A-**
+- ✅ 29 projects active (slight increase from 27)
+- ✅ Metis MORT active with priority pay ($32/hr)
+- ✅ Pomelo and Grapefruit batches restocked via email alert
+- ⚠️ Premium $40+/hr generalist projects remain offline
+- ⚠️ Coding entry test ($50+/hr) remains in progress
+
+### Session: May 20, 2026 — 11:26 AM ET
+
+**Dashboard:**
+- Total Projects: 27
+- Qualifications Available: 34
+- Surveys: 0
+- Report Time: 0
+- Inbox Unread: 85
+
+**Pay Tier Breakdown:**
+| Tier | Count | Projects |
+|------|-------|----------|
+| $40+/hr | 0 | (TH5/TH8 inactive on dashboard) |
+| $28-39/hr | 16 | Metis MORT Priority ($32), Metis sub-projects (MICH/MIG/MGG Priority $30, base Metis $28) |
+| $24-27/hr | 2 | Achilles Citation Check ($25), Grapefruit Closed QA ($24) |
+| <$24/hr | 0 | — |
+| Unpaid/Reference | 9 | Qualifications, reference/chat, surveys |
+
+**Emails This Session:**
+- 1 Google Partner Account direct invite (HDO Multimodal — Apr 21)
+- 1 Metis MORT priority pay alert ($32/hr)
+- 1 UI/UX Web App Evaluation TH5 announcement (May 12)
+- 1 Slack/Pegasus voice worker recovery alert (Parker — May 18)
+- 1 YouTube monetization check warning
+
+**Reddit Cross-Reference:**
+- N/A (On-demand check, not run this session)
+
+**Activity:**
+- Hours worked today: 0.0 (just status check)
+- Earnings today: $0.0
+
+**Health Grade: A-**
+- ✅ 27 projects active (showing strong volume recovery)
+- ✅ Metis MORT active with $32/hr priority pay queue (50 tasks)
+- ✅ Three other Metis sub-projects active with $30/hr priority pay (MICH, MIG, MGG)
+- ✅ Received direct message credentials for a new Google Partner HDO Multimodal portal
+- ✅ 34 qualifications available (significant gateway expansion)
+- ⚠️ Premium $40+/hr generalist projects are currently offline (platform-wide TH-series drought)
+- ⚠️ Coding entry test ($50+/hr) remains in progress
+
 ### Session: May 14, 2026 — 11:08 PM ET
 
 **Dashboard:**
@@ -84,6 +240,11 @@ We track 7 metrics. Each tells us something different:
 
 | Date | Projects | Top Rate | Quals | Emails | Grade | Notes |
 |------|----------|----------|-------|--------|-------|-------|
+| Jun 25 | 12 | $28/hr (Metis) | 34 | 2 (low) | C+ | Month inactive, Metis revoked, reactivation submitted |
+| May 27 | 21 | $30/hr (Metis) | 31 | None | B+ | Worked Metis Image Recap, exposed hallucinations, logged 3.25 hrs despite timeout |
+| May 26 | 21 | $30/hr (Metis) | 31 | Teacher Qual, Metis Priority | B+ | Projects dropped to 21, top rate $30/hr |
+| May 26 | 29 | $32/hr (Metis) | 32 | Pomelo/Grapefruit | A- | Stable volume, strong Metis priority pay |
+| May 20 | 27 | $32/hr (Metis) | 34 | Partner HDO + Metis MORT | A- | MORT priority ($32) + Google Partner account |
 | May 14 | 21 | $28/hr (Metis) | 32 | TH8 invite + referral | B+ | TH8 gone, drought platform-wide |
 
 *Add a row every session. After 5+ sessions, trends become visible.*

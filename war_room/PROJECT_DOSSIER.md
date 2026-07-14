@@ -1,5 +1,5 @@
 # DA Project Dossier
-*Last updated: May 20, 2026 — 11:26 AM ET*
+*Last updated: May 26, 2026*
 
 > **PURPOSE:** This is Jeff's personal field guide to every DA project he's encountered. Not just what's on the dashboard right now — everything he's ever worked on, what it felt like, whether he liked it, and whether to jump on it if it reappears. Every session, the AI updates this file.
 
@@ -42,21 +42,15 @@
 - **Rate:** $28/hr base, up to $32/hr with priority pay (+$2 to +$4 bumps)
 - **Client:** Google (Gemini product team)
 - **What it actually is:** A family of sub-projects all focused on testing and evaluating how Gemini personalizes to users. Requires having a Google account with Gemini usage history. Sub-projects active right now:
-  - **MORT (Over-personalization):** Try to make Gemini fail at personalizing — find edge cases where it over-personalizes or gets creepy. Currently has **MORT-51426.3 with +$4 priority ($32/hr, 50 tasks)** and base MORT-51426.2 ($28/hr, 30 tasks) active.
-  - **MICH (Chrome Image Generation):** Ask Gemini in Chrome to generate an image and evaluate personalization. Has multiple versions active, including **priority pay MICH-51826.3 ($30/hr, 30 tasks)** and base versions MICH-51826.4/5/6 ($28/hr, 30 tasks each).
-  - **MIG (Image Generation):** Gemini image gen + personalization. Currently has **MIG-51926.2 with priority pay ($30/hr, 30 tasks)** active.
-  - **MGG (Generic Image Quality):** Request generic images and evaluate quality. Currently has **MGG-51926.1 with priority pay ($30/hr, 3 tasks)** active.
-  - **MGCE (Corrections / Exclusions):** Evaluate corrections for exclusions. MGCE-51826.1 ($28/hr, 20 tasks) active.
-  - **MUSI (Saved Information):** Evaluate personalization using Saved Info. MUSI-51626 ($28/hr, 5 tasks) active.
-  - **MSTM (Situational Memory):** Evaluate situational memory across multiple chats. MSTM-51626 ($28/hr, 4 tasks) active.
-  - **MPC / MPS (Gmail/Data Retrieval):** MPC-51826 ($28/hr, 15 tasks) and MPS-51926 ($28/hr, 30 tasks) active.
-  - **MCHR / MGCH (Chrome Image Gen/Conversations):** MCHR-51926.1 ($28/hr, 30 tasks) and MGCH-51926 ($28/hr, 10 tasks) active.
-  - **MIOS (iOS Chrome):** Report bad responses on iOS. MIOS-32726 ($28/hr, 20 tasks) active.
+  - **MICA (Chrome Image Gen):** Ask Gemini in Chrome to generate an image and evaluate personalization. MICA-52026 priority pay ($30/hr, 50 tasks).
+  - **MPCR (Relationships):** Send prompt about relationships and answer questions. MPCR-52626 priority pay ($30/hr, 4 tasks).
+  - **MG / MGG (Generic Image/Chat):** Chat conversations with two Gemini models. Priority MG-52326.2 ($30/hr, 1 task) and base variants MG-52326.1, MG-52426.1/2 ($28/hr).
+  - **MGDS (Profile Statements):** Evaluate profile statements. MGDS-52626.1 ($28/hr, 1 task).
+  - **MIOS (iOS Chrome):** Report bad responses on iOS. MIOS-32726 ($28/hr, 20 tasks).
 - **Slack channel:** #metis — Admin Caleb runs it. Very active, sends priority pay alerts regularly.
 - **Why it matters:** This is the most ACTIVE project family on the platform right now. Caleb is pushing tasks daily. The priority bumps bring it up to $30-$32/hr which is competitive. Lots of variety in sub-projects.
-- **Site outage note (May 14):** Site went down 3:24 PM, back up 3:54 PM. Caleb warned in #metis to hold off on submitting during outage.
-- **Jeff's take:** Not yet rated — needs to try these
-- **Status:** Massive queue active (16 sub-projects total) with several priority pay opportunities.
+- **Jeff's take:** High intensity but rewarding. Evaluated "Image Recap Request for Weekend" (GemPix). Required deep analysis of model hallucinations (e.g., hallucinated extra children) and severe facial distortions. Beware: HTML file uploads can fail if "reagent_trace" debug data isn't scrubbed. Taking full task timers (3+ hours) is acceptable if the work is rigorous.
+- **Status:** Active queue with several priority pay opportunities up to $30/hr.
 
 ### Circe — UI Component Annotation
 - **Rate:** $27/hr
@@ -91,7 +85,13 @@
   - **Closed QA** [0516-1]: Create conversations designed to challenge a model's factual ability. You craft questions that will trip the AI up on facts. Currently Closed QA [0516-1] is active.
   - **Open Q&A**: Talk to a chatbot and identify factuality issues.
 - **Jeff's take:** Not yet rated — it's always there as a fallback
-- **Status as of May 20:** Closed QA active with 75 tasks.
+- **Status as of May 26:** Closed QA and Open Q&A active with 75 tasks each.
+
+### Pomelo — Conciseness/Relevance
+- **Rate:** $24/hr
+- **What it actually is:** Create Prompts and Conversations to Challenge a Model's Conciseness/Relevance Ability. Similar workflow to Grapefruit.
+- **Jeff's take:** Not yet rated.
+- **Status as of May 26:** Active with 75 tasks.
 
 ### Styx — AI Response Evaluation
 - **Rate:** $20-$25/hr (varies by sub-project)
