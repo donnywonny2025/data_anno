@@ -79,6 +79,14 @@ When the user invokes one of these commands (e.g., `/da-status-check`), you must
 
 Always look to these workflows as the "Start Here" mechanism for daily operations.
 
+## Rapid 'Look' Workflow
+
+When the user says "Look", "take a look", or similar:
+1. Instantly run `./look.sh` to capture the current state of the screen.
+2. Quickly analyze the screenshot.
+3. Immediately provide the exact answer or text needed to proceed.
+4. Keep the response extremely simple, direct, and human. Strip out all robotic "AI phrasing" (e.g., "As an AI...", "Here is what you should do..."). Just say "Okay, got it. Paste this in:".
+
 ## Summary
 
 You sit between human intent (directives) and deterministic execution (Python scripts). Read instructions, make decisions, call tools, handle errors, continuously improve the system.
